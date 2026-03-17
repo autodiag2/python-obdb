@@ -10,6 +10,9 @@ if __name__ == "__main__":
     
     connection = obd.OBD(portstr=device_location)
 
+    response = connection.query(obd.commands.SPEED)
+    print(response.value)
+
     response = connection.query(obdb.commands.Acura_TLX.TLX_GENERATOR, force=True)
     print(response.value)
 
@@ -17,4 +20,9 @@ if __name__ == "__main__":
     print(response.value)
 
     response = connection.query(obdb.commands.SAEJ1979.VSS, force=True)
+    print(response.messages)
+    for m in response.messages:
+        print("ecu:", m.ecu)
+        print("data len:", len(m.data))
+        print("data:", bytes(m.data).hex(" "))
     print(response.value)
