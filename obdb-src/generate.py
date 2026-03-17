@@ -156,6 +156,11 @@ _ORIGINAL_SOURCE_NAMES = {}
 _ORIGINAL_COMMAND_NAMES = {}
 '''
 
+def emit_header_arg(hdr):
+    if not hdr:
+        return ""
+    return f', header=b"{hdr}"'
+
 def emit_source_block(source_name, data):
     source_ident = py_ident(source_name)
     lines = []
@@ -202,9 +207,8 @@ def emit_source_block(source_name, data):
                 f'"{desc}", '
                 f'bytes.fromhex("{cmd_info["command_hex"]}"), '
                 f'{bytes_expected}, '
-                f'_make_decoder(bytes.fromhex("{cmd_info["response_prefix_hex"]}"), {bix}, {bitlen}, {repr(mul)}, {repr(add)}, {signed}), '
-                + (f'header="{hdr}"' if hdr else "")
-                + ')'
+                f'_make_decoder(bytes.fromhex("{cmd_info["response_prefix_hex"]}"), {bix}, {bitlen}, {repr(mul)}, {repr(add)}, {signed})'
+                f'{emit_header_arg(hdr)})'
             )
             lines.append(f'_ORIGINAL_COMMAND_NAMES["{source_ident}"]["{name_ident}"] = "{name_original}"')
 

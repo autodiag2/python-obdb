@@ -67,653 +67,653 @@ _ORIGINAL_COMMAND_NAMES = {}
 Acura_TLX = _Namespace()
 _ORIGINAL_SOURCE_NAMES["Acura_TLX"] = "Acura-TLX"
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"] = {}
-Acura_TLX.TLX_GENERATOR = OBDCommand("TLX_GENERATOR", "Generator | hdr=DA10", bytes.fromhex("222610"), 33, _make_decoder(bytes.fromhex("622610"), 184, 8, 100, 0, False), header="DA10")
+Acura_TLX.TLX_GENERATOR = OBDCommand("TLX_GENERATOR", "Generator | hdr=DA10", bytes.fromhex("222610"), 33, _make_decoder(bytes.fromhex("622610"), 184, 8, 100, 0, False), header=b"DA10")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_GENERATOR"] = "TLX_GENERATOR"
-Acura_TLX.TLX_AC_CLUTCH = OBDCommand("TLX_AC_CLUTCH", "Air conditioner clutch | hdr=DA10", bytes.fromhex("222610"), 33, _make_decoder(bytes.fromhex("622610"), 256, 8, 1, 0, False), header="DA10")
+Acura_TLX.TLX_AC_CLUTCH = OBDCommand("TLX_AC_CLUTCH", "Air conditioner clutch | hdr=DA10", bytes.fromhex("222610"), 33, _make_decoder(bytes.fromhex("622610"), 256, 8, 1, 0, False), header=b"DA10")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_AC_CLUTCH"] = "TLX_AC_CLUTCH"
-Acura_TLX.TLX_FUEL_AIR_RATIO = OBDCommand("TLX_FUEL_AIR_RATIO", "Fuel/air commanded equivalence ratio | hdr=DA10", bytes.fromhex("222611"), 1, _make_decoder(bytes.fromhex("622611"), 0, 8, 1, 0, False), header="DA10")
+Acura_TLX.TLX_FUEL_AIR_RATIO = OBDCommand("TLX_FUEL_AIR_RATIO", "Fuel/air commanded equivalence ratio | hdr=DA10", bytes.fromhex("222611"), 1, _make_decoder(bytes.fromhex("622611"), 0, 8, 1, 0, False), header=b"DA10")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_FUEL_AIR_RATIO"] = "TLX_FUEL_AIR_RATIO"
-Acura_TLX.TLX_VTEC_CTRL = OBDCommand("TLX_VTEC_CTRL", "Variable valve control | hdr=DA10", bytes.fromhex("222612"), 22, _make_decoder(bytes.fromhex("622612"), 168, 8, 1, 0, False), header="DA10")
+Acura_TLX.TLX_VTEC_CTRL = OBDCommand("TLX_VTEC_CTRL", "Variable valve control | hdr=DA10", bytes.fromhex("222612"), 22, _make_decoder(bytes.fromhex("622612"), 168, 8, 1, 0, False), header=b"DA10")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_VTEC_CTRL"] = "TLX_VTEC_CTRL"
-Acura_TLX.TLX_ACTIVE_CYL = OBDCommand("TLX_ACTIVE_CYL", "Active cylinders | hdr=DA10", bytes.fromhex("222615"), 51, _make_decoder(bytes.fromhex("622615"), 400, 8, 1, 0, False), header="DA10")
+Acura_TLX.TLX_ACTIVE_CYL = OBDCommand("TLX_ACTIVE_CYL", "Active cylinders | hdr=DA10", bytes.fromhex("222615"), 51, _make_decoder(bytes.fromhex("622615"), 400, 8, 1, 0, False), header=b"DA10")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_ACTIVE_CYL"] = "TLX_ACTIVE_CYL"
-Acura_TLX.TLX_ODO = OBDCommand("TLX_ODO", "Odometer | hdr=DA10", bytes.fromhex("222660"), 48, _make_decoder(bytes.fromhex("622660"), 344, 24, 1, 0, False), header="DA10")
+Acura_TLX.TLX_ODO = OBDCommand("TLX_ODO", "Odometer | hdr=DA10", bytes.fromhex("222660"), 48, _make_decoder(bytes.fromhex("622660"), 344, 24, 1, 0, False), header=b"DA10")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_ODO"] = "TLX_ODO"
-Acura_TLX.TLX_RUNTM = OBDCommand("TLX_RUNTM", "Time since engine start | hdr=DA10", bytes.fromhex("222660"), 48, _make_decoder(bytes.fromhex("622660"), 368, 16, 1, 0, False), header="DA10")
+Acura_TLX.TLX_RUNTM = OBDCommand("TLX_RUNTM", "Time since engine start | hdr=DA10", bytes.fromhex("222660"), 48, _make_decoder(bytes.fromhex("622660"), 368, 16, 1, 0, False), header=b"DA10")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_RUNTM"] = "TLX_RUNTM"
-Acura_TLX.TLX_KNOCK_CTRL = OBDCommand("TLX_KNOCK_CTRL", "Knock control | hdr=DA10", bytes.fromhex("222662"), 29, _make_decoder(bytes.fromhex("622662"), 80, 8, 2, 0, False), header="DA10")
+Acura_TLX.TLX_KNOCK_CTRL = OBDCommand("TLX_KNOCK_CTRL", "Knock control | hdr=DA10", bytes.fromhex("222662"), 29, _make_decoder(bytes.fromhex("622662"), 80, 8, 2, 0, False), header=b"DA10")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_KNOCK_CTRL"] = "TLX_KNOCK_CTRL"
-Acura_TLX.TLX_VTC_DUTY = OBDCommand("TLX_VTC_DUTY", "Variable valve timing duty | hdr=DA10", bytes.fromhex("222662"), 29, _make_decoder(bytes.fromhex("622662"), 224, 8, 100, 0, False), header="DA10")
+Acura_TLX.TLX_VTC_DUTY = OBDCommand("TLX_VTC_DUTY", "Variable valve timing duty | hdr=DA10", bytes.fromhex("222662"), 29, _make_decoder(bytes.fromhex("622662"), 224, 8, 100, 0, False), header=b"DA10")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_VTC_DUTY"] = "TLX_VTC_DUTY"
-Acura_TLX.TLX_MISFIRE_1 = OBDCommand("TLX_MISFIRE_1", "Misfire count, cylinder 1 | hdr=DA10", bytes.fromhex("222663"), 46, _make_decoder(bytes.fromhex("622663"), 272, 16, 1, 0, False), header="DA10")
+Acura_TLX.TLX_MISFIRE_1 = OBDCommand("TLX_MISFIRE_1", "Misfire count, cylinder 1 | hdr=DA10", bytes.fromhex("222663"), 46, _make_decoder(bytes.fromhex("622663"), 272, 16, 1, 0, False), header=b"DA10")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_MISFIRE_1"] = "TLX_MISFIRE_1"
-Acura_TLX.TLX_MISFIRE_2 = OBDCommand("TLX_MISFIRE_2", "Misfire count, cylinder 2 | hdr=DA10", bytes.fromhex("222663"), 46, _make_decoder(bytes.fromhex("622663"), 288, 16, 1, 0, False), header="DA10")
+Acura_TLX.TLX_MISFIRE_2 = OBDCommand("TLX_MISFIRE_2", "Misfire count, cylinder 2 | hdr=DA10", bytes.fromhex("222663"), 46, _make_decoder(bytes.fromhex("622663"), 288, 16, 1, 0, False), header=b"DA10")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_MISFIRE_2"] = "TLX_MISFIRE_2"
-Acura_TLX.TLX_MISFIRE_3 = OBDCommand("TLX_MISFIRE_3", "Misfire count, cylinder 3 | hdr=DA10", bytes.fromhex("222663"), 46, _make_decoder(bytes.fromhex("622663"), 304, 16, 1, 0, False), header="DA10")
+Acura_TLX.TLX_MISFIRE_3 = OBDCommand("TLX_MISFIRE_3", "Misfire count, cylinder 3 | hdr=DA10", bytes.fromhex("222663"), 46, _make_decoder(bytes.fromhex("622663"), 304, 16, 1, 0, False), header=b"DA10")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_MISFIRE_3"] = "TLX_MISFIRE_3"
-Acura_TLX.TLX_MISFIRE_4 = OBDCommand("TLX_MISFIRE_4", "Misfire count, cylinder 4 | hdr=DA10", bytes.fromhex("222663"), 46, _make_decoder(bytes.fromhex("622663"), 320, 16, 1, 0, False), header="DA10")
+Acura_TLX.TLX_MISFIRE_4 = OBDCommand("TLX_MISFIRE_4", "Misfire count, cylinder 4 | hdr=DA10", bytes.fromhex("222663"), 46, _make_decoder(bytes.fromhex("622663"), 320, 16, 1, 0, False), header=b"DA10")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_MISFIRE_4"] = "TLX_MISFIRE_4"
-Acura_TLX.TLX_MISFIRE_5 = OBDCommand("TLX_MISFIRE_5", "Misfire count, cylinder 5 | hdr=DA10", bytes.fromhex("222663"), 46, _make_decoder(bytes.fromhex("622663"), 336, 16, 1, 0, False), header="DA10")
+Acura_TLX.TLX_MISFIRE_5 = OBDCommand("TLX_MISFIRE_5", "Misfire count, cylinder 5 | hdr=DA10", bytes.fromhex("222663"), 46, _make_decoder(bytes.fromhex("622663"), 336, 16, 1, 0, False), header=b"DA10")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_MISFIRE_5"] = "TLX_MISFIRE_5"
-Acura_TLX.TLX_MISFIRE_6 = OBDCommand("TLX_MISFIRE_6", "Misfire count, cylinder 6 | hdr=DA10", bytes.fromhex("222663"), 46, _make_decoder(bytes.fromhex("622663"), 352, 16, 1, 0, False), header="DA10")
+Acura_TLX.TLX_MISFIRE_6 = OBDCommand("TLX_MISFIRE_6", "Misfire count, cylinder 6 | hdr=DA10", bytes.fromhex("222663"), 46, _make_decoder(bytes.fromhex("622663"), 352, 16, 1, 0, False), header=b"DA10")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_MISFIRE_6"] = "TLX_MISFIRE_6"
-Acura_TLX.TLX_ATF_T_NEW = OBDCommand("TLX_ATF_T_NEW", "Transmission fluid temperature | hdr=DA1D", bytes.fromhex("222201"), 27, _make_decoder(bytes.fromhex("622201"), 208, 8, 1, -40, False), header="DA1D")
+Acura_TLX.TLX_ATF_T_NEW = OBDCommand("TLX_ATF_T_NEW", "Transmission fluid temperature | hdr=DA1D", bytes.fromhex("222201"), 27, _make_decoder(bytes.fromhex("622201"), 208, 8, 1, -40, False), header=b"DA1D")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_ATF_T_NEW"] = "TLX_ATF_T_NEW"
-Acura_TLX.TLX_EOP = OBDCommand("TLX_EOP", "Oil pressure | hdr=DA1D", bytes.fromhex("222203"), 10, _make_decoder(bytes.fromhex("622203"), 72, 8, 1, 0, False), header="DA1D")
+Acura_TLX.TLX_EOP = OBDCommand("TLX_EOP", "Oil pressure | hdr=DA1D", bytes.fromhex("222203"), 10, _make_decoder(bytes.fromhex("622203"), 72, 8, 1, 0, False), header=b"DA1D")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_EOP"] = "TLX_EOP"
-Acura_TLX.TLX_ATF_T = OBDCommand("TLX_ATF_T", "Transmission fluid temperature | hdr=DA1E", bytes.fromhex("223083"), 15, _make_decoder(bytes.fromhex("623083"), 112, 8, 1, -40, False), header="DA1E")
+Acura_TLX.TLX_ATF_T = OBDCommand("TLX_ATF_T", "Transmission fluid temperature | hdr=DA1E", bytes.fromhex("223083"), 15, _make_decoder(bytes.fromhex("623083"), 112, 8, 1, -40, False), header=b"DA1E")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_ATF_T"] = "TLX_ATF_T"
-Acura_TLX.TLX_GEAR = OBDCommand("TLX_GEAR", "Transmission gear | hdr=DA1E", bytes.fromhex("223086"), 21, _make_decoder(bytes.fromhex("623086"), 160, 8, 1, 0, False), header="DA1E")
+Acura_TLX.TLX_GEAR = OBDCommand("TLX_GEAR", "Transmission gear | hdr=DA1E", bytes.fromhex("223086"), 21, _make_decoder(bytes.fromhex("623086"), 160, 8, 1, 0, False), header=b"DA1E")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_GEAR"] = "TLX_GEAR"
-Acura_TLX.TLX_TP_FR = OBDCommand("TLX_TP_FR", "Front right tire pressure | hdr=DA26", bytes.fromhex("226001"), 28, _make_decoder(bytes.fromhex("626001"), 64, 16, 1, 0, False), header="DA26")
+Acura_TLX.TLX_TP_FR = OBDCommand("TLX_TP_FR", "Front right tire pressure | hdr=DA26", bytes.fromhex("226001"), 28, _make_decoder(bytes.fromhex("626001"), 64, 16, 1, 0, False), header=b"DA26")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_TP_FR"] = "TLX_TP_FR"
-Acura_TLX.TLX_TP_FL = OBDCommand("TLX_TP_FL", "Front left tire pressure | hdr=DA26", bytes.fromhex("226001"), 28, _make_decoder(bytes.fromhex("626001"), 80, 16, 1, 0, False), header="DA26")
+Acura_TLX.TLX_TP_FL = OBDCommand("TLX_TP_FL", "Front left tire pressure | hdr=DA26", bytes.fromhex("226001"), 28, _make_decoder(bytes.fromhex("626001"), 80, 16, 1, 0, False), header=b"DA26")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_TP_FL"] = "TLX_TP_FL"
-Acura_TLX.TLX_TP_RR = OBDCommand("TLX_TP_RR", "Rear right tire pressure | hdr=DA26", bytes.fromhex("226001"), 28, _make_decoder(bytes.fromhex("626001"), 96, 16, 1, 0, False), header="DA26")
+Acura_TLX.TLX_TP_RR = OBDCommand("TLX_TP_RR", "Rear right tire pressure | hdr=DA26", bytes.fromhex("226001"), 28, _make_decoder(bytes.fromhex("626001"), 96, 16, 1, 0, False), header=b"DA26")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_TP_RR"] = "TLX_TP_RR"
-Acura_TLX.TLX_TP_RL = OBDCommand("TLX_TP_RL", "Rear left tire pressure | hdr=DA26", bytes.fromhex("226001"), 28, _make_decoder(bytes.fromhex("626001"), 112, 16, 1, 0, False), header="DA26")
+Acura_TLX.TLX_TP_RL = OBDCommand("TLX_TP_RL", "Rear left tire pressure | hdr=DA26", bytes.fromhex("226001"), 28, _make_decoder(bytes.fromhex("626001"), 112, 16, 1, 0, False), header=b"DA26")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_TP_RL"] = "TLX_TP_RL"
-Acura_TLX.TLX_TT_FR = OBDCommand("TLX_TT_FR", "Front right tire temperature | hdr=DA26", bytes.fromhex("226001"), 28, _make_decoder(bytes.fromhex("626001"), 192, 8, 1, 0, False), header="DA26")
+Acura_TLX.TLX_TT_FR = OBDCommand("TLX_TT_FR", "Front right tire temperature | hdr=DA26", bytes.fromhex("226001"), 28, _make_decoder(bytes.fromhex("626001"), 192, 8, 1, 0, False), header=b"DA26")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_TT_FR"] = "TLX_TT_FR"
-Acura_TLX.TLX_TT_FL = OBDCommand("TLX_TT_FL", "Front left tire temperature | hdr=DA26", bytes.fromhex("226001"), 28, _make_decoder(bytes.fromhex("626001"), 200, 8, 1, 0, False), header="DA26")
+Acura_TLX.TLX_TT_FL = OBDCommand("TLX_TT_FL", "Front left tire temperature | hdr=DA26", bytes.fromhex("226001"), 28, _make_decoder(bytes.fromhex("626001"), 200, 8, 1, 0, False), header=b"DA26")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_TT_FL"] = "TLX_TT_FL"
-Acura_TLX.TLX_TT_RR = OBDCommand("TLX_TT_RR", "Rear right tire temperature | hdr=DA26", bytes.fromhex("226001"), 28, _make_decoder(bytes.fromhex("626001"), 208, 8, 1, 0, False), header="DA26")
+Acura_TLX.TLX_TT_RR = OBDCommand("TLX_TT_RR", "Rear right tire temperature | hdr=DA26", bytes.fromhex("226001"), 28, _make_decoder(bytes.fromhex("626001"), 208, 8, 1, 0, False), header=b"DA26")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_TT_RR"] = "TLX_TT_RR"
-Acura_TLX.TLX_TT_RL = OBDCommand("TLX_TT_RL", "Rear left tire temperature | hdr=DA26", bytes.fromhex("226001"), 28, _make_decoder(bytes.fromhex("626001"), 216, 8, 1, 0, False), header="DA26")
+Acura_TLX.TLX_TT_RL = OBDCommand("TLX_TT_RL", "Rear left tire temperature | hdr=DA26", bytes.fromhex("226001"), 28, _make_decoder(bytes.fromhex("626001"), 216, 8, 1, 0, False), header=b"DA26")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_TT_RL"] = "TLX_TT_RL"
-Acura_TLX.TLX_AAT = OBDCommand("TLX_AAT", "Outside air temperature | hdr=DA60", bytes.fromhex("227028"), 18, _make_decoder(bytes.fromhex("627028"), 136, 8, 1, 0, False), header="DA60")
+Acura_TLX.TLX_AAT = OBDCommand("TLX_AAT", "Outside air temperature | hdr=DA60", bytes.fromhex("227028"), 18, _make_decoder(bytes.fromhex("627028"), 136, 8, 1, 0, False), header=b"DA60")
 _ORIGINAL_COMMAND_NAMES["Acura_TLX"]["TLX_AAT"] = "TLX_AAT"
 
 SAEJ1979 = _Namespace()
 _ORIGINAL_SOURCE_NAMES["SAEJ1979"] = "SAEJ1979"
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"] = {}
-SAEJ1979.MIL = OBDCommand("MIL", "Malfunction indicator lamp | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 0, 1, 1, 0, False), header="7E0")
+SAEJ1979.MIL = OBDCommand("MIL", "Malfunction indicator lamp | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 0, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["MIL"] = "MIL"
-SAEJ1979.DTC_CNT = OBDCommand("DTC_CNT", "Number of DTCs stored in this ECU | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 1, 7, 1, 0, False), header="7E0")
+SAEJ1979.DTC_CNT = OBDCommand("DTC_CNT", "Number of DTCs stored in this ECU | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 1, 7, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["DTC_CNT"] = "DTC_CNT"
-SAEJ1979.CCM_RDY = OBDCommand("CCM_RDY", "Comprehensive component monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 9, 1, 1, 0, False), header="7E0")
+SAEJ1979.CCM_RDY = OBDCommand("CCM_RDY", "Comprehensive component monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 9, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["CCM_RDY"] = "CCM_RDY"
-SAEJ1979.FUEL_RDY = OBDCommand("FUEL_RDY", "Fuel system monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 10, 1, 1, 0, False), header="7E0")
+SAEJ1979.FUEL_RDY = OBDCommand("FUEL_RDY", "Fuel system monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 10, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUEL_RDY"] = "FUEL_RDY"
-SAEJ1979.MIS_RDY = OBDCommand("MIS_RDY", "Misfire monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 11, 1, 1, 0, False), header="7E0")
+SAEJ1979.MIS_RDY = OBDCommand("MIS_RDY", "Misfire monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 11, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["MIS_RDY"] = "MIS_RDY"
-SAEJ1979.CCM_SUP = OBDCommand("CCM_SUP", "Comprehensive component monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 13, 1, 1, 0, False), header="7E0")
+SAEJ1979.CCM_SUP = OBDCommand("CCM_SUP", "Comprehensive component monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 13, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["CCM_SUP"] = "CCM_SUP"
-SAEJ1979.FUEL_SUP = OBDCommand("FUEL_SUP", "Fuel system monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 14, 1, 1, 0, False), header="7E0")
+SAEJ1979.FUEL_SUP = OBDCommand("FUEL_SUP", "Fuel system monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 14, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUEL_SUP"] = "FUEL_SUP"
-SAEJ1979.MIS_SUP = OBDCommand("MIS_SUP", "Misfire monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 15, 1, 1, 0, False), header="7E0")
+SAEJ1979.MIS_SUP = OBDCommand("MIS_SUP", "Misfire monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 15, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["MIS_SUP"] = "MIS_SUP"
-SAEJ1979.EGR_SUP = OBDCommand("EGR_SUP", "EGR system monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 16, 1, 1, 0, False), header="7E0")
+SAEJ1979.EGR_SUP = OBDCommand("EGR_SUP", "EGR system monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 16, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGR_SUP"] = "EGR_SUP"
-SAEJ1979.HTR_SUP = OBDCommand("HTR_SUP", "Oxygen sensor heater monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 17, 1, 1, 0, False), header="7E0")
+SAEJ1979.HTR_SUP = OBDCommand("HTR_SUP", "Oxygen sensor heater monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 17, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["HTR_SUP"] = "HTR_SUP"
-SAEJ1979.O2S_SUP = OBDCommand("O2S_SUP", "Oxygen sensor monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 18, 1, 1, 0, False), header="7E0")
+SAEJ1979.O2S_SUP = OBDCommand("O2S_SUP", "Oxygen sensor monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 18, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S_SUP"] = "O2S_SUP"
-SAEJ1979.ACRF_SUP = OBDCommand("ACRF_SUP", "A/C system refrigerant monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 19, 1, 1, 0, False), header="7E0")
+SAEJ1979.ACRF_SUP = OBDCommand("ACRF_SUP", "A/C system refrigerant monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 19, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["ACRF_SUP"] = "ACRF_SUP"
-SAEJ1979.AIR_SUP = OBDCommand("AIR_SUP", "Secondary air system monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 20, 1, 1, 0, False), header="7E0")
+SAEJ1979.AIR_SUP = OBDCommand("AIR_SUP", "Secondary air system monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 20, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["AIR_SUP"] = "AIR_SUP"
-SAEJ1979.EVAP_SUP = OBDCommand("EVAP_SUP", "Evaporative system monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 21, 1, 1, 0, False), header="7E0")
+SAEJ1979.EVAP_SUP = OBDCommand("EVAP_SUP", "Evaporative system monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 21, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EVAP_SUP"] = "EVAP_SUP"
-SAEJ1979.HCAT_SUP = OBDCommand("HCAT_SUP", "Heated catalyst monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 22, 1, 1, 0, False), header="7E0")
+SAEJ1979.HCAT_SUP = OBDCommand("HCAT_SUP", "Heated catalyst monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 22, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["HCAT_SUP"] = "HCAT_SUP"
-SAEJ1979.CAT_SUP = OBDCommand("CAT_SUP", "Catalyst monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 23, 1, 1, 0, False), header="7E0")
+SAEJ1979.CAT_SUP = OBDCommand("CAT_SUP", "Catalyst monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 23, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["CAT_SUP"] = "CAT_SUP"
-SAEJ1979.EGR_RDY = OBDCommand("EGR_RDY", "EGR system monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 24, 1, 1, 0, False), header="7E0")
+SAEJ1979.EGR_RDY = OBDCommand("EGR_RDY", "EGR system monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 24, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGR_RDY"] = "EGR_RDY"
-SAEJ1979.HTR_RDY = OBDCommand("HTR_RDY", "Oxygen sensor heater monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 25, 1, 1, 0, False), header="7E0")
+SAEJ1979.HTR_RDY = OBDCommand("HTR_RDY", "Oxygen sensor heater monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 25, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["HTR_RDY"] = "HTR_RDY"
-SAEJ1979.O2S_RDY = OBDCommand("O2S_RDY", "Oxygen sensor monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 26, 1, 1, 0, False), header="7E0")
+SAEJ1979.O2S_RDY = OBDCommand("O2S_RDY", "Oxygen sensor monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 26, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S_RDY"] = "O2S_RDY"
-SAEJ1979.ACRF_RDY = OBDCommand("ACRF_RDY", "A/C system refrigerant monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 27, 1, 1, 0, False), header="7E0")
+SAEJ1979.ACRF_RDY = OBDCommand("ACRF_RDY", "A/C system refrigerant monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 27, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["ACRF_RDY"] = "ACRF_RDY"
-SAEJ1979.AIR_RDY = OBDCommand("AIR_RDY", "Secondary air system monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 28, 1, 1, 0, False), header="7E0")
+SAEJ1979.AIR_RDY = OBDCommand("AIR_RDY", "Secondary air system monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 28, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["AIR_RDY"] = "AIR_RDY"
-SAEJ1979.EVAP_RDY = OBDCommand("EVAP_RDY", "Evaporative system monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 29, 1, 1, 0, False), header="7E0")
+SAEJ1979.EVAP_RDY = OBDCommand("EVAP_RDY", "Evaporative system monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 29, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EVAP_RDY"] = "EVAP_RDY"
-SAEJ1979.HCAT_RDY = OBDCommand("HCAT_RDY", "Heated catalyst monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 30, 1, 1, 0, False), header="7E0")
+SAEJ1979.HCAT_RDY = OBDCommand("HCAT_RDY", "Heated catalyst monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 30, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["HCAT_RDY"] = "HCAT_RDY"
-SAEJ1979.CAT_RDY = OBDCommand("CAT_RDY", "Catalyst monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 31, 1, 1, 0, False), header="7E0")
+SAEJ1979.CAT_RDY = OBDCommand("CAT_RDY", "Catalyst monitoring ready | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 31, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["CAT_RDY"] = "CAT_RDY"
-SAEJ1979.CIM_SUP = OBDCommand("CIM_SUP", "Compression ignition monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 12, 1, 1, 0, False), header="7E0")
+SAEJ1979.CIM_SUP = OBDCommand("CIM_SUP", "Compression ignition monitoring supported | hdr=7E0", bytes.fromhex("0101"), 4, _make_decoder(bytes.fromhex("4101"), 12, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["CIM_SUP"] = "CIM_SUP"
-SAEJ1979.DTCFRZF = OBDCommand("DTCFRZF", "DTC that caused required freeze frame data storage | hdr=7E0", bytes.fromhex("0102"), 2, _make_decoder(bytes.fromhex("4102"), 0, 16, 1, 0, False), header="7E0")
+SAEJ1979.DTCFRZF = OBDCommand("DTCFRZF", "DTC that caused required freeze frame data storage | hdr=7E0", bytes.fromhex("0102"), 2, _make_decoder(bytes.fromhex("4102"), 0, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["DTCFRZF"] = "DTCFRZF"
-SAEJ1979.FUELSYS1 = OBDCommand("FUELSYS1", "Fuel system 1 status | hdr=7E0", bytes.fromhex("0103"), 2, _make_decoder(bytes.fromhex("4103"), 0, 8, 1, 0, False), header="7E0")
+SAEJ1979.FUELSYS1 = OBDCommand("FUELSYS1", "Fuel system 1 status | hdr=7E0", bytes.fromhex("0103"), 2, _make_decoder(bytes.fromhex("4103"), 0, 8, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUELSYS1"] = "FUELSYS1"
-SAEJ1979.FUELSYS2 = OBDCommand("FUELSYS2", "Fuel system 2 status | hdr=7E0", bytes.fromhex("0103"), 2, _make_decoder(bytes.fromhex("4103"), 8, 8, 1, 0, False), header="7E0")
+SAEJ1979.FUELSYS2 = OBDCommand("FUELSYS2", "Fuel system 2 status | hdr=7E0", bytes.fromhex("0103"), 2, _make_decoder(bytes.fromhex("4103"), 8, 8, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUELSYS2"] = "FUELSYS2"
-SAEJ1979.LOAD_PCT = OBDCommand("LOAD_PCT", "Calculated engine load | hdr=7E0", bytes.fromhex("0104"), 1, _make_decoder(bytes.fromhex("4104"), 0, 8, 100, 0, False), header="7E0")
+SAEJ1979.LOAD_PCT = OBDCommand("LOAD_PCT", "Calculated engine load | hdr=7E0", bytes.fromhex("0104"), 1, _make_decoder(bytes.fromhex("4104"), 0, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["LOAD_PCT"] = "LOAD_PCT"
-SAEJ1979.ECT = OBDCommand("ECT", "Engine coolant temperature | hdr=7E0", bytes.fromhex("0105"), 1, _make_decoder(bytes.fromhex("4105"), 0, 8, 1, -40, False), header="7E0")
+SAEJ1979.ECT = OBDCommand("ECT", "Engine coolant temperature | hdr=7E0", bytes.fromhex("0105"), 1, _make_decoder(bytes.fromhex("4105"), 0, 8, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["ECT"] = "ECT"
-SAEJ1979.SHRTFT1 = OBDCommand("SHRTFT1", "Short term fuel trim (bank 1) | hdr=7E0", bytes.fromhex("0106"), 1, _make_decoder(bytes.fromhex("4106"), 0, 8, 100, -100, False), header="7E0")
+SAEJ1979.SHRTFT1 = OBDCommand("SHRTFT1", "Short term fuel trim (bank 1) | hdr=7E0", bytes.fromhex("0106"), 1, _make_decoder(bytes.fromhex("4106"), 0, 8, 100, -100, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["SHRTFT1"] = "SHRTFT1"
-SAEJ1979.LONGFT1 = OBDCommand("LONGFT1", "Long term fuel trim (bank 1) | hdr=7E0", bytes.fromhex("0107"), 1, _make_decoder(bytes.fromhex("4107"), 0, 8, 100, -100, False), header="7E0")
+SAEJ1979.LONGFT1 = OBDCommand("LONGFT1", "Long term fuel trim (bank 1) | hdr=7E0", bytes.fromhex("0107"), 1, _make_decoder(bytes.fromhex("4107"), 0, 8, 100, -100, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["LONGFT1"] = "LONGFT1"
-SAEJ1979.SHRTFT2 = OBDCommand("SHRTFT2", "Short term fuel trim (bank 2) | hdr=7E0", bytes.fromhex("0108"), 2, _make_decoder(bytes.fromhex("4108"), 0, 8, 100, -100, False), header="7E0")
+SAEJ1979.SHRTFT2 = OBDCommand("SHRTFT2", "Short term fuel trim (bank 2) | hdr=7E0", bytes.fromhex("0108"), 2, _make_decoder(bytes.fromhex("4108"), 0, 8, 100, -100, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["SHRTFT2"] = "SHRTFT2"
-SAEJ1979.SHRTFT4 = OBDCommand("SHRTFT4", "Short term fuel trim (bank 4) | hdr=7E0", bytes.fromhex("0108"), 2, _make_decoder(bytes.fromhex("4108"), 8, 8, 100, -100, False), header="7E0")
+SAEJ1979.SHRTFT4 = OBDCommand("SHRTFT4", "Short term fuel trim (bank 4) | hdr=7E0", bytes.fromhex("0108"), 2, _make_decoder(bytes.fromhex("4108"), 8, 8, 100, -100, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["SHRTFT4"] = "SHRTFT4"
-SAEJ1979.LONGFT2 = OBDCommand("LONGFT2", "Long term fuel trim (bank 2) | hdr=7E0", bytes.fromhex("0109"), 2, _make_decoder(bytes.fromhex("4109"), 0, 8, 100, -100, False), header="7E0")
+SAEJ1979.LONGFT2 = OBDCommand("LONGFT2", "Long term fuel trim (bank 2) | hdr=7E0", bytes.fromhex("0109"), 2, _make_decoder(bytes.fromhex("4109"), 0, 8, 100, -100, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["LONGFT2"] = "LONGFT2"
-SAEJ1979.LONGFT4 = OBDCommand("LONGFT4", "Long term fuel trim (bank 4) | hdr=7E0", bytes.fromhex("0109"), 2, _make_decoder(bytes.fromhex("4109"), 8, 8, 100, -100, False), header="7E0")
+SAEJ1979.LONGFT4 = OBDCommand("LONGFT4", "Long term fuel trim (bank 4) | hdr=7E0", bytes.fromhex("0109"), 2, _make_decoder(bytes.fromhex("4109"), 8, 8, 100, -100, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["LONGFT4"] = "LONGFT4"
-SAEJ1979.FP = OBDCommand("FP", "Fuel pressure | hdr=7E0", bytes.fromhex("010A"), 1, _make_decoder(bytes.fromhex("410A"), 0, 8, 3, 0, False), header="7E0")
+SAEJ1979.FP = OBDCommand("FP", "Fuel pressure | hdr=7E0", bytes.fromhex("010A"), 1, _make_decoder(bytes.fromhex("410A"), 0, 8, 3, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FP"] = "FP"
-SAEJ1979.MAP = OBDCommand("MAP", "Intake manifold absolute pressure | hdr=7E0", bytes.fromhex("010B"), 1, _make_decoder(bytes.fromhex("410B"), 0, 8, 1, 0, False), header="7E0")
+SAEJ1979.MAP = OBDCommand("MAP", "Intake manifold absolute pressure | hdr=7E0", bytes.fromhex("010B"), 1, _make_decoder(bytes.fromhex("410B"), 0, 8, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["MAP"] = "MAP"
-SAEJ1979.RPM = OBDCommand("RPM", "Engine RPM | hdr=7E0", bytes.fromhex("010C"), 2, _make_decoder(bytes.fromhex("410C"), 0, 16, 1, 0, False), header="7E0")
+SAEJ1979.RPM = OBDCommand("RPM", "Engine RPM | hdr=7E0", bytes.fromhex("010C"), 2, _make_decoder(bytes.fromhex("410C"), 0, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["RPM"] = "RPM"
-SAEJ1979.VSS = OBDCommand("VSS", "Vehicle speed | hdr=7E0", bytes.fromhex("010D"), 1, _make_decoder(bytes.fromhex("410D"), 0, 8, 1, 0, False), header="7E0")
+SAEJ1979.VSS = OBDCommand("VSS", "Vehicle speed | hdr=7E0", bytes.fromhex("010D"), 1, _make_decoder(bytes.fromhex("410D"), 0, 8, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["VSS"] = "VSS"
-SAEJ1979.SPARKADV = OBDCommand("SPARKADV", "Timing advance | hdr=7E0", bytes.fromhex("010E"), 1, _make_decoder(bytes.fromhex("410E"), 0, 8, 1, -64, False), header="7E0")
+SAEJ1979.SPARKADV = OBDCommand("SPARKADV", "Timing advance | hdr=7E0", bytes.fromhex("010E"), 1, _make_decoder(bytes.fromhex("410E"), 0, 8, 1, -64, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["SPARKADV"] = "SPARKADV"
-SAEJ1979.IAT = OBDCommand("IAT", "Intake air temperature | hdr=7E0", bytes.fromhex("010F"), 1, _make_decoder(bytes.fromhex("410F"), 0, 8, 1, -40, False), header="7E0")
+SAEJ1979.IAT = OBDCommand("IAT", "Intake air temperature | hdr=7E0", bytes.fromhex("010F"), 1, _make_decoder(bytes.fromhex("410F"), 0, 8, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["IAT"] = "IAT"
-SAEJ1979.MAF = OBDCommand("MAF", "Air flow rate from mass air flow sensor | hdr=7E0", bytes.fromhex("0110"), 2, _make_decoder(bytes.fromhex("4110"), 0, 16, 1, 0, False), header="7E0")
+SAEJ1979.MAF = OBDCommand("MAF", "Air flow rate from mass air flow sensor | hdr=7E0", bytes.fromhex("0110"), 2, _make_decoder(bytes.fromhex("4110"), 0, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["MAF"] = "MAF"
-SAEJ1979.TP = OBDCommand("TP", "Absolute throttle position | hdr=7E0", bytes.fromhex("0111"), 1, _make_decoder(bytes.fromhex("4111"), 0, 8, 100, 0, False), header="7E0")
+SAEJ1979.TP = OBDCommand("TP", "Absolute throttle position | hdr=7E0", bytes.fromhex("0111"), 1, _make_decoder(bytes.fromhex("4111"), 0, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["TP"] = "TP"
-SAEJ1979.AIR_STAT = OBDCommand("AIR_STAT", "Commanded secondary air status | hdr=7E0", bytes.fromhex("0112"), 1, _make_decoder(bytes.fromhex("4112"), 5, 3, 1, 0, False), header="7E0")
+SAEJ1979.AIR_STAT = OBDCommand("AIR_STAT", "Commanded secondary air status | hdr=7E0", bytes.fromhex("0112"), 1, _make_decoder(bytes.fromhex("4112"), 5, 3, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["AIR_STAT"] = "AIR_STAT"
-SAEJ1979.O2S24_EXISTS = OBDCommand("O2S24_EXISTS", "02S Bank 2, Sensor 4 present | hdr=7E0", bytes.fromhex("0113"), 1, _make_decoder(bytes.fromhex("4113"), 0, 1, 1, 0, False), header="7E0")
+SAEJ1979.O2S24_EXISTS = OBDCommand("O2S24_EXISTS", "02S Bank 2, Sensor 4 present | hdr=7E0", bytes.fromhex("0113"), 1, _make_decoder(bytes.fromhex("4113"), 0, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S24_EXISTS"] = "O2S24_EXISTS"
-SAEJ1979.O2S23_EXISTS = OBDCommand("O2S23_EXISTS", "02S Bank 2, Sensor 3 present | hdr=7E0", bytes.fromhex("0113"), 1, _make_decoder(bytes.fromhex("4113"), 1, 1, 1, 0, False), header="7E0")
+SAEJ1979.O2S23_EXISTS = OBDCommand("O2S23_EXISTS", "02S Bank 2, Sensor 3 present | hdr=7E0", bytes.fromhex("0113"), 1, _make_decoder(bytes.fromhex("4113"), 1, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S23_EXISTS"] = "O2S23_EXISTS"
-SAEJ1979.O2S22_EXISTS = OBDCommand("O2S22_EXISTS", "02S Bank 2, Sensor 2 present | hdr=7E0", bytes.fromhex("0113"), 1, _make_decoder(bytes.fromhex("4113"), 2, 1, 1, 0, False), header="7E0")
+SAEJ1979.O2S22_EXISTS = OBDCommand("O2S22_EXISTS", "02S Bank 2, Sensor 2 present | hdr=7E0", bytes.fromhex("0113"), 1, _make_decoder(bytes.fromhex("4113"), 2, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S22_EXISTS"] = "O2S22_EXISTS"
-SAEJ1979.O2S21_EXISTS = OBDCommand("O2S21_EXISTS", "02S Bank 2, Sensor 1 present | hdr=7E0", bytes.fromhex("0113"), 1, _make_decoder(bytes.fromhex("4113"), 3, 1, 1, 0, False), header="7E0")
+SAEJ1979.O2S21_EXISTS = OBDCommand("O2S21_EXISTS", "02S Bank 2, Sensor 1 present | hdr=7E0", bytes.fromhex("0113"), 1, _make_decoder(bytes.fromhex("4113"), 3, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S21_EXISTS"] = "O2S21_EXISTS"
-SAEJ1979.O2S14_EXISTS = OBDCommand("O2S14_EXISTS", "02S Bank 1, Sensor 4 present | hdr=7E0", bytes.fromhex("0113"), 1, _make_decoder(bytes.fromhex("4113"), 4, 1, 1, 0, False), header="7E0")
+SAEJ1979.O2S14_EXISTS = OBDCommand("O2S14_EXISTS", "02S Bank 1, Sensor 4 present | hdr=7E0", bytes.fromhex("0113"), 1, _make_decoder(bytes.fromhex("4113"), 4, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S14_EXISTS"] = "O2S14_EXISTS"
-SAEJ1979.O2S13_EXISTS = OBDCommand("O2S13_EXISTS", "02S Bank 1, Sensor 3 present | hdr=7E0", bytes.fromhex("0113"), 1, _make_decoder(bytes.fromhex("4113"), 5, 1, 1, 0, False), header="7E0")
+SAEJ1979.O2S13_EXISTS = OBDCommand("O2S13_EXISTS", "02S Bank 1, Sensor 3 present | hdr=7E0", bytes.fromhex("0113"), 1, _make_decoder(bytes.fromhex("4113"), 5, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S13_EXISTS"] = "O2S13_EXISTS"
-SAEJ1979.O2S12_EXISTS = OBDCommand("O2S12_EXISTS", "02S Bank 1, Sensor 2 present | hdr=7E0", bytes.fromhex("0113"), 1, _make_decoder(bytes.fromhex("4113"), 6, 1, 1, 0, False), header="7E0")
+SAEJ1979.O2S12_EXISTS = OBDCommand("O2S12_EXISTS", "02S Bank 1, Sensor 2 present | hdr=7E0", bytes.fromhex("0113"), 1, _make_decoder(bytes.fromhex("4113"), 6, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S12_EXISTS"] = "O2S12_EXISTS"
-SAEJ1979.O2S11_EXISTS = OBDCommand("O2S11_EXISTS", "02S Bank 1, Sensor 1 present | hdr=7E0", bytes.fromhex("0113"), 1, _make_decoder(bytes.fromhex("4113"), 7, 1, 1, 0, False), header="7E0")
+SAEJ1979.O2S11_EXISTS = OBDCommand("O2S11_EXISTS", "02S Bank 1, Sensor 1 present | hdr=7E0", bytes.fromhex("0113"), 1, _make_decoder(bytes.fromhex("4113"), 7, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S11_EXISTS"] = "O2S11_EXISTS"
-SAEJ1979.O2S11 = OBDCommand("O2S11", "O2S Output Voltage Bank 1, Sensor 1 | hdr=7E0", bytes.fromhex("0114"), 2, _make_decoder(bytes.fromhex("4114"), 0, 8, 1, 0, False), header="7E0")
+SAEJ1979.O2S11 = OBDCommand("O2S11", "O2S Output Voltage Bank 1, Sensor 1 | hdr=7E0", bytes.fromhex("0114"), 2, _make_decoder(bytes.fromhex("4114"), 0, 8, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S11"] = "O2S11"
-SAEJ1979.SHRTFT11 = OBDCommand("SHRTFT11", "SHRTFT associated with O2S11 | hdr=7E0", bytes.fromhex("0114"), 2, _make_decoder(bytes.fromhex("4114"), 8, 8, 100, -128, False), header="7E0")
+SAEJ1979.SHRTFT11 = OBDCommand("SHRTFT11", "SHRTFT associated with O2S11 | hdr=7E0", bytes.fromhex("0114"), 2, _make_decoder(bytes.fromhex("4114"), 8, 8, 100, -128, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["SHRTFT11"] = "SHRTFT11"
-SAEJ1979.O2S12 = OBDCommand("O2S12", "O2S Output Voltage Bank 1, Sensor 2 | hdr=7E0", bytes.fromhex("0115"), 2, _make_decoder(bytes.fromhex("4115"), 0, 8, 1, 0, False), header="7E0")
+SAEJ1979.O2S12 = OBDCommand("O2S12", "O2S Output Voltage Bank 1, Sensor 2 | hdr=7E0", bytes.fromhex("0115"), 2, _make_decoder(bytes.fromhex("4115"), 0, 8, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S12"] = "O2S12"
-SAEJ1979.SHRTFT11_2 = OBDCommand("SHRTFT11_2", "SHRTFT associated with O2S12 | hdr=7E0", bytes.fromhex("0115"), 2, _make_decoder(bytes.fromhex("4115"), 8, 8, 100, -128, False), header="7E0")
+SAEJ1979.SHRTFT11_2 = OBDCommand("SHRTFT11_2", "SHRTFT associated with O2S12 | hdr=7E0", bytes.fromhex("0115"), 2, _make_decoder(bytes.fromhex("4115"), 8, 8, 100, -128, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["SHRTFT11_2"] = "SHRTFT11"
-SAEJ1979.O2S21 = OBDCommand("O2S21", "O2S Output Voltage Bank 2, Sensor 1 | hdr=7E0", bytes.fromhex("0118"), 2, _make_decoder(bytes.fromhex("4118"), 0, 8, 1, 0, False), header="7E0")
+SAEJ1979.O2S21 = OBDCommand("O2S21", "O2S Output Voltage Bank 2, Sensor 1 | hdr=7E0", bytes.fromhex("0118"), 2, _make_decoder(bytes.fromhex("4118"), 0, 8, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S21"] = "O2S21"
-SAEJ1979.SHRTFT21 = OBDCommand("SHRTFT21", "SHRTFT associated with O2S21 | hdr=7E0", bytes.fromhex("0118"), 2, _make_decoder(bytes.fromhex("4118"), 8, 8, 100, -128, False), header="7E0")
+SAEJ1979.SHRTFT21 = OBDCommand("SHRTFT21", "SHRTFT associated with O2S21 | hdr=7E0", bytes.fromhex("0118"), 2, _make_decoder(bytes.fromhex("4118"), 8, 8, 100, -128, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["SHRTFT21"] = "SHRTFT21"
-SAEJ1979.O2S22 = OBDCommand("O2S22", "O2S Output Voltage Bank 2, Sensor 2 | hdr=7E0", bytes.fromhex("0119"), 2, _make_decoder(bytes.fromhex("4119"), 0, 8, 1, 0, False), header="7E0")
+SAEJ1979.O2S22 = OBDCommand("O2S22", "O2S Output Voltage Bank 2, Sensor 2 | hdr=7E0", bytes.fromhex("0119"), 2, _make_decoder(bytes.fromhex("4119"), 0, 8, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S22"] = "O2S22"
-SAEJ1979.SHRTFT22 = OBDCommand("SHRTFT22", "SHRTFT associated with O2S22 | hdr=7E0", bytes.fromhex("0119"), 2, _make_decoder(bytes.fromhex("4119"), 8, 8, 100, -128, False), header="7E0")
+SAEJ1979.SHRTFT22 = OBDCommand("SHRTFT22", "SHRTFT associated with O2S22 | hdr=7E0", bytes.fromhex("0119"), 2, _make_decoder(bytes.fromhex("4119"), 8, 8, 100, -128, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["SHRTFT22"] = "SHRTFT22"
-SAEJ1979.OBDSUP = OBDCommand("OBDSUP", "OBD requirements to which vehicle is designed | hdr=7E0", bytes.fromhex("011C"), 1, _make_decoder(bytes.fromhex("411C"), 0, 8, 1, 0, False), header="7E0")
+SAEJ1979.OBDSUP = OBDCommand("OBDSUP", "OBD requirements to which vehicle is designed | hdr=7E0", bytes.fromhex("011C"), 1, _make_decoder(bytes.fromhex("411C"), 0, 8, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["OBDSUP"] = "OBDSUP"
-SAEJ1979.O2S42_EXISTS = OBDCommand("O2S42_EXISTS", "02S Bank 4, Sensor 2 present | hdr=7E0", bytes.fromhex("011D"), 1, _make_decoder(bytes.fromhex("411D"), 0, 1, 1, 0, False), header="7E0")
+SAEJ1979.O2S42_EXISTS = OBDCommand("O2S42_EXISTS", "02S Bank 4, Sensor 2 present | hdr=7E0", bytes.fromhex("011D"), 1, _make_decoder(bytes.fromhex("411D"), 0, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S42_EXISTS"] = "O2S42_EXISTS"
-SAEJ1979.O2S41_EXISTS = OBDCommand("O2S41_EXISTS", "02S Bank 4, Sensor 1 present | hdr=7E0", bytes.fromhex("011D"), 1, _make_decoder(bytes.fromhex("411D"), 1, 1, 1, 0, False), header="7E0")
+SAEJ1979.O2S41_EXISTS = OBDCommand("O2S41_EXISTS", "02S Bank 4, Sensor 1 present | hdr=7E0", bytes.fromhex("011D"), 1, _make_decoder(bytes.fromhex("411D"), 1, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S41_EXISTS"] = "O2S41_EXISTS"
-SAEJ1979.O2S32_EXISTS = OBDCommand("O2S32_EXISTS", "02S Bank 3, Sensor 2 present | hdr=7E0", bytes.fromhex("011D"), 1, _make_decoder(bytes.fromhex("411D"), 2, 1, 1, 0, False), header="7E0")
+SAEJ1979.O2S32_EXISTS = OBDCommand("O2S32_EXISTS", "02S Bank 3, Sensor 2 present | hdr=7E0", bytes.fromhex("011D"), 1, _make_decoder(bytes.fromhex("411D"), 2, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S32_EXISTS"] = "O2S32_EXISTS"
-SAEJ1979.O2S31_EXISTS = OBDCommand("O2S31_EXISTS", "02S Bank 3, Sensor 1 present | hdr=7E0", bytes.fromhex("011D"), 1, _make_decoder(bytes.fromhex("411D"), 3, 1, 1, 0, False), header="7E0")
+SAEJ1979.O2S31_EXISTS = OBDCommand("O2S31_EXISTS", "02S Bank 3, Sensor 1 present | hdr=7E0", bytes.fromhex("011D"), 1, _make_decoder(bytes.fromhex("411D"), 3, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S31_EXISTS"] = "O2S31_EXISTS"
-SAEJ1979.O2S22_EXISTS_2 = OBDCommand("O2S22_EXISTS_2", "02S Bank 2, Sensor 2 present | hdr=7E0", bytes.fromhex("011D"), 1, _make_decoder(bytes.fromhex("411D"), 4, 1, 1, 0, False), header="7E0")
+SAEJ1979.O2S22_EXISTS_2 = OBDCommand("O2S22_EXISTS_2", "02S Bank 2, Sensor 2 present | hdr=7E0", bytes.fromhex("011D"), 1, _make_decoder(bytes.fromhex("411D"), 4, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S22_EXISTS_2"] = "O2S22_EXISTS"
-SAEJ1979.O2S21_EXISTS_2 = OBDCommand("O2S21_EXISTS_2", "02S Bank 2, Sensor 1 present | hdr=7E0", bytes.fromhex("011D"), 1, _make_decoder(bytes.fromhex("411D"), 5, 1, 1, 0, False), header="7E0")
+SAEJ1979.O2S21_EXISTS_2 = OBDCommand("O2S21_EXISTS_2", "02S Bank 2, Sensor 1 present | hdr=7E0", bytes.fromhex("011D"), 1, _make_decoder(bytes.fromhex("411D"), 5, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S21_EXISTS_2"] = "O2S21_EXISTS"
-SAEJ1979.O2S12_EXISTS_2 = OBDCommand("O2S12_EXISTS_2", "02S Bank 1, Sensor 2 present | hdr=7E0", bytes.fromhex("011D"), 1, _make_decoder(bytes.fromhex("411D"), 6, 1, 1, 0, False), header="7E0")
+SAEJ1979.O2S12_EXISTS_2 = OBDCommand("O2S12_EXISTS_2", "02S Bank 1, Sensor 2 present | hdr=7E0", bytes.fromhex("011D"), 1, _make_decoder(bytes.fromhex("411D"), 6, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S12_EXISTS_2"] = "O2S12_EXISTS"
-SAEJ1979.O2S11_EXISTS_2 = OBDCommand("O2S11_EXISTS_2", "02S Bank 1, Sensor 1 present | hdr=7E0", bytes.fromhex("011D"), 1, _make_decoder(bytes.fromhex("411D"), 7, 1, 1, 0, False), header="7E0")
+SAEJ1979.O2S11_EXISTS_2 = OBDCommand("O2S11_EXISTS_2", "02S Bank 1, Sensor 1 present | hdr=7E0", bytes.fromhex("011D"), 1, _make_decoder(bytes.fromhex("411D"), 7, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S11_EXISTS_2"] = "O2S11_EXISTS"
-SAEJ1979.PTO_STAT = OBDCommand("PTO_STAT", "Power take off (PTO) status | hdr=7E0", bytes.fromhex("011E"), 1, _make_decoder(bytes.fromhex("411E"), 7, 1, 1, 0, False), header="7E0")
+SAEJ1979.PTO_STAT = OBDCommand("PTO_STAT", "Power take off (PTO) status | hdr=7E0", bytes.fromhex("011E"), 1, _make_decoder(bytes.fromhex("411E"), 7, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["PTO_STAT"] = "PTO_STAT"
-SAEJ1979.RUNTM = OBDCommand("RUNTM", "Time since engine start | hdr=7E0", bytes.fromhex("011F"), 2, _make_decoder(bytes.fromhex("411F"), 0, 16, 1, 0, False), header="7E0")
+SAEJ1979.RUNTM = OBDCommand("RUNTM", "Time since engine start | hdr=7E0", bytes.fromhex("011F"), 2, _make_decoder(bytes.fromhex("411F"), 0, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["RUNTM"] = "RUNTM"
-SAEJ1979.MIL_DIST = OBDCommand("MIL_DIST", "Distance traveled while MIL was activated | hdr=7E0", bytes.fromhex("0121"), 2, _make_decoder(bytes.fromhex("4121"), 0, 16, 1, 0, False), header="7E0")
+SAEJ1979.MIL_DIST = OBDCommand("MIL_DIST", "Distance traveled while MIL was activated | hdr=7E0", bytes.fromhex("0121"), 2, _make_decoder(bytes.fromhex("4121"), 0, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["MIL_DIST"] = "MIL_DIST"
-SAEJ1979.FRP_REL = OBDCommand("FRP_REL", "Fuel pressure relative to manifold vacuum | hdr=7E0", bytes.fromhex("0122"), 2, _make_decoder(bytes.fromhex("4122"), 0, 16, 0.079, 0, False), header="7E0")
+SAEJ1979.FRP_REL = OBDCommand("FRP_REL", "Fuel pressure relative to manifold vacuum | hdr=7E0", bytes.fromhex("0122"), 2, _make_decoder(bytes.fromhex("4122"), 0, 16, 0.079, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FRP_REL"] = "FRP_REL"
-SAEJ1979.FRP = OBDCommand("FRP", "Fuel rail pressure | hdr=7E0", bytes.fromhex("0123"), 2, _make_decoder(bytes.fromhex("4123"), 0, 16, 10, 0, False), header="7E0")
+SAEJ1979.FRP = OBDCommand("FRP", "Fuel rail pressure | hdr=7E0", bytes.fromhex("0123"), 2, _make_decoder(bytes.fromhex("4123"), 0, 16, 10, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FRP"] = "FRP"
-SAEJ1979.LAMBDA11_VOLT = OBDCommand("LAMBDA11_VOLT", "Lambda value, Equivalence Ratio Bank 1, Sensor 1 | hdr=7E0", bytes.fromhex("0124"), 4, _make_decoder(bytes.fromhex("4124"), 0, 16, 1, 0, False), header="7E0")
+SAEJ1979.LAMBDA11_VOLT = OBDCommand("LAMBDA11_VOLT", "Lambda value, Equivalence Ratio Bank 1, Sensor 1 | hdr=7E0", bytes.fromhex("0124"), 4, _make_decoder(bytes.fromhex("4124"), 0, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["LAMBDA11_VOLT"] = "LAMBDA11_VOLT"
-SAEJ1979.O2S11_VOLT = OBDCommand("O2S11_VOLT", "Wide Range O2S Voltage, O2 Sensor Bank 1, Sensor 1 | hdr=7E0", bytes.fromhex("0124"), 4, _make_decoder(bytes.fromhex("4124"), 16, 16, 1, 0, False), header="7E0")
+SAEJ1979.O2S11_VOLT = OBDCommand("O2S11_VOLT", "Wide Range O2S Voltage, O2 Sensor Bank 1, Sensor 1 | hdr=7E0", bytes.fromhex("0124"), 4, _make_decoder(bytes.fromhex("4124"), 16, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S11_VOLT"] = "O2S11_VOLT"
-SAEJ1979.EGR_PCT = OBDCommand("EGR_PCT", "Commanded EGR | hdr=7E0", bytes.fromhex("012C"), 1, _make_decoder(bytes.fromhex("412C"), 0, 8, 100, 0, False), header="7E0")
+SAEJ1979.EGR_PCT = OBDCommand("EGR_PCT", "Commanded EGR | hdr=7E0", bytes.fromhex("012C"), 1, _make_decoder(bytes.fromhex("412C"), 0, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGR_PCT"] = "EGR_PCT"
-SAEJ1979.EGR_ERR = OBDCommand("EGR_ERR", "EGR error | hdr=7E0", bytes.fromhex("012D"), 1, _make_decoder(bytes.fromhex("412D"), 0, 8, 100, -100, False), header="7E0")
+SAEJ1979.EGR_ERR = OBDCommand("EGR_ERR", "EGR error | hdr=7E0", bytes.fromhex("012D"), 1, _make_decoder(bytes.fromhex("412D"), 0, 8, 100, -100, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGR_ERR"] = "EGR_ERR"
-SAEJ1979.EVAP_PCT = OBDCommand("EVAP_PCT", "Commanded evaporative purge | hdr=7E0", bytes.fromhex("012E"), 1, _make_decoder(bytes.fromhex("412E"), 0, 8, 100, 0, False), header="7E0")
+SAEJ1979.EVAP_PCT = OBDCommand("EVAP_PCT", "Commanded evaporative purge | hdr=7E0", bytes.fromhex("012E"), 1, _make_decoder(bytes.fromhex("412E"), 0, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EVAP_PCT"] = "EVAP_PCT"
-SAEJ1979.FLI = OBDCommand("FLI", "Fuel tank level | hdr=7E0", bytes.fromhex("012F"), 1, _make_decoder(bytes.fromhex("412F"), 0, 8, 100, 0, False), header="7E0")
+SAEJ1979.FLI = OBDCommand("FLI", "Fuel tank level | hdr=7E0", bytes.fromhex("012F"), 1, _make_decoder(bytes.fromhex("412F"), 0, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FLI"] = "FLI"
-SAEJ1979.WARM_UPS = OBDCommand("WARM_UPS", "Number of warm-ups since diagnostic trouble codes cleared | hdr=7E0", bytes.fromhex("0130"), 1, _make_decoder(bytes.fromhex("4130"), 0, 8, 1, 0, False), header="7E0")
+SAEJ1979.WARM_UPS = OBDCommand("WARM_UPS", "Number of warm-ups since diagnostic trouble codes cleared | hdr=7E0", bytes.fromhex("0130"), 1, _make_decoder(bytes.fromhex("4130"), 0, 8, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["WARM_UPS"] = "WARM_UPS"
-SAEJ1979.CLR_DIST = OBDCommand("CLR_DIST", "Distance traveled since diagnostic trouble codes cleared | hdr=7E0", bytes.fromhex("0131"), 2, _make_decoder(bytes.fromhex("4131"), 0, 16, 1, 0, False), header="7E0")
+SAEJ1979.CLR_DIST = OBDCommand("CLR_DIST", "Distance traveled since diagnostic trouble codes cleared | hdr=7E0", bytes.fromhex("0131"), 2, _make_decoder(bytes.fromhex("4131"), 0, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["CLR_DIST"] = "CLR_DIST"
-SAEJ1979.EVAP_VP = OBDCommand("EVAP_VP", "Evap system vapor pressure | hdr=7E0", bytes.fromhex("0132"), 2, _make_decoder(bytes.fromhex("4132"), 0, 16, 1, 0, False), header="7E0")
+SAEJ1979.EVAP_VP = OBDCommand("EVAP_VP", "Evap system vapor pressure | hdr=7E0", bytes.fromhex("0132"), 2, _make_decoder(bytes.fromhex("4132"), 0, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EVAP_VP"] = "EVAP_VP"
-SAEJ1979.BARO = OBDCommand("BARO", "Barometric pressure | hdr=7E0", bytes.fromhex("0133"), 1, _make_decoder(bytes.fromhex("4133"), 0, 8, 1, 0, False), header="7E0")
+SAEJ1979.BARO = OBDCommand("BARO", "Barometric pressure | hdr=7E0", bytes.fromhex("0133"), 1, _make_decoder(bytes.fromhex("4133"), 0, 8, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["BARO"] = "BARO"
-SAEJ1979.LAMBDA11_CURRENT = OBDCommand("LAMBDA11_CURRENT", "Lambda value, Equivalence Ratio Bank 1, Sensor 1 | hdr=7E0", bytes.fromhex("0134"), 4, _make_decoder(bytes.fromhex("4134"), 0, 16, 1, 0, False), header="7E0")
+SAEJ1979.LAMBDA11_CURRENT = OBDCommand("LAMBDA11_CURRENT", "Lambda value, Equivalence Ratio Bank 1, Sensor 1 | hdr=7E0", bytes.fromhex("0134"), 4, _make_decoder(bytes.fromhex("4134"), 0, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["LAMBDA11_CURRENT"] = "LAMBDA11_CURRENT"
-SAEJ1979.O2S11_CURRENT = OBDCommand("O2S11_CURRENT", "Wide Range O2S Current, O2 Sensor Bank 1, Sensor 1 | hdr=7E0", bytes.fromhex("0134"), 4, _make_decoder(bytes.fromhex("4134"), 16, 16, 1, -128, False), header="7E0")
+SAEJ1979.O2S11_CURRENT = OBDCommand("O2S11_CURRENT", "Wide Range O2S Current, O2 Sensor Bank 1, Sensor 1 | hdr=7E0", bytes.fromhex("0134"), 4, _make_decoder(bytes.fromhex("4134"), 16, 16, 1, -128, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S11_CURRENT"] = "O2S11_CURRENT"
-SAEJ1979.CATEMP11 = OBDCommand("CATEMP11", "Catalyst temperature bank 1, sensor 1 | hdr=7E0", bytes.fromhex("013C"), 2, _make_decoder(bytes.fromhex("413C"), 0, 16, 1, -40, False), header="7E0")
+SAEJ1979.CATEMP11 = OBDCommand("CATEMP11", "Catalyst temperature bank 1, sensor 1 | hdr=7E0", bytes.fromhex("013C"), 2, _make_decoder(bytes.fromhex("413C"), 0, 16, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["CATEMP11"] = "CATEMP11"
-SAEJ1979.CATEMP21 = OBDCommand("CATEMP21", "Catalyst temperature bank 2, sensor 1 | hdr=7E0", bytes.fromhex("013D"), 2, _make_decoder(bytes.fromhex("413D"), 0, 16, 1, -40, False), header="7E0")
+SAEJ1979.CATEMP21 = OBDCommand("CATEMP21", "Catalyst temperature bank 2, sensor 1 | hdr=7E0", bytes.fromhex("013D"), 2, _make_decoder(bytes.fromhex("413D"), 0, 16, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["CATEMP21"] = "CATEMP21"
-SAEJ1979.CATEMP12 = OBDCommand("CATEMP12", "Catalyst temperature bank 1, sensor 2 | hdr=7E0", bytes.fromhex("013E"), 2, _make_decoder(bytes.fromhex("413E"), 0, 16, 1, -40, False), header="7E0")
+SAEJ1979.CATEMP12 = OBDCommand("CATEMP12", "Catalyst temperature bank 1, sensor 2 | hdr=7E0", bytes.fromhex("013E"), 2, _make_decoder(bytes.fromhex("413E"), 0, 16, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["CATEMP12"] = "CATEMP12"
-SAEJ1979.CATEMP22 = OBDCommand("CATEMP22", "Catalyst temperature bank 2, sensor 2 | hdr=7E0", bytes.fromhex("013F"), 2, _make_decoder(bytes.fromhex("413F"), 0, 16, 1, -40, False), header="7E0")
+SAEJ1979.CATEMP22 = OBDCommand("CATEMP22", "Catalyst temperature bank 2, sensor 2 | hdr=7E0", bytes.fromhex("013F"), 2, _make_decoder(bytes.fromhex("413F"), 0, 16, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["CATEMP22"] = "CATEMP22"
-SAEJ1979.CCM_CMPL = OBDCommand("CCM_CMPL", "Comprehensive component monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 9, 1, 1, 0, False), header="7E0")
+SAEJ1979.CCM_CMPL = OBDCommand("CCM_CMPL", "Comprehensive component monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 9, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["CCM_CMPL"] = "CCM_CMPL"
-SAEJ1979.FUEL_CMPL = OBDCommand("FUEL_CMPL", "Fuel system monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 10, 1, 1, 0, False), header="7E0")
+SAEJ1979.FUEL_CMPL = OBDCommand("FUEL_CMPL", "Fuel system monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 10, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUEL_CMPL"] = "FUEL_CMPL"
-SAEJ1979.MIS_CMPL = OBDCommand("MIS_CMPL", "Misfire monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 11, 1, 1, 0, False), header="7E0")
+SAEJ1979.MIS_CMPL = OBDCommand("MIS_CMPL", "Misfire monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 11, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["MIS_CMPL"] = "MIS_CMPL"
-SAEJ1979.CCM_ENA = OBDCommand("CCM_ENA", "Comprehensive component monitoring enabled | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 13, 1, 1, 0, False), header="7E0")
+SAEJ1979.CCM_ENA = OBDCommand("CCM_ENA", "Comprehensive component monitoring enabled | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 13, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["CCM_ENA"] = "CCM_ENA"
-SAEJ1979.FUEL_ENA = OBDCommand("FUEL_ENA", "Fuel system monitoring enabled | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 14, 1, 1, 0, False), header="7E0")
+SAEJ1979.FUEL_ENA = OBDCommand("FUEL_ENA", "Fuel system monitoring enabled | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 14, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUEL_ENA"] = "FUEL_ENA"
-SAEJ1979.MIS_ENA = OBDCommand("MIS_ENA", "Misfire monitoring enabled | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 15, 1, 1, 0, False), header="7E0")
+SAEJ1979.MIS_ENA = OBDCommand("MIS_ENA", "Misfire monitoring enabled | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 15, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["MIS_ENA"] = "MIS_ENA"
-SAEJ1979.EGR_ENA = OBDCommand("EGR_ENA", "EGR system monitoring | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 16, 1, 1, 0, False), header="7E0")
+SAEJ1979.EGR_ENA = OBDCommand("EGR_ENA", "EGR system monitoring | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 16, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGR_ENA"] = "EGR_ENA"
-SAEJ1979.HTR_ENA = OBDCommand("HTR_ENA", "Oxygen sensor heater monitoring | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 17, 1, 1, 0, False), header="7E0")
+SAEJ1979.HTR_ENA = OBDCommand("HTR_ENA", "Oxygen sensor heater monitoring | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 17, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["HTR_ENA"] = "HTR_ENA"
-SAEJ1979.O2S_ENA = OBDCommand("O2S_ENA", "Oxygen sensor monitoring | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 18, 1, 1, 0, False), header="7E0")
+SAEJ1979.O2S_ENA = OBDCommand("O2S_ENA", "Oxygen sensor monitoring | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 18, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S_ENA"] = "O2S_ENA"
-SAEJ1979.ACRF_ENA = OBDCommand("ACRF_ENA", "A/C system refrigerant monitoring | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 19, 1, 1, 0, False), header="7E0")
+SAEJ1979.ACRF_ENA = OBDCommand("ACRF_ENA", "A/C system refrigerant monitoring | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 19, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["ACRF_ENA"] = "ACRF_ENA"
-SAEJ1979.AIR_ENA = OBDCommand("AIR_ENA", "Secondary air system monitoring | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 20, 1, 1, 0, False), header="7E0")
+SAEJ1979.AIR_ENA = OBDCommand("AIR_ENA", "Secondary air system monitoring | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 20, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["AIR_ENA"] = "AIR_ENA"
-SAEJ1979.EVAP_ENA = OBDCommand("EVAP_ENA", "Evaporative system monitoring | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 21, 1, 1, 0, False), header="7E0")
+SAEJ1979.EVAP_ENA = OBDCommand("EVAP_ENA", "Evaporative system monitoring | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 21, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EVAP_ENA"] = "EVAP_ENA"
-SAEJ1979.HCAT_ENA = OBDCommand("HCAT_ENA", "Heated catalyst monitoring | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 22, 1, 1, 0, False), header="7E0")
+SAEJ1979.HCAT_ENA = OBDCommand("HCAT_ENA", "Heated catalyst monitoring | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 22, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["HCAT_ENA"] = "HCAT_ENA"
-SAEJ1979.CAT_ENA = OBDCommand("CAT_ENA", "Catalyst monitoring | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 23, 1, 1, 0, False), header="7E0")
+SAEJ1979.CAT_ENA = OBDCommand("CAT_ENA", "Catalyst monitoring | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 23, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["CAT_ENA"] = "CAT_ENA"
-SAEJ1979.EGR_CMPL = OBDCommand("EGR_CMPL", "EGR system monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 24, 1, 1, 0, False), header="7E0")
+SAEJ1979.EGR_CMPL = OBDCommand("EGR_CMPL", "EGR system monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 24, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGR_CMPL"] = "EGR_CMPL"
-SAEJ1979.HTR_CMPL = OBDCommand("HTR_CMPL", "Oxygen sensor heater monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 25, 1, 1, 0, False), header="7E0")
+SAEJ1979.HTR_CMPL = OBDCommand("HTR_CMPL", "Oxygen sensor heater monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 25, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["HTR_CMPL"] = "HTR_CMPL"
-SAEJ1979.O2S_CMPL = OBDCommand("O2S_CMPL", "Oxygen sensor monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 26, 1, 1, 0, False), header="7E0")
+SAEJ1979.O2S_CMPL = OBDCommand("O2S_CMPL", "Oxygen sensor monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 26, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["O2S_CMPL"] = "O2S_CMPL"
-SAEJ1979.ACRFCMPL = OBDCommand("ACRFCMPL", "A/C system refrigerant monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 27, 1, 1, 0, False), header="7E0")
+SAEJ1979.ACRFCMPL = OBDCommand("ACRFCMPL", "A/C system refrigerant monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 27, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["ACRFCMPL"] = "ACRFCMPL"
-SAEJ1979.AIR_CMPL = OBDCommand("AIR_CMPL", "Secondary air system monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 28, 1, 1, 0, False), header="7E0")
+SAEJ1979.AIR_CMPL = OBDCommand("AIR_CMPL", "Secondary air system monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 28, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["AIR_CMPL"] = "AIR_CMPL"
-SAEJ1979.EVAPCMPL = OBDCommand("EVAPCMPL", "Evaporative system monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 29, 1, 1, 0, False), header="7E0")
+SAEJ1979.EVAPCMPL = OBDCommand("EVAPCMPL", "Evaporative system monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 29, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EVAPCMPL"] = "EVAPCMPL"
-SAEJ1979.HCATCMPL = OBDCommand("HCATCMPL", "Heated catalyst monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 30, 1, 1, 0, False), header="7E0")
+SAEJ1979.HCATCMPL = OBDCommand("HCATCMPL", "Heated catalyst monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 30, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["HCATCMPL"] = "HCATCMPL"
-SAEJ1979.CAT_CMPL = OBDCommand("CAT_CMPL", "Catalyst monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 31, 1, 1, 0, False), header="7E0")
+SAEJ1979.CAT_CMPL = OBDCommand("CAT_CMPL", "Catalyst monitoring completed | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 31, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["CAT_CMPL"] = "CAT_CMPL"
-SAEJ1979.CIM_SUP_FLAG = OBDCommand("CIM_SUP_FLAG", "Compression ignition monitoring supported | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 12, 1, 1, 0, False), header="7E0")
+SAEJ1979.CIM_SUP_FLAG = OBDCommand("CIM_SUP_FLAG", "Compression ignition monitoring supported | hdr=7E0", bytes.fromhex("0141"), 4, _make_decoder(bytes.fromhex("4141"), 12, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["CIM_SUP_FLAG"] = "CIM_SUP_FLAG"
-SAEJ1979.VPWR = OBDCommand("VPWR", "Control module voltage | hdr=7E0", bytes.fromhex("0142"), 2, _make_decoder(bytes.fromhex("4142"), 0, 16, 1, 0, False), header="7E0")
+SAEJ1979.VPWR = OBDCommand("VPWR", "Control module voltage | hdr=7E0", bytes.fromhex("0142"), 2, _make_decoder(bytes.fromhex("4142"), 0, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["VPWR"] = "VPWR"
-SAEJ1979.LOAD_ABS = OBDCommand("LOAD_ABS", "Absolute load value | hdr=7E0", bytes.fromhex("0143"), 2, _make_decoder(bytes.fromhex("4143"), 0, 16, 100, 0, False), header="7E0")
+SAEJ1979.LOAD_ABS = OBDCommand("LOAD_ABS", "Absolute load value | hdr=7E0", bytes.fromhex("0143"), 2, _make_decoder(bytes.fromhex("4143"), 0, 16, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["LOAD_ABS"] = "LOAD_ABS"
-SAEJ1979.EQ_RAT = OBDCommand("EQ_RAT", "Commanded equivalence ratio | hdr=7E0", bytes.fromhex("0144"), 2, _make_decoder(bytes.fromhex("4144"), 0, 16, 2, 0, False), header="7E0")
+SAEJ1979.EQ_RAT = OBDCommand("EQ_RAT", "Commanded equivalence ratio | hdr=7E0", bytes.fromhex("0144"), 2, _make_decoder(bytes.fromhex("4144"), 0, 16, 2, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EQ_RAT"] = "EQ_RAT"
-SAEJ1979.TP_R = OBDCommand("TP_R", "Relative throttle position | hdr=7E0", bytes.fromhex("0145"), 1, _make_decoder(bytes.fromhex("4145"), 0, 8, 100, 0, False), header="7E0")
+SAEJ1979.TP_R = OBDCommand("TP_R", "Relative throttle position | hdr=7E0", bytes.fromhex("0145"), 1, _make_decoder(bytes.fromhex("4145"), 0, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["TP_R"] = "TP_R"
-SAEJ1979.AAT = OBDCommand("AAT", "Ambient air temperature | hdr=7E0", bytes.fromhex("0146"), 1, _make_decoder(bytes.fromhex("4146"), 0, 8, 1, -40, False), header="7E0")
+SAEJ1979.AAT = OBDCommand("AAT", "Ambient air temperature | hdr=7E0", bytes.fromhex("0146"), 1, _make_decoder(bytes.fromhex("4146"), 0, 8, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["AAT"] = "AAT"
-SAEJ1979.TP_B = OBDCommand("TP_B", "Absolute throttle position B | hdr=7E0", bytes.fromhex("0147"), 1, _make_decoder(bytes.fromhex("4147"), 0, 8, 100, 0, False), header="7E0")
+SAEJ1979.TP_B = OBDCommand("TP_B", "Absolute throttle position B | hdr=7E0", bytes.fromhex("0147"), 1, _make_decoder(bytes.fromhex("4147"), 0, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["TP_B"] = "TP_B"
-SAEJ1979.TP_C = OBDCommand("TP_C", "Absolute throttle position C | hdr=7E0", bytes.fromhex("0148"), 1, _make_decoder(bytes.fromhex("4148"), 0, 8, 100, 0, False), header="7E0")
+SAEJ1979.TP_C = OBDCommand("TP_C", "Absolute throttle position C | hdr=7E0", bytes.fromhex("0148"), 1, _make_decoder(bytes.fromhex("4148"), 0, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["TP_C"] = "TP_C"
-SAEJ1979.APP_D = OBDCommand("APP_D", "Accelerator pedal position D | hdr=7E0", bytes.fromhex("0149"), 1, _make_decoder(bytes.fromhex("4149"), 0, 8, 100, 0, False), header="7E0")
+SAEJ1979.APP_D = OBDCommand("APP_D", "Accelerator pedal position D | hdr=7E0", bytes.fromhex("0149"), 1, _make_decoder(bytes.fromhex("4149"), 0, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["APP_D"] = "APP_D"
-SAEJ1979.APP_E = OBDCommand("APP_E", "Accelerator pedal position E | hdr=7E0", bytes.fromhex("014A"), 1, _make_decoder(bytes.fromhex("414A"), 0, 8, 100, 0, False), header="7E0")
+SAEJ1979.APP_E = OBDCommand("APP_E", "Accelerator pedal position E | hdr=7E0", bytes.fromhex("014A"), 1, _make_decoder(bytes.fromhex("414A"), 0, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["APP_E"] = "APP_E"
-SAEJ1979.APP_F = OBDCommand("APP_F", "Accelerator pedal position F | hdr=7E0", bytes.fromhex("014B"), 1, _make_decoder(bytes.fromhex("414B"), 0, 8, 100, 0, False), header="7E0")
+SAEJ1979.APP_F = OBDCommand("APP_F", "Accelerator pedal position F | hdr=7E0", bytes.fromhex("014B"), 1, _make_decoder(bytes.fromhex("414B"), 0, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["APP_F"] = "APP_F"
-SAEJ1979.TAC_PCT = OBDCommand("TAC_PCT", "Commanded throttle actuator control | hdr=7E0", bytes.fromhex("014C"), 1, _make_decoder(bytes.fromhex("414C"), 0, 8, 100, 0, False), header="7E0")
+SAEJ1979.TAC_PCT = OBDCommand("TAC_PCT", "Commanded throttle actuator control | hdr=7E0", bytes.fromhex("014C"), 1, _make_decoder(bytes.fromhex("414C"), 0, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["TAC_PCT"] = "TAC_PCT"
-SAEJ1979.MIL_TIME = OBDCommand("MIL_TIME", "Time run by the engine while MIL was activated | hdr=7E0", bytes.fromhex("014D"), 2, _make_decoder(bytes.fromhex("414D"), 0, 16, 1, 0, False), header="7E0")
+SAEJ1979.MIL_TIME = OBDCommand("MIL_TIME", "Time run by the engine while MIL was activated | hdr=7E0", bytes.fromhex("014D"), 2, _make_decoder(bytes.fromhex("414D"), 0, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["MIL_TIME"] = "MIL_TIME"
-SAEJ1979.CLR_TIME = OBDCommand("CLR_TIME", "Engine run time since diagnostic trouble codes cleared | hdr=7E0", bytes.fromhex("014E"), 2, _make_decoder(bytes.fromhex("414E"), 0, 16, 1, 0, False), header="7E0")
+SAEJ1979.CLR_TIME = OBDCommand("CLR_TIME", "Engine run time since diagnostic trouble codes cleared | hdr=7E0", bytes.fromhex("014E"), 2, _make_decoder(bytes.fromhex("414E"), 0, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["CLR_TIME"] = "CLR_TIME"
-SAEJ1979.MAX_EQ_RAT = OBDCommand("MAX_EQ_RAT", "Maximum value for equivalence ratio | hdr=7E0", bytes.fromhex("014F"), 4, _make_decoder(bytes.fromhex("414F"), 0, 8, 1, 0, False), header="7E0")
+SAEJ1979.MAX_EQ_RAT = OBDCommand("MAX_EQ_RAT", "Maximum value for equivalence ratio | hdr=7E0", bytes.fromhex("014F"), 4, _make_decoder(bytes.fromhex("414F"), 0, 8, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["MAX_EQ_RAT"] = "MAX_EQ_RAT"
-SAEJ1979.MAX_O2_VOLT = OBDCommand("MAX_O2_VOLT", "Maximum value for oxygen sensor voltage | hdr=7E0", bytes.fromhex("014F"), 4, _make_decoder(bytes.fromhex("414F"), 8, 8, 1, 0, False), header="7E0")
+SAEJ1979.MAX_O2_VOLT = OBDCommand("MAX_O2_VOLT", "Maximum value for oxygen sensor voltage | hdr=7E0", bytes.fromhex("014F"), 4, _make_decoder(bytes.fromhex("414F"), 8, 8, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["MAX_O2_VOLT"] = "MAX_O2_VOLT"
-SAEJ1979.MAX_O2_CURR = OBDCommand("MAX_O2_CURR", "Maximum value for oxygen sensor current | hdr=7E0", bytes.fromhex("014F"), 4, _make_decoder(bytes.fromhex("414F"), 16, 8, 1, 0, False), header="7E0")
+SAEJ1979.MAX_O2_CURR = OBDCommand("MAX_O2_CURR", "Maximum value for oxygen sensor current | hdr=7E0", bytes.fromhex("014F"), 4, _make_decoder(bytes.fromhex("414F"), 16, 8, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["MAX_O2_CURR"] = "MAX_O2_CURR"
-SAEJ1979.MAX_MAP = OBDCommand("MAX_MAP", "Maximum value for intake manifold absolute pressure (MAP) | hdr=7E0", bytes.fromhex("014F"), 4, _make_decoder(bytes.fromhex("414F"), 24, 8, 10, 0, False), header="7E0")
+SAEJ1979.MAX_MAP = OBDCommand("MAX_MAP", "Maximum value for intake manifold absolute pressure (MAP) | hdr=7E0", bytes.fromhex("014F"), 4, _make_decoder(bytes.fromhex("414F"), 24, 8, 10, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["MAX_MAP"] = "MAX_MAP"
-SAEJ1979.MAX_MAF = OBDCommand("MAX_MAF", "Maximum value for air flow rate from mass air flow sensor | hdr=7E0", bytes.fromhex("0150"), 1, _make_decoder(bytes.fromhex("4150"), 0, 8, 10, 0, False), header="7E0")
+SAEJ1979.MAX_MAF = OBDCommand("MAX_MAF", "Maximum value for air flow rate from mass air flow sensor | hdr=7E0", bytes.fromhex("0150"), 1, _make_decoder(bytes.fromhex("4150"), 0, 8, 10, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["MAX_MAF"] = "MAX_MAF"
-SAEJ1979.FUEL_TYP = OBDCommand("FUEL_TYP", "Type of fuel currently being used by the vehicle | hdr=7E0", bytes.fromhex("0151"), 1, _make_decoder(bytes.fromhex("4151"), 0, 8, 1, 0, False), header="7E0")
+SAEJ1979.FUEL_TYP = OBDCommand("FUEL_TYP", "Type of fuel currently being used by the vehicle | hdr=7E0", bytes.fromhex("0151"), 1, _make_decoder(bytes.fromhex("4151"), 0, 8, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUEL_TYP"] = "FUEL_TYP"
-SAEJ1979.ALCH_PCT = OBDCommand("ALCH_PCT", "Alcohol fuel percentage | hdr=7E0", bytes.fromhex("0152"), 1, _make_decoder(bytes.fromhex("4152"), 0, 8, 100, 0, False), header="7E0")
+SAEJ1979.ALCH_PCT = OBDCommand("ALCH_PCT", "Alcohol fuel percentage | hdr=7E0", bytes.fromhex("0152"), 1, _make_decoder(bytes.fromhex("4152"), 0, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["ALCH_PCT"] = "ALCH_PCT"
-SAEJ1979.EVAP_VPA = OBDCommand("EVAP_VPA", "Absolute evap system vapor pressure | hdr=7E0", bytes.fromhex("0153"), 2, _make_decoder(bytes.fromhex("4153"), 0, 16, 1, 0, False), header="7E0")
+SAEJ1979.EVAP_VPA = OBDCommand("EVAP_VPA", "Absolute evap system vapor pressure | hdr=7E0", bytes.fromhex("0153"), 2, _make_decoder(bytes.fromhex("4153"), 0, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EVAP_VPA"] = "EVAP_VPA"
-SAEJ1979.EVAP_VP_WIDE = OBDCommand("EVAP_VP_WIDE", "Evap system vapor pressure (wide) | hdr=7E0", bytes.fromhex("0154"), 2, _make_decoder(bytes.fromhex("4154"), 0, 16, 1, 0, False), header="7E0")
+SAEJ1979.EVAP_VP_WIDE = OBDCommand("EVAP_VP_WIDE", "Evap system vapor pressure (wide) | hdr=7E0", bytes.fromhex("0154"), 2, _make_decoder(bytes.fromhex("4154"), 0, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EVAP_VP_WIDE"] = "EVAP_VP_WIDE"
-SAEJ1979.STSO2FT1 = OBDCommand("STSO2FT1", "Short term secondary O2 sensor fuel trim (bank 1) | hdr=7E0", bytes.fromhex("0155"), 1, _make_decoder(bytes.fromhex("4155"), 0, 8, 100, -100, False), header="7E0")
+SAEJ1979.STSO2FT1 = OBDCommand("STSO2FT1", "Short term secondary O2 sensor fuel trim (bank 1) | hdr=7E0", bytes.fromhex("0155"), 1, _make_decoder(bytes.fromhex("4155"), 0, 8, 100, -100, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["STSO2FT1"] = "STSO2FT1"
-SAEJ1979.LGSO2FT1 = OBDCommand("LGSO2FT1", "Long term secondary O2 sensor fuel trim (bank 1) | hdr=7E0", bytes.fromhex("0156"), 1, _make_decoder(bytes.fromhex("4156"), 0, 8, 100, -100, False), header="7E0")
+SAEJ1979.LGSO2FT1 = OBDCommand("LGSO2FT1", "Long term secondary O2 sensor fuel trim (bank 1) | hdr=7E0", bytes.fromhex("0156"), 1, _make_decoder(bytes.fromhex("4156"), 0, 8, 100, -100, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["LGSO2FT1"] = "LGSO2FT1"
-SAEJ1979.STSO2FT2 = OBDCommand("STSO2FT2", "Short term secondary O2 sensor fuel trim (bank 2) | hdr=7E0", bytes.fromhex("0157"), 1, _make_decoder(bytes.fromhex("4157"), 0, 8, 100, -100, False), header="7E0")
+SAEJ1979.STSO2FT2 = OBDCommand("STSO2FT2", "Short term secondary O2 sensor fuel trim (bank 2) | hdr=7E0", bytes.fromhex("0157"), 1, _make_decoder(bytes.fromhex("4157"), 0, 8, 100, -100, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["STSO2FT2"] = "STSO2FT2"
-SAEJ1979.LGSO2FT2 = OBDCommand("LGSO2FT2", "Long term secondary O2 sensor fuel trim (bank 2) | hdr=7E0", bytes.fromhex("0158"), 1, _make_decoder(bytes.fromhex("4158"), 0, 8, 100, -100, False), header="7E0")
+SAEJ1979.LGSO2FT2 = OBDCommand("LGSO2FT2", "Long term secondary O2 sensor fuel trim (bank 2) | hdr=7E0", bytes.fromhex("0158"), 1, _make_decoder(bytes.fromhex("4158"), 0, 8, 100, -100, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["LGSO2FT2"] = "LGSO2FT2"
-SAEJ1979.FRP_ABS = OBDCommand("FRP_ABS", "Fuel rail pressure (absolute) | hdr=7E0", bytes.fromhex("0159"), 2, _make_decoder(bytes.fromhex("4159"), 0, 16, 10, 0, False), header="7E0")
+SAEJ1979.FRP_ABS = OBDCommand("FRP_ABS", "Fuel rail pressure (absolute) | hdr=7E0", bytes.fromhex("0159"), 2, _make_decoder(bytes.fromhex("4159"), 0, 16, 10, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FRP_ABS"] = "FRP_ABS"
-SAEJ1979.APP_R = OBDCommand("APP_R", "Accelerator pedal position (relative) | hdr=7E0", bytes.fromhex("015A"), 1, _make_decoder(bytes.fromhex("415A"), 0, 8, 100, 0, False), header="7E0")
+SAEJ1979.APP_R = OBDCommand("APP_R", "Accelerator pedal position (relative) | hdr=7E0", bytes.fromhex("015A"), 1, _make_decoder(bytes.fromhex("415A"), 0, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["APP_R"] = "APP_R"
-SAEJ1979.BAT_SOC = OBDCommand("BAT_SOC", "Hybrid battery pack remaining charge | hdr=7E0", bytes.fromhex("015B"), 1, _make_decoder(bytes.fromhex("415B"), 0, 8, 100, 0, False), header="7E0")
+SAEJ1979.BAT_SOC = OBDCommand("BAT_SOC", "Hybrid battery pack remaining charge | hdr=7E0", bytes.fromhex("015B"), 1, _make_decoder(bytes.fromhex("415B"), 0, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["BAT_SOC"] = "BAT_SOC"
-SAEJ1979.EOT = OBDCommand("EOT", "Engine oil temperature | hdr=7E0", bytes.fromhex("015C"), 1, _make_decoder(bytes.fromhex("415C"), 0, 8, 1, -40, False), header="7E0")
+SAEJ1979.EOT = OBDCommand("EOT", "Engine oil temperature | hdr=7E0", bytes.fromhex("015C"), 1, _make_decoder(bytes.fromhex("415C"), 0, 8, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EOT"] = "EOT"
-SAEJ1979.FUEL_TIMING = OBDCommand("FUEL_TIMING", "Fuel injection timing | hdr=7E0", bytes.fromhex("015D"), 2, _make_decoder(bytes.fromhex("415D"), 0, 16, 1, -38665, False), header="7E0")
+SAEJ1979.FUEL_TIMING = OBDCommand("FUEL_TIMING", "Fuel injection timing | hdr=7E0", bytes.fromhex("015D"), 2, _make_decoder(bytes.fromhex("415D"), 0, 16, 1, -38665, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUEL_TIMING"] = "FUEL_TIMING"
-SAEJ1979.FUEL_RATE = OBDCommand("FUEL_RATE", "Engine fuel rate | hdr=7E0", bytes.fromhex("015E"), 2, _make_decoder(bytes.fromhex("415E"), 0, 16, 1, 0, False), header="7E0")
+SAEJ1979.FUEL_RATE = OBDCommand("FUEL_RATE", "Engine fuel rate | hdr=7E0", bytes.fromhex("015E"), 2, _make_decoder(bytes.fromhex("415E"), 0, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUEL_RATE"] = "FUEL_RATE"
-SAEJ1979.EMIS_SUP = OBDCommand("EMIS_SUP", "Emission requirements to which vehicle is designed | hdr=7E0", bytes.fromhex("015F"), 1, _make_decoder(bytes.fromhex("415F"), 0, 8, 1, 0, False), header="7E0")
+SAEJ1979.EMIS_SUP = OBDCommand("EMIS_SUP", "Emission requirements to which vehicle is designed | hdr=7E0", bytes.fromhex("015F"), 1, _make_decoder(bytes.fromhex("415F"), 0, 8, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EMIS_SUP"] = "EMIS_SUP"
-SAEJ1979.TQ_DD = OBDCommand("TQ_DD", "Driver's demand engine torque | hdr=7E0", bytes.fromhex("0161"), 1, _make_decoder(bytes.fromhex("4161"), 0, 8, 1, -125, False), header="7E0")
+SAEJ1979.TQ_DD = OBDCommand("TQ_DD", "Driver's demand engine torque | hdr=7E0", bytes.fromhex("0161"), 1, _make_decoder(bytes.fromhex("4161"), 0, 8, 1, -125, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["TQ_DD"] = "TQ_DD"
-SAEJ1979.TQ_ACT = OBDCommand("TQ_ACT", "Actual engine torque | hdr=7E0", bytes.fromhex("0162"), 1, _make_decoder(bytes.fromhex("4162"), 0, 8, 1, -125, False), header="7E0")
+SAEJ1979.TQ_ACT = OBDCommand("TQ_ACT", "Actual engine torque | hdr=7E0", bytes.fromhex("0162"), 1, _make_decoder(bytes.fromhex("4162"), 0, 8, 1, -125, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["TQ_ACT"] = "TQ_ACT"
-SAEJ1979.TQ_REF = OBDCommand("TQ_REF", "Engine reference torque | hdr=7E0", bytes.fromhex("0163"), 2, _make_decoder(bytes.fromhex("4163"), 0, 16, 1, 0, False), header="7E0")
+SAEJ1979.TQ_REF = OBDCommand("TQ_REF", "Engine reference torque | hdr=7E0", bytes.fromhex("0163"), 2, _make_decoder(bytes.fromhex("4163"), 0, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["TQ_REF"] = "TQ_REF"
-SAEJ1979.TQ_MAX1 = OBDCommand("TQ_MAX1", "Engine Percent Torque At Idle, Point 1 | hdr=7E0", bytes.fromhex("0164"), 5, _make_decoder(bytes.fromhex("4164"), 0, 8, 1, -125, False), header="7E0")
+SAEJ1979.TQ_MAX1 = OBDCommand("TQ_MAX1", "Engine Percent Torque At Idle, Point 1 | hdr=7E0", bytes.fromhex("0164"), 5, _make_decoder(bytes.fromhex("4164"), 0, 8, 1, -125, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["TQ_MAX1"] = "TQ_MAX1"
-SAEJ1979.TQ_MAX2 = OBDCommand("TQ_MAX2", "Engine Percent Torque At Point 2 | hdr=7E0", bytes.fromhex("0164"), 5, _make_decoder(bytes.fromhex("4164"), 8, 8, 1, -125, False), header="7E0")
+SAEJ1979.TQ_MAX2 = OBDCommand("TQ_MAX2", "Engine Percent Torque At Point 2 | hdr=7E0", bytes.fromhex("0164"), 5, _make_decoder(bytes.fromhex("4164"), 8, 8, 1, -125, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["TQ_MAX2"] = "TQ_MAX2"
-SAEJ1979.TQ_MAX3 = OBDCommand("TQ_MAX3", "Engine Percent Torque At Point 3 | hdr=7E0", bytes.fromhex("0164"), 5, _make_decoder(bytes.fromhex("4164"), 16, 8, 1, -125, False), header="7E0")
+SAEJ1979.TQ_MAX3 = OBDCommand("TQ_MAX3", "Engine Percent Torque At Point 3 | hdr=7E0", bytes.fromhex("0164"), 5, _make_decoder(bytes.fromhex("4164"), 16, 8, 1, -125, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["TQ_MAX3"] = "TQ_MAX3"
-SAEJ1979.TQ_MAX4 = OBDCommand("TQ_MAX4", "Engine Percent Torque At Point 4 | hdr=7E0", bytes.fromhex("0164"), 5, _make_decoder(bytes.fromhex("4164"), 24, 8, 1, -125, False), header="7E0")
+SAEJ1979.TQ_MAX4 = OBDCommand("TQ_MAX4", "Engine Percent Torque At Point 4 | hdr=7E0", bytes.fromhex("0164"), 5, _make_decoder(bytes.fromhex("4164"), 24, 8, 1, -125, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["TQ_MAX4"] = "TQ_MAX4"
-SAEJ1979.TQ_MAX5 = OBDCommand("TQ_MAX5", "Engine Percent Torque At Point 5 | hdr=7E0", bytes.fromhex("0164"), 5, _make_decoder(bytes.fromhex("4164"), 32, 8, 1, -125, False), header="7E0")
+SAEJ1979.TQ_MAX5 = OBDCommand("TQ_MAX5", "Engine Percent Torque At Point 5 | hdr=7E0", bytes.fromhex("0164"), 5, _make_decoder(bytes.fromhex("4164"), 32, 8, 1, -125, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["TQ_MAX5"] = "TQ_MAX5"
-SAEJ1979.GEAR_SUP = OBDCommand("GEAR_SUP", "Recommended gear supported | hdr=7E0", bytes.fromhex("0165"), 2, _make_decoder(bytes.fromhex("4165"), 3, 1, 1, 0, False), header="7E0")
+SAEJ1979.GEAR_SUP = OBDCommand("GEAR_SUP", "Recommended gear supported | hdr=7E0", bytes.fromhex("0165"), 2, _make_decoder(bytes.fromhex("4165"), 3, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["GEAR_SUP"] = "GEAR_SUP"
-SAEJ1979.GPL_SUP = OBDCommand("GPL_SUP", "Glow plug lamp status supported | hdr=7E0", bytes.fromhex("0165"), 2, _make_decoder(bytes.fromhex("4165"), 4, 1, 1, 0, False), header="7E0")
+SAEJ1979.GPL_SUP = OBDCommand("GPL_SUP", "Glow plug lamp status supported | hdr=7E0", bytes.fromhex("0165"), 2, _make_decoder(bytes.fromhex("4165"), 4, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["GPL_SUP"] = "GPL_SUP"
-SAEJ1979.N_G_SUP = OBDCommand("N_G_SUP", "Manual trans neutral gear status supported | hdr=7E0", bytes.fromhex("0165"), 2, _make_decoder(bytes.fromhex("4165"), 5, 1, 1, 0, False), header="7E0")
+SAEJ1979.N_G_SUP = OBDCommand("N_G_SUP", "Manual trans neutral gear status supported | hdr=7E0", bytes.fromhex("0165"), 2, _make_decoder(bytes.fromhex("4165"), 5, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["N_G_SUP"] = "N/G_SUP"
-SAEJ1979.N_D_SUP = OBDCommand("N_D_SUP", "Auto trans neutral drive status supported | hdr=7E0", bytes.fromhex("0165"), 2, _make_decoder(bytes.fromhex("4165"), 6, 1, 1, 0, False), header="7E0")
+SAEJ1979.N_D_SUP = OBDCommand("N_D_SUP", "Auto trans neutral drive status supported | hdr=7E0", bytes.fromhex("0165"), 2, _make_decoder(bytes.fromhex("4165"), 6, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["N_D_SUP"] = "N/D_SUP"
-SAEJ1979.PTO_SUP = OBDCommand("PTO_SUP", "Power Take Off (PTO) output status supported | hdr=7E0", bytes.fromhex("0165"), 2, _make_decoder(bytes.fromhex("4165"), 7, 1, 1, 0, False), header="7E0")
+SAEJ1979.PTO_SUP = OBDCommand("PTO_SUP", "Power Take Off (PTO) output status supported | hdr=7E0", bytes.fromhex("0165"), 2, _make_decoder(bytes.fromhex("4165"), 7, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["PTO_SUP"] = "PTO_SUP"
-SAEJ1979.GEAR_RCMD = OBDCommand("GEAR_RCMD", "Recommended gear | hdr=7E0", bytes.fromhex("0165"), 2, _make_decoder(bytes.fromhex("4165"), 8, 4, 1, 0, False), header="7E0")
+SAEJ1979.GEAR_RCMD = OBDCommand("GEAR_RCMD", "Recommended gear | hdr=7E0", bytes.fromhex("0165"), 2, _make_decoder(bytes.fromhex("4165"), 8, 4, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["GEAR_RCMD"] = "GEAR_RCMD"
-SAEJ1979.GPL_STAT = OBDCommand("GPL_STAT", "Glow plug lamp status | hdr=7E0", bytes.fromhex("0165"), 2, _make_decoder(bytes.fromhex("4165"), 12, 1, 1, 0, False), header="7E0")
+SAEJ1979.GPL_STAT = OBDCommand("GPL_STAT", "Glow plug lamp status | hdr=7E0", bytes.fromhex("0165"), 2, _make_decoder(bytes.fromhex("4165"), 12, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["GPL_STAT"] = "GPL_STAT"
-SAEJ1979.N_G_STAT = OBDCommand("N_G_STAT", "Manual Trans Neutral Gear Status | hdr=7E0", bytes.fromhex("0165"), 2, _make_decoder(bytes.fromhex("4165"), 13, 1, 1, 0, False), header="7E0")
+SAEJ1979.N_G_STAT = OBDCommand("N_G_STAT", "Manual Trans Neutral Gear Status | hdr=7E0", bytes.fromhex("0165"), 2, _make_decoder(bytes.fromhex("4165"), 13, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["N_G_STAT"] = "N/G_STAT"
-SAEJ1979.N_D_STAT = OBDCommand("N_D_STAT", "Auto Trans Neutral Drive Status | hdr=7E0", bytes.fromhex("0165"), 2, _make_decoder(bytes.fromhex("4165"), 14, 1, 1, 0, False), header="7E0")
+SAEJ1979.N_D_STAT = OBDCommand("N_D_STAT", "Auto Trans Neutral Drive Status | hdr=7E0", bytes.fromhex("0165"), 2, _make_decoder(bytes.fromhex("4165"), 14, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["N_D_STAT"] = "N/D_STAT"
-SAEJ1979.PTO_STAT_AUX = OBDCommand("PTO_STAT_AUX", "Power Take Off (PTO) Output Status | hdr=7E0", bytes.fromhex("0165"), 2, _make_decoder(bytes.fromhex("4165"), 15, 1, 1, 0, False), header="7E0")
+SAEJ1979.PTO_STAT_AUX = OBDCommand("PTO_STAT_AUX", "Power Take Off (PTO) Output Status | hdr=7E0", bytes.fromhex("0165"), 2, _make_decoder(bytes.fromhex("4165"), 15, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["PTO_STAT_AUX"] = "PTO_STAT_AUX"
-SAEJ1979.MAFB_SUP = OBDCommand("MAFB_SUP", "MAF Sensor B supported | hdr=7E0", bytes.fromhex("0166"), 5, _make_decoder(bytes.fromhex("4166"), 6, 1, 1, 0, False), header="7E0")
+SAEJ1979.MAFB_SUP = OBDCommand("MAFB_SUP", "MAF Sensor B supported | hdr=7E0", bytes.fromhex("0166"), 5, _make_decoder(bytes.fromhex("4166"), 6, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["MAFB_SUP"] = "MAFB_SUP"
-SAEJ1979.MAFA_SUP = OBDCommand("MAFA_SUP", "MAF Sensor A supported | hdr=7E0", bytes.fromhex("0166"), 5, _make_decoder(bytes.fromhex("4166"), 7, 1, 1, 0, False), header="7E0")
+SAEJ1979.MAFA_SUP = OBDCommand("MAFA_SUP", "MAF Sensor A supported | hdr=7E0", bytes.fromhex("0166"), 5, _make_decoder(bytes.fromhex("4166"), 7, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["MAFA_SUP"] = "MAFA_SUP"
-SAEJ1979.MAFA = OBDCommand("MAFA", "Mass Air Flow Sensor A | hdr=7E0", bytes.fromhex("0166"), 5, _make_decoder(bytes.fromhex("4166"), 8, 16, 1, 0, False), header="7E0")
+SAEJ1979.MAFA = OBDCommand("MAFA", "Mass Air Flow Sensor A | hdr=7E0", bytes.fromhex("0166"), 5, _make_decoder(bytes.fromhex("4166"), 8, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["MAFA"] = "MAFA"
-SAEJ1979.MAFB = OBDCommand("MAFB", "Mass Air Flow Sensor B | hdr=7E0", bytes.fromhex("0166"), 5, _make_decoder(bytes.fromhex("4166"), 24, 16, 1, 0, False), header="7E0")
+SAEJ1979.MAFB = OBDCommand("MAFB", "Mass Air Flow Sensor B | hdr=7E0", bytes.fromhex("0166"), 5, _make_decoder(bytes.fromhex("4166"), 24, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["MAFB"] = "MAFB"
-SAEJ1979.ECT_2_SUP = OBDCommand("ECT_2_SUP", "Is ECT sensor 2 supported? | hdr=7E0", bytes.fromhex("0167"), 3, _make_decoder(bytes.fromhex("4167"), 6, 1, 1, 0, False), header="7E0")
+SAEJ1979.ECT_2_SUP = OBDCommand("ECT_2_SUP", "Is ECT sensor 2 supported? | hdr=7E0", bytes.fromhex("0167"), 3, _make_decoder(bytes.fromhex("4167"), 6, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["ECT_2_SUP"] = "ECT_2_SUP"
-SAEJ1979.ECT_1_SUP = OBDCommand("ECT_1_SUP", "Is ECT sensor 1 supported? | hdr=7E0", bytes.fromhex("0167"), 3, _make_decoder(bytes.fromhex("4167"), 7, 1, 1, 0, False), header="7E0")
+SAEJ1979.ECT_1_SUP = OBDCommand("ECT_1_SUP", "Is ECT sensor 1 supported? | hdr=7E0", bytes.fromhex("0167"), 3, _make_decoder(bytes.fromhex("4167"), 7, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["ECT_1_SUP"] = "ECT_1_SUP"
-SAEJ1979.ECT_1 = OBDCommand("ECT_1", "Engine coolant temperature 1 | hdr=7E0", bytes.fromhex("0167"), 3, _make_decoder(bytes.fromhex("4167"), 8, 8, 1, -40, False), header="7E0")
+SAEJ1979.ECT_1 = OBDCommand("ECT_1", "Engine coolant temperature 1 | hdr=7E0", bytes.fromhex("0167"), 3, _make_decoder(bytes.fromhex("4167"), 8, 8, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["ECT_1"] = "ECT_1"
-SAEJ1979.ECT_2 = OBDCommand("ECT_2", "Engine coolant temperature 2 | hdr=7E0", bytes.fromhex("0167"), 3, _make_decoder(bytes.fromhex("4167"), 16, 8, 1, -40, False), header="7E0")
+SAEJ1979.ECT_2 = OBDCommand("ECT_2", "Engine coolant temperature 2 | hdr=7E0", bytes.fromhex("0167"), 3, _make_decoder(bytes.fromhex("4167"), 16, 8, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["ECT_2"] = "ECT_2"
-SAEJ1979.IAT_23_SUP = OBDCommand("IAT_23_SUP", "IAT Bank 2, Sensor 3 supported | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 2, 1, 1, 0, False), header="7E0")
+SAEJ1979.IAT_23_SUP = OBDCommand("IAT_23_SUP", "IAT Bank 2, Sensor 3 supported | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 2, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["IAT_23_SUP"] = "IAT_23_SUP"
-SAEJ1979.IAT_22_SUP = OBDCommand("IAT_22_SUP", "IAT Bank 2, Sensor 2 supported | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 3, 1, 1, 0, False), header="7E0")
+SAEJ1979.IAT_22_SUP = OBDCommand("IAT_22_SUP", "IAT Bank 2, Sensor 2 supported | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 3, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["IAT_22_SUP"] = "IAT_22_SUP"
-SAEJ1979.IAT_21_SUP = OBDCommand("IAT_21_SUP", "IAT Bank 1, Sensor 1 supported | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 4, 1, 1, 0, False), header="7E0")
+SAEJ1979.IAT_21_SUP = OBDCommand("IAT_21_SUP", "IAT Bank 1, Sensor 1 supported | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 4, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["IAT_21_SUP"] = "IAT_21_SUP"
-SAEJ1979.IAT_13_SUP = OBDCommand("IAT_13_SUP", "IAT Bank 1, Sensor 3 supported | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 5, 1, 1, 0, False), header="7E0")
+SAEJ1979.IAT_13_SUP = OBDCommand("IAT_13_SUP", "IAT Bank 1, Sensor 3 supported | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 5, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["IAT_13_SUP"] = "IAT_13_SUP"
-SAEJ1979.IAT_12_SUP = OBDCommand("IAT_12_SUP", "IAT Bank 1, Sensor 2 supported | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 6, 1, 1, 0, False), header="7E0")
+SAEJ1979.IAT_12_SUP = OBDCommand("IAT_12_SUP", "IAT Bank 1, Sensor 2 supported | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 6, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["IAT_12_SUP"] = "IAT_12_SUP"
-SAEJ1979.IAT_11_SUP = OBDCommand("IAT_11_SUP", "IAT Bank 1, Sensor 1 supported | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 7, 1, 1, 0, False), header="7E0")
+SAEJ1979.IAT_11_SUP = OBDCommand("IAT_11_SUP", "IAT Bank 1, Sensor 1 supported | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 7, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["IAT_11_SUP"] = "IAT_11_SUP"
-SAEJ1979.IAT_11 = OBDCommand("IAT_11", "Intake air temperature, bank 1, sensor 1 | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 8, 8, 1, -40, False), header="7E0")
+SAEJ1979.IAT_11 = OBDCommand("IAT_11", "Intake air temperature, bank 1, sensor 1 | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 8, 8, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["IAT_11"] = "IAT_11"
-SAEJ1979.IAT_12 = OBDCommand("IAT_12", "Intake air temperature, bank 1, sensor 2 | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 16, 8, 1, -40, False), header="7E0")
+SAEJ1979.IAT_12 = OBDCommand("IAT_12", "Intake air temperature, bank 1, sensor 2 | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 16, 8, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["IAT_12"] = "IAT_12"
-SAEJ1979.IAT_13 = OBDCommand("IAT_13", "Intake air temperature, bank 1, sensor 3 | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 24, 8, 1, -40, False), header="7E0")
+SAEJ1979.IAT_13 = OBDCommand("IAT_13", "Intake air temperature, bank 1, sensor 3 | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 24, 8, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["IAT_13"] = "IAT_13"
-SAEJ1979.IAT_21 = OBDCommand("IAT_21", "Intake air temperature, bank 2, sensor 1 | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 32, 8, 1, -40, False), header="7E0")
+SAEJ1979.IAT_21 = OBDCommand("IAT_21", "Intake air temperature, bank 2, sensor 1 | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 32, 8, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["IAT_21"] = "IAT_21"
-SAEJ1979.IAT_22 = OBDCommand("IAT_22", "Intake air temperature, bank 2, sensor 2 | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 40, 8, 1, -40, False), header="7E0")
+SAEJ1979.IAT_22 = OBDCommand("IAT_22", "Intake air temperature, bank 2, sensor 2 | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 40, 8, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["IAT_22"] = "IAT_22"
-SAEJ1979.IAT_23 = OBDCommand("IAT_23", "Intake air temperature, bank 2, sensor 3 | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 48, 8, 1, -40, False), header="7E0")
+SAEJ1979.IAT_23 = OBDCommand("IAT_23", "Intake air temperature, bank 2, sensor 3 | hdr=7E0", bytes.fromhex("0168"), 7, _make_decoder(bytes.fromhex("4168"), 48, 8, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["IAT_23"] = "IAT_23"
-SAEJ1979.EGR_B_ERR_SUP = OBDCommand("EGR_B_ERR_SUP", "EGR A error supported | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 2, 1, 1, 0, False), header="7E0")
+SAEJ1979.EGR_B_ERR_SUP = OBDCommand("EGR_B_ERR_SUP", "EGR A error supported | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 2, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGR_B_ERR_SUP"] = "EGR_B_ERR_SUP"
-SAEJ1979.EGR_B_ACT_SUP = OBDCommand("EGR_B_ACT_SUP", "Actual EGR A supported | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 3, 1, 1, 0, False), header="7E0")
+SAEJ1979.EGR_B_ACT_SUP = OBDCommand("EGR_B_ACT_SUP", "Actual EGR A supported | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 3, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGR_B_ACT_SUP"] = "EGR_B_ACT_SUP"
-SAEJ1979.EGR_B_CMD_SUP = OBDCommand("EGR_B_CMD_SUP", "Commanded EGR A supported | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 4, 1, 1, 0, False), header="7E0")
+SAEJ1979.EGR_B_CMD_SUP = OBDCommand("EGR_B_CMD_SUP", "Commanded EGR A supported | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 4, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGR_B_CMD_SUP"] = "EGR_B_CMD_SUP"
-SAEJ1979.EGR_A_ERR_SUP = OBDCommand("EGR_A_ERR_SUP", "EGR A error supported | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 5, 1, 1, 0, False), header="7E0")
+SAEJ1979.EGR_A_ERR_SUP = OBDCommand("EGR_A_ERR_SUP", "EGR A error supported | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 5, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGR_A_ERR_SUP"] = "EGR_A_ERR_SUP"
-SAEJ1979.EGR_A_ACT_SUP = OBDCommand("EGR_A_ACT_SUP", "Actual EGR A supported | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 6, 1, 1, 0, False), header="7E0")
+SAEJ1979.EGR_A_ACT_SUP = OBDCommand("EGR_A_ACT_SUP", "Actual EGR A supported | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 6, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGR_A_ACT_SUP"] = "EGR_A_ACT_SUP"
-SAEJ1979.EGR_A_CMD_SUP = OBDCommand("EGR_A_CMD_SUP", "Commanded EGR A supported | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 7, 1, 1, 0, False), header="7E0")
+SAEJ1979.EGR_A_CMD_SUP = OBDCommand("EGR_A_CMD_SUP", "Commanded EGR A supported | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 7, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGR_A_CMD_SUP"] = "EGR_A_CMD_SUP"
-SAEJ1979.EGR_A_CMD = OBDCommand("EGR_A_CMD", "Commanded EGR A duty cycle/position | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 8, 8, 100, 0, False), header="7E0")
+SAEJ1979.EGR_A_CMD = OBDCommand("EGR_A_CMD", "Commanded EGR A duty cycle/position | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 8, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGR_A_CMD"] = "EGR_A_CMD"
-SAEJ1979.EGR_A_ACT = OBDCommand("EGR_A_ACT", "Actual EGR A duty cycle/position | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 16, 8, 100, 0, False), header="7E0")
+SAEJ1979.EGR_A_ACT = OBDCommand("EGR_A_ACT", "Actual EGR A duty cycle/position | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 16, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGR_A_ACT"] = "EGR_A_ACT"
-SAEJ1979.EGR_A_ERR = OBDCommand("EGR_A_ERR", "EGR A error | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 24, 8, 100, -100, False), header="7E0")
+SAEJ1979.EGR_A_ERR = OBDCommand("EGR_A_ERR", "EGR A error | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 24, 8, 100, -100, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGR_A_ERR"] = "EGR_A_ERR"
-SAEJ1979.EGR_B_CMD = OBDCommand("EGR_B_CMD", "Commanded EGR B duty cycle/position | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 32, 8, 100, 0, False), header="7E0")
+SAEJ1979.EGR_B_CMD = OBDCommand("EGR_B_CMD", "Commanded EGR B duty cycle/position | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 32, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGR_B_CMD"] = "EGR_B_CMD"
-SAEJ1979.EGR_B_ACT = OBDCommand("EGR_B_ACT", "Actual EGR B duty cycle/position | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 40, 8, 100, 0, False), header="7E0")
+SAEJ1979.EGR_B_ACT = OBDCommand("EGR_B_ACT", "Actual EGR B duty cycle/position | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 40, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGR_B_ACT"] = "EGR_B_ACT"
-SAEJ1979.EGR_B_ERR = OBDCommand("EGR_B_ERR", "EGR B error | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 48, 8, 100, -100, False), header="7E0")
+SAEJ1979.EGR_B_ERR = OBDCommand("EGR_B_ERR", "EGR B error | hdr=7E0", bytes.fromhex("0169"), 7, _make_decoder(bytes.fromhex("4169"), 48, 8, 100, -100, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGR_B_ERR"] = "EGR_B_ERR"
-SAEJ1979.EGRTD_WR_SUP = OBDCommand("EGRTD_WR_SUP", "EGR Temperature Sensor D (Bank 2, Sensor 2) Wide Range supported? | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 0, 1, 1, 0, False), header="7E0")
+SAEJ1979.EGRTD_WR_SUP = OBDCommand("EGRTD_WR_SUP", "EGR Temperature Sensor D (Bank 2, Sensor 2) Wide Range supported? | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 0, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGRTD_WR_SUP"] = "EGRTD_WR_SUP"
-SAEJ1979.EGRTB_WR_SUP = OBDCommand("EGRTB_WR_SUP", "EGR Temperature Sensor B (Bank 2, Sensor 1) Wide Range supported? | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 1, 1, 1, 0, False), header="7E0")
+SAEJ1979.EGRTB_WR_SUP = OBDCommand("EGRTB_WR_SUP", "EGR Temperature Sensor B (Bank 2, Sensor 1) Wide Range supported? | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 1, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGRTB_WR_SUP"] = "EGRTB_WR_SUP"
-SAEJ1979.EGRTC_WR_SUP = OBDCommand("EGRTC_WR_SUP", "EGR Temperature Sensor C (Bank 1, Sensor 2) Wide Range supported? | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 2, 1, 1, 0, False), header="7E0")
+SAEJ1979.EGRTC_WR_SUP = OBDCommand("EGRTC_WR_SUP", "EGR Temperature Sensor C (Bank 1, Sensor 2) Wide Range supported? | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 2, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGRTC_WR_SUP"] = "EGRTC_WR_SUP"
-SAEJ1979.EGRTA_WR_SUP = OBDCommand("EGRTA_WR_SUP", "EGR Temperature Sensor A (Bank 1, Sensor 1) Wide Range supported? | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 3, 1, 1, 0, False), header="7E0")
+SAEJ1979.EGRTA_WR_SUP = OBDCommand("EGRTA_WR_SUP", "EGR Temperature Sensor A (Bank 1, Sensor 1) Wide Range supported? | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 3, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGRTA_WR_SUP"] = "EGRTA_WR_SUP"
-SAEJ1979.EGRTD_SUP = OBDCommand("EGRTD_SUP", "EGR Temperature Sensor D (Bank 2, Sensor 2) supported? | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 4, 1, 1, 0, False), header="7E0")
+SAEJ1979.EGRTD_SUP = OBDCommand("EGRTD_SUP", "EGR Temperature Sensor D (Bank 2, Sensor 2) supported? | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 4, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGRTD_SUP"] = "EGRTD_SUP"
-SAEJ1979.EGRTB_SUP = OBDCommand("EGRTB_SUP", "EGR Temperature Sensor B (Bank 2, Sensor 1) supported? | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 5, 1, 1, 0, False), header="7E0")
+SAEJ1979.EGRTB_SUP = OBDCommand("EGRTB_SUP", "EGR Temperature Sensor B (Bank 2, Sensor 1) supported? | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 5, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGRTB_SUP"] = "EGRTB_SUP"
-SAEJ1979.EGRTC_SUP = OBDCommand("EGRTC_SUP", "EGR Temperature Sensor C (Bank 1, Sensor 2) supported? | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 6, 1, 1, 0, False), header="7E0")
+SAEJ1979.EGRTC_SUP = OBDCommand("EGRTC_SUP", "EGR Temperature Sensor C (Bank 1, Sensor 2) supported? | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 6, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGRTC_SUP"] = "EGRTC_SUP"
-SAEJ1979.EGRTA_SUP = OBDCommand("EGRTA_SUP", "EGR Temperature Sensor A (Bank 1, Sensor 1) supported? | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 7, 1, 1, 0, False), header="7E0")
+SAEJ1979.EGRTA_SUP = OBDCommand("EGRTA_SUP", "EGR Temperature Sensor A (Bank 1, Sensor 1) supported? | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 7, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGRTA_SUP"] = "EGRTA_SUP"
-SAEJ1979.EGRTA = OBDCommand("EGRTA", "Exhaust Gas Recirculation Temp Sensor A (Bank 1, Sensor 1) | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 8, 8, 1, -40, False), header="7E0")
+SAEJ1979.EGRTA = OBDCommand("EGRTA", "Exhaust Gas Recirculation Temp Sensor A (Bank 1, Sensor 1) | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 8, 8, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGRTA"] = "EGRTA"
-SAEJ1979.EGRTC = OBDCommand("EGRTC", "Exhaust Gas Recirculation Temp Sensor C (Bank 1, Sensor 2) | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 16, 8, 1, -40, False), header="7E0")
+SAEJ1979.EGRTC = OBDCommand("EGRTC", "Exhaust Gas Recirculation Temp Sensor C (Bank 1, Sensor 2) | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 16, 8, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGRTC"] = "EGRTC"
-SAEJ1979.EGRTB = OBDCommand("EGRTB", "Exhaust Gas Recirculation Temp Sensor B (Bank 2, Sensor 1) | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 24, 8, 1, -40, False), header="7E0")
+SAEJ1979.EGRTB = OBDCommand("EGRTB", "Exhaust Gas Recirculation Temp Sensor B (Bank 2, Sensor 1) | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 24, 8, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGRTB"] = "EGRTB"
-SAEJ1979.EGRTD = OBDCommand("EGRTD", "Exhaust Gas Recirculation Temp Sensor D (Bank 2, Sensor 2) | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 32, 8, 1, -40, False), header="7E0")
+SAEJ1979.EGRTD = OBDCommand("EGRTD", "Exhaust Gas Recirculation Temp Sensor D (Bank 2, Sensor 2) | hdr=7E0", bytes.fromhex("016B"), 5, _make_decoder(bytes.fromhex("416B"), 32, 8, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EGRTD"] = "EGRTD"
-SAEJ1979.RTP_B_SUP = OBDCommand("RTP_B_SUP", "Relative Throttle B Position data supported? | hdr=7E0", bytes.fromhex("016C"), 5, _make_decoder(bytes.fromhex("416C"), 4, 1, 1, 0, False), header="7E0")
+SAEJ1979.RTP_B_SUP = OBDCommand("RTP_B_SUP", "Relative Throttle B Position data supported? | hdr=7E0", bytes.fromhex("016C"), 5, _make_decoder(bytes.fromhex("416C"), 4, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["RTP_B_SUP"] = "RTP_B_SUP"
-SAEJ1979.CTAC_B_SUP = OBDCommand("CTAC_B_SUP", "Commanded Throttle Actuator B Control supported? | hdr=7E0", bytes.fromhex("016C"), 5, _make_decoder(bytes.fromhex("416C"), 5, 1, 1, 0, False), header="7E0")
+SAEJ1979.CTAC_B_SUP = OBDCommand("CTAC_B_SUP", "Commanded Throttle Actuator B Control supported? | hdr=7E0", bytes.fromhex("016C"), 5, _make_decoder(bytes.fromhex("416C"), 5, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["CTAC_B_SUP"] = "CTAC_B_SUP"
-SAEJ1979.RTP_A_SUP = OBDCommand("RTP_A_SUP", "Relative Throttle A Position data supported? | hdr=7E0", bytes.fromhex("016C"), 5, _make_decoder(bytes.fromhex("416C"), 6, 1, 1, 0, False), header="7E0")
+SAEJ1979.RTP_A_SUP = OBDCommand("RTP_A_SUP", "Relative Throttle A Position data supported? | hdr=7E0", bytes.fromhex("016C"), 5, _make_decoder(bytes.fromhex("416C"), 6, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["RTP_A_SUP"] = "RTP_A_SUP"
-SAEJ1979.CTAC_A_SUP = OBDCommand("CTAC_A_SUP", "Commanded Throttle Actuator A Control supported? | hdr=7E0", bytes.fromhex("016C"), 5, _make_decoder(bytes.fromhex("416C"), 7, 1, 1, 0, False), header="7E0")
+SAEJ1979.CTAC_A_SUP = OBDCommand("CTAC_A_SUP", "Commanded Throttle Actuator A Control supported? | hdr=7E0", bytes.fromhex("016C"), 5, _make_decoder(bytes.fromhex("416C"), 7, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["CTAC_A_SUP"] = "CTAC_A_SUP"
-SAEJ1979.TAC_A_CMD = OBDCommand("TAC_A_CMD", "Commanded Throttle Actuator A Control | hdr=7E0", bytes.fromhex("016C"), 5, _make_decoder(bytes.fromhex("416C"), 8, 8, 100, 0, False), header="7E0")
+SAEJ1979.TAC_A_CMD = OBDCommand("TAC_A_CMD", "Commanded Throttle Actuator A Control | hdr=7E0", bytes.fromhex("016C"), 5, _make_decoder(bytes.fromhex("416C"), 8, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["TAC_A_CMD"] = "TAC_A_CMD"
-SAEJ1979.TP_A_REL = OBDCommand("TP_A_REL", "Relative Throttle A Position | hdr=7E0", bytes.fromhex("016C"), 5, _make_decoder(bytes.fromhex("416C"), 16, 8, 100, 0, False), header="7E0")
+SAEJ1979.TP_A_REL = OBDCommand("TP_A_REL", "Relative Throttle A Position | hdr=7E0", bytes.fromhex("016C"), 5, _make_decoder(bytes.fromhex("416C"), 16, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["TP_A_REL"] = "TP_A_REL"
-SAEJ1979.TAC_B_CMD = OBDCommand("TAC_B_CMD", "Commanded Throttle Actuator B Control | hdr=7E0", bytes.fromhex("016C"), 5, _make_decoder(bytes.fromhex("416C"), 24, 8, 100, 0, False), header="7E0")
+SAEJ1979.TAC_B_CMD = OBDCommand("TAC_B_CMD", "Commanded Throttle Actuator B Control | hdr=7E0", bytes.fromhex("016C"), 5, _make_decoder(bytes.fromhex("416C"), 24, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["TAC_B_CMD"] = "TAC_B_CMD"
-SAEJ1979.TP_B_REL = OBDCommand("TP_B_REL", "Relative Throttle B Position | hdr=7E0", bytes.fromhex("016C"), 5, _make_decoder(bytes.fromhex("416C"), 32, 8, 100, 0, False), header="7E0")
+SAEJ1979.TP_B_REL = OBDCommand("TP_B_REL", "Relative Throttle B Position | hdr=7E0", bytes.fromhex("016C"), 5, _make_decoder(bytes.fromhex("416C"), 32, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["TP_B_REL"] = "TP_B_REL"
-SAEJ1979.FRT_B_SUP = OBDCommand("FRT_B_SUP", "Fuel Temperature B data supported? | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 2, 1, 1, 0, False), header="7E0")
+SAEJ1979.FRT_B_SUP = OBDCommand("FRT_B_SUP", "Fuel Temperature B data supported? | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 2, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FRT_B_SUP"] = "FRT_B_SUP"
-SAEJ1979.FRP_B_SUP = OBDCommand("FRP_B_SUP", "Fuel Rail Pressure B data supported? | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 3, 1, 1, 0, False), header="7E0")
+SAEJ1979.FRP_B_SUP = OBDCommand("FRP_B_SUP", "Fuel Rail Pressure B data supported? | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 3, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FRP_B_SUP"] = "FRP_B_SUP"
-SAEJ1979.FRP_B_CMD_SUP = OBDCommand("FRP_B_CMD_SUP", "Commanded Fuel Rail Pressure B data supported? | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 4, 1, 1, 0, False), header="7E0")
+SAEJ1979.FRP_B_CMD_SUP = OBDCommand("FRP_B_CMD_SUP", "Commanded Fuel Rail Pressure B data supported? | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 4, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FRP_B_CMD_SUP"] = "FRP_B_CMD_SUP"
-SAEJ1979.FRT_A_SUP = OBDCommand("FRT_A_SUP", "Fuel Temperature A data supported? | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 5, 1, 1, 0, False), header="7E0")
+SAEJ1979.FRT_A_SUP = OBDCommand("FRT_A_SUP", "Fuel Temperature A data supported? | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 5, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FRT_A_SUP"] = "FRT_A_SUP"
-SAEJ1979.FRP_A_SUP = OBDCommand("FRP_A_SUP", "Fuel Rail Pressure A data supported? | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 6, 1, 1, 0, False), header="7E0")
+SAEJ1979.FRP_A_SUP = OBDCommand("FRP_A_SUP", "Fuel Rail Pressure A data supported? | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 6, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FRP_A_SUP"] = "FRP_A_SUP"
-SAEJ1979.FRP_A_CMD_SUP = OBDCommand("FRP_A_CMD_SUP", "Commanded Fuel Rail Pressure A data supported? | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 7, 1, 1, 0, False), header="7E0")
+SAEJ1979.FRP_A_CMD_SUP = OBDCommand("FRP_A_CMD_SUP", "Commanded Fuel Rail Pressure A data supported? | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 7, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FRP_A_CMD_SUP"] = "FRP_A_CMD_SUP"
-SAEJ1979.FRP_A_CMD = OBDCommand("FRP_A_CMD", "Commanded Fuel Rail Pressure A | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 8, 16, 10, 0, False), header="7E0")
+SAEJ1979.FRP_A_CMD = OBDCommand("FRP_A_CMD", "Commanded Fuel Rail Pressure A | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 8, 16, 10, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FRP_A_CMD"] = "FRP_A_CMD"
-SAEJ1979.FRP_A = OBDCommand("FRP_A", "Fuel Rail Pressure A | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 24, 16, 10, 0, False), header="7E0")
+SAEJ1979.FRP_A = OBDCommand("FRP_A", "Fuel Rail Pressure A | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 24, 16, 10, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FRP_A"] = "FRP_A"
-SAEJ1979.FRT_A = OBDCommand("FRT_A", "Fuel Rail Temperature A | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 40, 8, 1, -40, False), header="7E0")
+SAEJ1979.FRT_A = OBDCommand("FRT_A", "Fuel Rail Temperature A | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 40, 8, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FRT_A"] = "FRT_A"
-SAEJ1979.FRP_B_CMD = OBDCommand("FRP_B_CMD", "Commanded Fuel Rail Pressure B | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 48, 16, 10, 0, False), header="7E0")
+SAEJ1979.FRP_B_CMD = OBDCommand("FRP_B_CMD", "Commanded Fuel Rail Pressure B | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 48, 16, 10, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FRP_B_CMD"] = "FRP_B_CMD"
-SAEJ1979.FRP_B = OBDCommand("FRP_B", "Fuel Rail Pressure B | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 64, 16, 10, 0, False), header="7E0")
+SAEJ1979.FRP_B = OBDCommand("FRP_B", "Fuel Rail Pressure B | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 64, 16, 10, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FRP_B"] = "FRP_B"
-SAEJ1979.FRT_B = OBDCommand("FRT_B", "Fuel Rail Temperature B | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 80, 8, 1, -40, False), header="7E0")
+SAEJ1979.FRT_B = OBDCommand("FRT_B", "Fuel Rail Temperature B | hdr=7E0", bytes.fromhex("016D"), 11, _make_decoder(bytes.fromhex("416D"), 80, 8, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FRT_B"] = "FRT_B"
-SAEJ1979.BP_B_SUP = OBDCommand("BP_B_SUP", "Boost pressure B control status supported | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 2, 1, 1, 0, False), header="7E0")
+SAEJ1979.BP_B_SUP = OBDCommand("BP_B_SUP", "Boost pressure B control status supported | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 2, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["BP_B_SUP"] = "BP_B_SUP"
-SAEJ1979.BP_B_ACT_SUP = OBDCommand("BP_B_ACT_SUP", "Boost pressure B supported | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 3, 1, 1, 0, False), header="7E0")
+SAEJ1979.BP_B_ACT_SUP = OBDCommand("BP_B_ACT_SUP", "Boost pressure B supported | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 3, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["BP_B_ACT_SUP"] = "BP_B_ACT_SUP"
-SAEJ1979.BP_B_CMD_SUP = OBDCommand("BP_B_CMD_SUP", "Commanded boost pressure B supported | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 4, 1, 1, 0, False), header="7E0")
+SAEJ1979.BP_B_CMD_SUP = OBDCommand("BP_B_CMD_SUP", "Commanded boost pressure B supported | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 4, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["BP_B_CMD_SUP"] = "BP_B_CMD_SUP"
-SAEJ1979.BP_A_SUP = OBDCommand("BP_A_SUP", "Boost pressure A control status supported | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 5, 1, 1, 0, False), header="7E0")
+SAEJ1979.BP_A_SUP = OBDCommand("BP_A_SUP", "Boost pressure A control status supported | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 5, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["BP_A_SUP"] = "BP_A_SUP"
-SAEJ1979.BP_A_ACT_SUP = OBDCommand("BP_A_ACT_SUP", "Boost pressure A supported | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 6, 1, 1, 0, False), header="7E0")
+SAEJ1979.BP_A_ACT_SUP = OBDCommand("BP_A_ACT_SUP", "Boost pressure A supported | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 6, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["BP_A_ACT_SUP"] = "BP_A_ACT_SUP"
-SAEJ1979.BP_A_CMD_SUP = OBDCommand("BP_A_CMD_SUP", "Commanded boost pressure A supported | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 7, 1, 1, 0, False), header="7E0")
+SAEJ1979.BP_A_CMD_SUP = OBDCommand("BP_A_CMD_SUP", "Commanded boost pressure A supported | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 7, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["BP_A_CMD_SUP"] = "BP_A_CMD_SUP"
-SAEJ1979.BP_A_CMD = OBDCommand("BP_A_CMD", "Commanded boost pressure A | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 8, 16, 1, 0, False), header="7E0")
+SAEJ1979.BP_A_CMD = OBDCommand("BP_A_CMD", "Commanded boost pressure A | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 8, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["BP_A_CMD"] = "BP_A_CMD"
-SAEJ1979.BP_A_ACT = OBDCommand("BP_A_ACT", "Boost pressure sensor A | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 24, 16, 1, 0, False), header="7E0")
+SAEJ1979.BP_A_ACT = OBDCommand("BP_A_ACT", "Boost pressure sensor A | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 24, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["BP_A_ACT"] = "BP_A_ACT"
-SAEJ1979.BP_B_CMD = OBDCommand("BP_B_CMD", "Commanded boost pressure B | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 40, 16, 1, 0, False), header="7E0")
+SAEJ1979.BP_B_CMD = OBDCommand("BP_B_CMD", "Commanded boost pressure B | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 40, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["BP_B_CMD"] = "BP_B_CMD"
-SAEJ1979.BP_B_ACT = OBDCommand("BP_B_ACT", "Boost pressure sensor B | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 56, 16, 1, 0, False), header="7E0")
+SAEJ1979.BP_B_ACT = OBDCommand("BP_B_ACT", "Boost pressure sensor B | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 56, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["BP_B_ACT"] = "BP_B_ACT"
-SAEJ1979.BP_B = OBDCommand("BP_B", "Boost bressure A control status | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 76, 2, 1, 0, False), header="7E0")
+SAEJ1979.BP_B = OBDCommand("BP_B", "Boost bressure A control status | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 76, 2, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["BP_B"] = "BP_B"
-SAEJ1979.BP_A = OBDCommand("BP_A", "Boost bressure A control status | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 78, 2, 1, 0, False), header="7E0")
+SAEJ1979.BP_A = OBDCommand("BP_A", "Boost bressure A control status | hdr=7E0", bytes.fromhex("0170"), 10, _make_decoder(bytes.fromhex("4170"), 78, 2, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["BP_A"] = "BP_A"
-SAEJ1979.WG_B_ACT_SUP = OBDCommand("WG_B_ACT_SUP", "Wastegate B position supported | hdr=7E0", bytes.fromhex("0172"), 5, _make_decoder(bytes.fromhex("4172"), 4, 1, 1, 0, False), header="7E0")
+SAEJ1979.WG_B_ACT_SUP = OBDCommand("WG_B_ACT_SUP", "Wastegate B position supported | hdr=7E0", bytes.fromhex("0172"), 5, _make_decoder(bytes.fromhex("4172"), 4, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["WG_B_ACT_SUP"] = "WG_B_ACT_SUP"
-SAEJ1979.WG_B_CMD_SUP = OBDCommand("WG_B_CMD_SUP", "Commanded wastegate B position supported | hdr=7E0", bytes.fromhex("0172"), 5, _make_decoder(bytes.fromhex("4172"), 5, 1, 1, 0, False), header="7E0")
+SAEJ1979.WG_B_CMD_SUP = OBDCommand("WG_B_CMD_SUP", "Commanded wastegate B position supported | hdr=7E0", bytes.fromhex("0172"), 5, _make_decoder(bytes.fromhex("4172"), 5, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["WG_B_CMD_SUP"] = "WG_B_CMD_SUP"
-SAEJ1979.WG_A_ACT_SUP = OBDCommand("WG_A_ACT_SUP", "Wastegate A position supported | hdr=7E0", bytes.fromhex("0172"), 5, _make_decoder(bytes.fromhex("4172"), 6, 1, 1, 0, False), header="7E0")
+SAEJ1979.WG_A_ACT_SUP = OBDCommand("WG_A_ACT_SUP", "Wastegate A position supported | hdr=7E0", bytes.fromhex("0172"), 5, _make_decoder(bytes.fromhex("4172"), 6, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["WG_A_ACT_SUP"] = "WG_A_ACT_SUP"
-SAEJ1979.WG_A_CMD_SUP = OBDCommand("WG_A_CMD_SUP", "Commanded wastegate A position supported | hdr=7E0", bytes.fromhex("0172"), 5, _make_decoder(bytes.fromhex("4172"), 7, 1, 1, 0, False), header="7E0")
+SAEJ1979.WG_A_CMD_SUP = OBDCommand("WG_A_CMD_SUP", "Commanded wastegate A position supported | hdr=7E0", bytes.fromhex("0172"), 5, _make_decoder(bytes.fromhex("4172"), 7, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["WG_A_CMD_SUP"] = "WG_A_CMD_SUP"
-SAEJ1979.WG_A_CMD = OBDCommand("WG_A_CMD", "Commanded wastegate A position | hdr=7E0", bytes.fromhex("0172"), 5, _make_decoder(bytes.fromhex("4172"), 8, 8, 100, 0, False), header="7E0")
+SAEJ1979.WG_A_CMD = OBDCommand("WG_A_CMD", "Commanded wastegate A position | hdr=7E0", bytes.fromhex("0172"), 5, _make_decoder(bytes.fromhex("4172"), 8, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["WG_A_CMD"] = "WG_A_CMD"
-SAEJ1979.WG_A_ACT = OBDCommand("WG_A_ACT", "Wastegate A position | hdr=7E0", bytes.fromhex("0172"), 5, _make_decoder(bytes.fromhex("4172"), 16, 8, 100, 0, False), header="7E0")
+SAEJ1979.WG_A_ACT = OBDCommand("WG_A_ACT", "Wastegate A position | hdr=7E0", bytes.fromhex("0172"), 5, _make_decoder(bytes.fromhex("4172"), 16, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["WG_A_ACT"] = "WG_A_ACT"
-SAEJ1979.WG_B_CMD = OBDCommand("WG_B_CMD", "Commanded wastegate B position | hdr=7E0", bytes.fromhex("0172"), 5, _make_decoder(bytes.fromhex("4172"), 24, 8, 100, 0, False), header="7E0")
+SAEJ1979.WG_B_CMD = OBDCommand("WG_B_CMD", "Commanded wastegate B position | hdr=7E0", bytes.fromhex("0172"), 5, _make_decoder(bytes.fromhex("4172"), 24, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["WG_B_CMD"] = "WG_B_CMD"
-SAEJ1979.WG_B_ACT = OBDCommand("WG_B_ACT", "Wastegate B position | hdr=7E0", bytes.fromhex("0172"), 5, _make_decoder(bytes.fromhex("4172"), 32, 8, 100, 0, False), header="7E0")
+SAEJ1979.WG_B_ACT = OBDCommand("WG_B_ACT", "Wastegate B position | hdr=7E0", bytes.fromhex("0172"), 5, _make_decoder(bytes.fromhex("4172"), 32, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["WG_B_ACT"] = "WG_B_ACT"
-SAEJ1979.PTO_TIME_SUP = OBDCommand("PTO_TIME_SUP", "Total Run Time With PTO Active supported? | hdr=7E0", bytes.fromhex("017F"), 13, _make_decoder(bytes.fromhex("417F"), 5, 1, 1, 0, False), header="7E0")
+SAEJ1979.PTO_TIME_SUP = OBDCommand("PTO_TIME_SUP", "Total Run Time With PTO Active supported? | hdr=7E0", bytes.fromhex("017F"), 13, _make_decoder(bytes.fromhex("417F"), 5, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["PTO_TIME_SUP"] = "PTO_TIME_SUP"
-SAEJ1979.IDLE_TIME_SUP = OBDCommand("IDLE_TIME_SUP", "Total Idle Run Time supported? | hdr=7E0", bytes.fromhex("017F"), 13, _make_decoder(bytes.fromhex("417F"), 6, 1, 1, 0, False), header="7E0")
+SAEJ1979.IDLE_TIME_SUP = OBDCommand("IDLE_TIME_SUP", "Total Idle Run Time supported? | hdr=7E0", bytes.fromhex("017F"), 13, _make_decoder(bytes.fromhex("417F"), 6, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["IDLE_TIME_SUP"] = "IDLE_TIME_SUP"
-SAEJ1979.RUN_TIME_SUP = OBDCommand("RUN_TIME_SUP", "Total Engine Run Time supported? | hdr=7E0", bytes.fromhex("017F"), 13, _make_decoder(bytes.fromhex("417F"), 7, 1, 1, 0, False), header="7E0")
+SAEJ1979.RUN_TIME_SUP = OBDCommand("RUN_TIME_SUP", "Total Engine Run Time supported? | hdr=7E0", bytes.fromhex("017F"), 13, _make_decoder(bytes.fromhex("417F"), 7, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["RUN_TIME_SUP"] = "RUN_TIME_SUP"
-SAEJ1979.RUN_TIME = OBDCommand("RUN_TIME", "Total Engine Run Time | hdr=7E0", bytes.fromhex("017F"), 13, _make_decoder(bytes.fromhex("417F"), 8, 32, 1, 0, False), header="7E0")
+SAEJ1979.RUN_TIME = OBDCommand("RUN_TIME", "Total Engine Run Time | hdr=7E0", bytes.fromhex("017F"), 13, _make_decoder(bytes.fromhex("417F"), 8, 32, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["RUN_TIME"] = "RUN_TIME"
-SAEJ1979.IDLE_TIME = OBDCommand("IDLE_TIME", "Total Idle Run Time | hdr=7E0", bytes.fromhex("017F"), 13, _make_decoder(bytes.fromhex("417F"), 40, 32, 1, 0, False), header="7E0")
+SAEJ1979.IDLE_TIME = OBDCommand("IDLE_TIME", "Total Idle Run Time | hdr=7E0", bytes.fromhex("017F"), 13, _make_decoder(bytes.fromhex("417F"), 40, 32, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["IDLE_TIME"] = "IDLE_TIME"
-SAEJ1979.PTO_TIME = OBDCommand("PTO_TIME", "Total Run Time With PTO Active | hdr=7E0", bytes.fromhex("017F"), 13, _make_decoder(bytes.fromhex("417F"), 72, 32, 1, 0, False), header="7E0")
+SAEJ1979.PTO_TIME = OBDCommand("PTO_TIME", "Total Run Time With PTO Active | hdr=7E0", bytes.fromhex("017F"), 13, _make_decoder(bytes.fromhex("417F"), 72, 32, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["PTO_TIME"] = "PTO_TIME"
-SAEJ1979.MST = OBDCommand("MST", "Manifold surface temperature | hdr=7E0", bytes.fromhex("0184"), 1, _make_decoder(bytes.fromhex("4184"), 0, 8, 1, -40, False), header="7E0")
+SAEJ1979.MST = OBDCommand("MST", "Manifold surface temperature | hdr=7E0", bytes.fromhex("0184"), 1, _make_decoder(bytes.fromhex("4184"), 0, 8, 1, -40, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["MST"] = "MST"
-SAEJ1979.TP_G = OBDCommand("TP_G", "Absolute Throttle Position G | hdr=7E0", bytes.fromhex("018D"), 1, _make_decoder(bytes.fromhex("418D"), 0, 8, 100, 0, False), header="7E0")
+SAEJ1979.TP_G = OBDCommand("TP_G", "Absolute Throttle Position G | hdr=7E0", bytes.fromhex("018D"), 1, _make_decoder(bytes.fromhex("418D"), 0, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["TP_G"] = "TP_G"
-SAEJ1979.TQ_FR = OBDCommand("TQ_FR", "Engine Friction - Percent Torque | hdr=7E0", bytes.fromhex("018E"), 1, _make_decoder(bytes.fromhex("418E"), 0, 8, 1, -125, False), header="7E0")
+SAEJ1979.TQ_FR = OBDCommand("TQ_FR", "Engine Friction - Percent Torque | hdr=7E0", bytes.fromhex("018E"), 1, _make_decoder(bytes.fromhex("418E"), 0, 8, 1, -125, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["TQ_FR"] = "TQ_FR"
-SAEJ1979.EHEV_MODE_SUP = OBDCommand("EHEV_MODE_SUP", "Enhanced Hybrid/EV Vehicle Charging State supported? | hdr=7E0", bytes.fromhex("019A"), 6, _make_decoder(bytes.fromhex("419A"), 4, 1, 1, 0, False), header="7E0")
+SAEJ1979.EHEV_MODE_SUP = OBDCommand("EHEV_MODE_SUP", "Enhanced Hybrid/EV Vehicle Charging State supported? | hdr=7E0", bytes.fromhex("019A"), 6, _make_decoder(bytes.fromhex("419A"), 4, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EHEV_MODE_SUP"] = "EHEV_MODE_SUP"
-SAEJ1979.HEV_BATT_A_SUP = OBDCommand("HEV_BATT_A_SUP", "Hybrid/EV Battery Current supported? | hdr=7E0", bytes.fromhex("019A"), 6, _make_decoder(bytes.fromhex("419A"), 5, 1, 1, 0, False), header="7E0")
+SAEJ1979.HEV_BATT_A_SUP = OBDCommand("HEV_BATT_A_SUP", "Hybrid/EV Battery Current supported? | hdr=7E0", bytes.fromhex("019A"), 6, _make_decoder(bytes.fromhex("419A"), 5, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["HEV_BATT_A_SUP"] = "HEV_BATT_A_SUP"
-SAEJ1979.HEV_BATT_V_SUP = OBDCommand("HEV_BATT_V_SUP", "Hybrid/EV Battery Voltage supported? | hdr=7E0", bytes.fromhex("019A"), 6, _make_decoder(bytes.fromhex("419A"), 6, 1, 1, 0, False), header="7E0")
+SAEJ1979.HEV_BATT_V_SUP = OBDCommand("HEV_BATT_V_SUP", "Hybrid/EV Battery Voltage supported? | hdr=7E0", bytes.fromhex("019A"), 6, _make_decoder(bytes.fromhex("419A"), 6, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["HEV_BATT_V_SUP"] = "HEV_BATT_V_SUP"
-SAEJ1979.HEV_MODE_SUP = OBDCommand("HEV_MODE_SUP", "Hybrid/EV Vehicle Charging State supported? | hdr=7E0", bytes.fromhex("019A"), 6, _make_decoder(bytes.fromhex("419A"), 7, 1, 1, 0, False), header="7E0")
+SAEJ1979.HEV_MODE_SUP = OBDCommand("HEV_MODE_SUP", "Hybrid/EV Vehicle Charging State supported? | hdr=7E0", bytes.fromhex("019A"), 6, _make_decoder(bytes.fromhex("419A"), 7, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["HEV_MODE_SUP"] = "HEV_MODE_SUP"
-SAEJ1979.HEV_BATT_V = OBDCommand("HEV_BATT_V", "Hybrid/EV Battery System Voltage | hdr=7E0", bytes.fromhex("019A"), 6, _make_decoder(bytes.fromhex("419A"), 16, 16, 1, 0, False), header="7E0")
+SAEJ1979.HEV_BATT_V = OBDCommand("HEV_BATT_V", "Hybrid/EV Battery System Voltage | hdr=7E0", bytes.fromhex("019A"), 6, _make_decoder(bytes.fromhex("419A"), 16, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["HEV_BATT_V"] = "HEV_BATT_V"
-SAEJ1979.HEV_BATT_A = OBDCommand("HEV_BATT_A", "Hybrid/EV Battery System Current | hdr=7E0", bytes.fromhex("019A"), 6, _make_decoder(bytes.fromhex("419A"), 32, 16, 1, 0, False), header="7E0")
+SAEJ1979.HEV_BATT_A = OBDCommand("HEV_BATT_A", "Hybrid/EV Battery System Current | hdr=7E0", bytes.fromhex("019A"), 6, _make_decoder(bytes.fromhex("419A"), 32, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["HEV_BATT_A"] = "HEV_BATT_A"
-SAEJ1979.HEV_MODE = OBDCommand("HEV_MODE", "Hybrid/EV Vehicle Charging State | hdr=7E0", bytes.fromhex("019A"), 6, _make_decoder(bytes.fromhex("419A"), 0, 1, 1, 0, False), header="7E0")
+SAEJ1979.HEV_MODE = OBDCommand("HEV_MODE", "Hybrid/EV Vehicle Charging State | hdr=7E0", bytes.fromhex("019A"), 6, _make_decoder(bytes.fromhex("419A"), 0, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["HEV_MODE"] = "HEV_MODE"
-SAEJ1979.EHEV_MODE = OBDCommand("EHEV_MODE", "Enhanced Hybrid/EV Vehicle Charging State | hdr=7E0", bytes.fromhex("019A"), 6, _make_decoder(bytes.fromhex("419A"), 1, 2, 1, 0, False), header="7E0")
+SAEJ1979.EHEV_MODE = OBDCommand("EHEV_MODE", "Enhanced Hybrid/EV Vehicle Charging State | hdr=7E0", bytes.fromhex("019A"), 6, _make_decoder(bytes.fromhex("419A"), 1, 2, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EHEV_MODE"] = "EHEV_MODE"
-SAEJ1979.FUEL_RATE_ALT = OBDCommand("FUEL_RATE_ALT", "Engine fuel rate (alternate) | hdr=7E0", bytes.fromhex("019D"), 4, _make_decoder(bytes.fromhex("419D"), 0, 16, 1, 0, False), header="7E0")
+SAEJ1979.FUEL_RATE_ALT = OBDCommand("FUEL_RATE_ALT", "Engine fuel rate (alternate) | hdr=7E0", bytes.fromhex("019D"), 4, _make_decoder(bytes.fromhex("419D"), 0, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUEL_RATE_ALT"] = "FUEL_RATE_ALT"
-SAEJ1979.VFUEL_RATE = OBDCommand("VFUEL_RATE", "Vehicle fuel rate | hdr=7E0", bytes.fromhex("019D"), 4, _make_decoder(bytes.fromhex("419D"), 16, 16, 1, 0, False), header="7E0")
+SAEJ1979.VFUEL_RATE = OBDCommand("VFUEL_RATE", "Vehicle fuel rate | hdr=7E0", bytes.fromhex("019D"), 4, _make_decoder(bytes.fromhex("419D"), 16, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["VFUEL_RATE"] = "VFUEL_RATE"
-SAEJ1979.EXH_RATE = OBDCommand("EXH_RATE", "Engine exhaust flow rate | hdr=7E0", bytes.fromhex("019E"), 2, _make_decoder(bytes.fromhex("419E"), 0, 16, 1, 0, False), header="7E0")
+SAEJ1979.EXH_RATE = OBDCommand("EXH_RATE", "Engine exhaust flow rate | hdr=7E0", bytes.fromhex("019E"), 2, _make_decoder(bytes.fromhex("419E"), 0, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["EXH_RATE"] = "EXH_RATE"
-SAEJ1979.FUELSYSB_B4_SUP = OBDCommand("FUELSYSB_B4_SUP", "Fuel system B use percentage bank 4 supported | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 0, 1, 1, 0, False), header="7E0")
+SAEJ1979.FUELSYSB_B4_SUP = OBDCommand("FUELSYSB_B4_SUP", "Fuel system B use percentage bank 4 supported | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 0, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUELSYSB_B4_SUP"] = "FUELSYSB_B4_SUP"
-SAEJ1979.FUELSYSA_B4_SUP = OBDCommand("FUELSYSA_B4_SUP", "Fuel system A use percentage bank 4 supported | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 1, 1, 1, 0, False), header="7E0")
+SAEJ1979.FUELSYSA_B4_SUP = OBDCommand("FUELSYSA_B4_SUP", "Fuel system A use percentage bank 4 supported | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 1, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUELSYSA_B4_SUP"] = "FUELSYSA_B4_SUP"
-SAEJ1979.FUELSYSB_B3_SUP = OBDCommand("FUELSYSB_B3_SUP", "Fuel system B use percentage bank 3 supported | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 2, 1, 1, 0, False), header="7E0")
+SAEJ1979.FUELSYSB_B3_SUP = OBDCommand("FUELSYSB_B3_SUP", "Fuel system B use percentage bank 3 supported | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 2, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUELSYSB_B3_SUP"] = "FUELSYSB_B3_SUP"
-SAEJ1979.FUELSYSA_B3_SUP = OBDCommand("FUELSYSA_B3_SUP", "Fuel system A use percentage bank 3 supported | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 3, 1, 1, 0, False), header="7E0")
+SAEJ1979.FUELSYSA_B3_SUP = OBDCommand("FUELSYSA_B3_SUP", "Fuel system A use percentage bank 3 supported | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 3, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUELSYSA_B3_SUP"] = "FUELSYSA_B3_SUP"
-SAEJ1979.FUELSYSB_B2_SUP = OBDCommand("FUELSYSB_B2_SUP", "Fuel system B use percentage bank 2 supported | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 4, 1, 1, 0, False), header="7E0")
+SAEJ1979.FUELSYSB_B2_SUP = OBDCommand("FUELSYSB_B2_SUP", "Fuel system B use percentage bank 2 supported | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 4, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUELSYSB_B2_SUP"] = "FUELSYSB_B2_SUP"
-SAEJ1979.FUELSYSA_B2_SUP = OBDCommand("FUELSYSA_B2_SUP", "Fuel system A use percentage bank 2 supported | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 5, 1, 1, 0, False), header="7E0")
+SAEJ1979.FUELSYSA_B2_SUP = OBDCommand("FUELSYSA_B2_SUP", "Fuel system A use percentage bank 2 supported | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 5, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUELSYSA_B2_SUP"] = "FUELSYSA_B2_SUP"
-SAEJ1979.FUELSYSB_B1_SUP = OBDCommand("FUELSYSB_B1_SUP", "Fuel system B use percentage bank 1 supported | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 6, 1, 1, 0, False), header="7E0")
+SAEJ1979.FUELSYSB_B1_SUP = OBDCommand("FUELSYSB_B1_SUP", "Fuel system B use percentage bank 1 supported | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 6, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUELSYSB_B1_SUP"] = "FUELSYSB_B1_SUP"
-SAEJ1979.FUELSYSA_B1_SUP = OBDCommand("FUELSYSA_B1_SUP", "Fuel system A use percentage bank 1 supported | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 7, 1, 1, 0, False), header="7E0")
+SAEJ1979.FUELSYSA_B1_SUP = OBDCommand("FUELSYSA_B1_SUP", "Fuel system A use percentage bank 1 supported | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 7, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUELSYSA_B1_SUP"] = "FUELSYSA_B1_SUP"
-SAEJ1979.FUELSYSA_B1 = OBDCommand("FUELSYSA_B1", "Fuel system A use percentage bank 1 | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 8, 8, 100, 0, False), header="7E0")
+SAEJ1979.FUELSYSA_B1 = OBDCommand("FUELSYSA_B1", "Fuel system A use percentage bank 1 | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 8, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUELSYSA_B1"] = "FUELSYSA_B1"
-SAEJ1979.FUELSYSB_B1 = OBDCommand("FUELSYSB_B1", "Fuel system B use percentage bank 1 | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 16, 8, 100, 0, False), header="7E0")
+SAEJ1979.FUELSYSB_B1 = OBDCommand("FUELSYSB_B1", "Fuel system B use percentage bank 1 | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 16, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUELSYSB_B1"] = "FUELSYSB_B1"
-SAEJ1979.FUELSYSA_B2 = OBDCommand("FUELSYSA_B2", "Fuel system A use percentage bank 2 | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 24, 8, 100, 0, False), header="7E0")
+SAEJ1979.FUELSYSA_B2 = OBDCommand("FUELSYSA_B2", "Fuel system A use percentage bank 2 | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 24, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUELSYSA_B2"] = "FUELSYSA_B2"
-SAEJ1979.FUELSYSB_B2 = OBDCommand("FUELSYSB_B2", "Fuel system B use percentage bank 2 | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 32, 8, 100, 0, False), header="7E0")
+SAEJ1979.FUELSYSB_B2 = OBDCommand("FUELSYSB_B2", "Fuel system B use percentage bank 2 | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 32, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUELSYSB_B2"] = "FUELSYSB_B2"
-SAEJ1979.FUELSYSA_B3 = OBDCommand("FUELSYSA_B3", "Fuel system A use percentage bank 3 | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 40, 8, 100, 0, False), header="7E0")
+SAEJ1979.FUELSYSA_B3 = OBDCommand("FUELSYSA_B3", "Fuel system A use percentage bank 3 | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 40, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUELSYSA_B3"] = "FUELSYSA_B3"
-SAEJ1979.FUELSYSB_B3 = OBDCommand("FUELSYSB_B3", "Fuel system B use percentage bank 3 | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 48, 8, 100, 0, False), header="7E0")
+SAEJ1979.FUELSYSB_B3 = OBDCommand("FUELSYSB_B3", "Fuel system B use percentage bank 3 | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 48, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUELSYSB_B3"] = "FUELSYSB_B3"
-SAEJ1979.FUELSYSA_B4 = OBDCommand("FUELSYSA_B4", "Fuel system A use percentage bank 4 | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 56, 8, 100, 0, False), header="7E0")
+SAEJ1979.FUELSYSA_B4 = OBDCommand("FUELSYSA_B4", "Fuel system A use percentage bank 4 | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 56, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUELSYSA_B4"] = "FUELSYSA_B4"
-SAEJ1979.FUELSYSB_B4 = OBDCommand("FUELSYSB_B4", "Fuel system B use percentage bank 4 | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 64, 8, 100, 0, False), header="7E0")
+SAEJ1979.FUELSYSB_B4 = OBDCommand("FUELSYSB_B4", "Fuel system B use percentage bank 4 | hdr=7E0", bytes.fromhex("019F"), 9, _make_decoder(bytes.fromhex("419F"), 64, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["FUELSYSB_B4"] = "FUELSYSB_B4"
-SAEJ1979.CYL_RATE = OBDCommand("CYL_RATE", "Cylinder fuel rate | hdr=7E0", bytes.fromhex("01A2"), 2, _make_decoder(bytes.fromhex("41A2"), 0, 16, 1, 0, False), header="7E0")
+SAEJ1979.CYL_RATE = OBDCommand("CYL_RATE", "Cylinder fuel rate | hdr=7E0", bytes.fromhex("01A2"), 2, _make_decoder(bytes.fromhex("41A2"), 0, 16, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["CYL_RATE"] = "CYL_RATE"
-SAEJ1979.ODO = OBDCommand("ODO", "Odometer | hdr=7E0", bytes.fromhex("01A6"), 4, _make_decoder(bytes.fromhex("41A6"), 0, 32, 1, 0, False), header="7E0")
+SAEJ1979.ODO = OBDCommand("ODO", "Odometer | hdr=7E0", bytes.fromhex("01A6"), 4, _make_decoder(bytes.fromhex("41A6"), 0, 32, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["ODO"] = "ODO"
-SAEJ1979.V_SET = OBDCommand("V_SET", "Maximum current vehicle speed limit | hdr=7E0", bytes.fromhex("01AA"), 1, _make_decoder(bytes.fromhex("41AA"), 0, 8, 1, 0, False), header="7E0")
+SAEJ1979.V_SET = OBDCommand("V_SET", "Maximum current vehicle speed limit | hdr=7E0", bytes.fromhex("01AA"), 1, _make_decoder(bytes.fromhex("41AA"), 0, 8, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["V_SET"] = "V_SET"
-SAEJ1979.BAT_SOH = OBDCommand("BAT_SOH", "Traction battery pack State of Health | hdr=7E0", bytes.fromhex("01B2"), 1, _make_decoder(bytes.fromhex("41B2"), 0, 8, 100, 0, False), header="7E0")
+SAEJ1979.BAT_SOH = OBDCommand("BAT_SOH", "Traction battery pack State of Health | hdr=7E0", bytes.fromhex("01B2"), 1, _make_decoder(bytes.fromhex("41B2"), 0, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["BAT_SOH"] = "BAT_SOH"
-SAEJ1979.SOCR_SUP = OBDCommand("SOCR_SUP", "State of certified range supported | hdr=7E0", bytes.fromhex("01D2"), 3, _make_decoder(bytes.fromhex("41D2"), 6, 1, 1, 0, False), header="7E0")
+SAEJ1979.SOCR_SUP = OBDCommand("SOCR_SUP", "State of certified range supported | hdr=7E0", bytes.fromhex("01D2"), 3, _make_decoder(bytes.fromhex("41D2"), 6, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["SOCR_SUP"] = "SOCR_SUP"
-SAEJ1979.SOCE_SUP = OBDCommand("SOCE_SUP", "State of certified energy supported | hdr=7E0", bytes.fromhex("01D2"), 3, _make_decoder(bytes.fromhex("41D2"), 7, 1, 1, 0, False), header="7E0")
+SAEJ1979.SOCE_SUP = OBDCommand("SOCE_SUP", "State of certified energy supported | hdr=7E0", bytes.fromhex("01D2"), 3, _make_decoder(bytes.fromhex("41D2"), 7, 1, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["SOCE_SUP"] = "SOCE_SUP"
-SAEJ1979.SOCE = OBDCommand("SOCE", "State of certified energy | hdr=7E0", bytes.fromhex("01D2"), 3, _make_decoder(bytes.fromhex("41D2"), 8, 8, 100, 0, False), header="7E0")
+SAEJ1979.SOCE = OBDCommand("SOCE", "State of certified energy | hdr=7E0", bytes.fromhex("01D2"), 3, _make_decoder(bytes.fromhex("41D2"), 8, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["SOCE"] = "SOCE"
-SAEJ1979.SOCR = OBDCommand("SOCR", "State of certified range | hdr=7E0", bytes.fromhex("01D2"), 3, _make_decoder(bytes.fromhex("41D2"), 16, 8, 100, 0, False), header="7E0")
+SAEJ1979.SOCR = OBDCommand("SOCR", "State of certified range | hdr=7E0", bytes.fromhex("01D2"), 3, _make_decoder(bytes.fromhex("41D2"), 16, 8, 100, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["SOCR"] = "SOCR"
-SAEJ1979.ODO_ENG = OBDCommand("ODO_ENG", "Engine odometer | hdr=7E0", bytes.fromhex("01D3"), 4, _make_decoder(bytes.fromhex("41D3"), 0, 32, 1, 0, False), header="7E0")
+SAEJ1979.ODO_ENG = OBDCommand("ODO_ENG", "Engine odometer | hdr=7E0", bytes.fromhex("01D3"), 4, _make_decoder(bytes.fromhex("41D3"), 0, 32, 1, 0, False), header=b"7E0")
 _ORIGINAL_COMMAND_NAMES["SAEJ1979"]["ODO_ENG"] = "ODO_ENG"
 
 __all__ = [
