@@ -140,14 +140,14 @@ def _strip_response_prefix(data, response_prefix):
     return bytes(data)
 
 
-def _make_decoder(response_prefix, bix, bitlen, mul, add, signed):
+def _make_decoder(response_prefix, bix, bitlen, mul, add, div, signed):
     def decoder(messages):
         if not messages:
             return None
         data = bytes(messages[0].data)
         payload = _strip_response_prefix(data, response_prefix)
         value = _extract_bits_be(payload, bix, bitlen, signed=signed)
-        value = value * mul + add
+        value = (value * mul)/div + add
         return value
     return decoder
 
@@ -198,6 +198,7 @@ def emit_source_block(source_name, data):
             bix = int(fmt.get("bix", 0))
             mul = fmt.get("mul", 1)
             add = fmt.get("add", 0)
+            div = fmt.get("div", 1)
             signed = "True" if bool(fmt.get("signed", False)) else "False"
             desc = command_desc(signal, entry).replace("\\", "\\\\").replace('"', '\\"')
 
@@ -207,7 +208,7 @@ def emit_source_block(source_name, data):
                 f'"{desc}", '
                 f'b"{cmd_info["command_hex"]}", '
                 f'{bytes_expected + len(bytes.fromhex(cmd_info["command_hex"]))}, '
-                f'_make_decoder(bytes.fromhex("{cmd_info["response_prefix_hex"]}"), {bix}, {bitlen}, {repr(mul)}, {repr(add)}, {signed})'
+                f'_make_decoder(bytes.fromhex("{cmd_info["response_prefix_hex"]}"), {bix}, {bitlen}, {repr(mul)}, {repr(add)}, {repr(div)}, {signed})'
                 f'{emit_header_arg(hdr)})'
             )
             lines.append(f'_ORIGINAL_COMMAND_NAMES["{source_ident}"]["{name_ident}"] = "{name_original}"')
