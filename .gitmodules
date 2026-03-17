@@ -4,3 +4,2175 @@
 [submodule "obdb-src/Acura-TLX"]
 	path = obdb-src/Acura-TLX
 	url = https://github.com/OBDb/Acura-TLX
+[submodule "obdb-src/Volkswagen-Passat"]
+	path = obdb-src/Volkswagen-Passat
+	url = https://github.com/OBDb/Volkswagen-Passat.git
+[submodule "obdb-src/Volkswagen-T-Roc"]
+	path = obdb-src/Volkswagen-T-Roc
+	url = https://github.com/OBDb/Volkswagen-T-Roc.git
+[submodule "obdb-src/Honda-Civic"]
+	path = obdb-src/Honda-Civic
+	url = https://github.com/OBDb/Honda-Civic.git
+[submodule "obdb-src/Toyota-Camry"]
+	path = obdb-src/Toyota-Camry
+	url = https://github.com/OBDb/Toyota-Camry.git
+[submodule "obdb-src/Toyota-Prius"]
+	path = obdb-src/Toyota-Prius
+	url = https://github.com/OBDb/Toyota-Prius.git
+[submodule "obdb-src/Subaru-Solterra"]
+	path = obdb-src/Subaru-Solterra
+	url = https://github.com/OBDb/Subaru-Solterra.git
+[submodule "obdb-src/Seat-Ateca"]
+	path = obdb-src/Seat-Ateca
+	url = https://github.com/OBDb/Seat-Ateca.git
+[submodule "obdb-src/Mazda-MX-5"]
+	path = obdb-src/Mazda-MX-5
+	url = https://github.com/OBDb/Mazda-MX-5.git
+[submodule "obdb-src/Mazda-CX-30"]
+	path = obdb-src/Mazda-CX-30
+	url = https://github.com/OBDb/Mazda-CX-30.git
+[submodule "obdb-src/Hyundai-Veloster"]
+	path = obdb-src/Hyundai-Veloster
+	url = https://github.com/OBDb/Hyundai-Veloster.git
+[submodule "obdb-src/Kia-EV6"]
+	path = obdb-src/Kia-EV6
+	url = https://github.com/OBDb/Kia-EV6.git
+[submodule "obdb-src/Ford-Maverick"]
+	path = obdb-src/Ford-Maverick
+	url = https://github.com/OBDb/Ford-Maverick.git
+[submodule "obdb-src/Ford-F-250"]
+	path = obdb-src/Ford-F-250
+	url = https://github.com/OBDb/Ford-F-250.git
+[submodule "obdb-src/GMC-Sierra-1500"]
+	path = obdb-src/GMC-Sierra-1500
+	url = https://github.com/OBDb/GMC-Sierra-1500.git
+[submodule "obdb-src/Ford-Focus"]
+	path = obdb-src/Ford-Focus
+	url = https://github.com/OBDb/Ford-Focus.git
+[submodule "obdb-src/Ford-F-150"]
+	path = obdb-src/Ford-F-150
+	url = https://github.com/OBDb/Ford-F-150.git
+[submodule "obdb-src/BMW-5-Series"]
+	path = obdb-src/BMW-5-Series
+	url = https://github.com/OBDb/BMW-5-Series.git
+[submodule "obdb-src/Ford-Escape"]
+	path = obdb-src/Ford-Escape
+	url = https://github.com/OBDb/Ford-Escape.git
+[submodule "obdb-src/Audi-e-tron"]
+	path = obdb-src/Audi-e-tron
+	url = https://github.com/OBDb/Audi-e-tron.git
+[submodule "obdb-src/Porsche-Taycan"]
+	path = obdb-src/Porsche-Taycan
+	url = https://github.com/OBDb/Porsche-Taycan.git
+[submodule "obdb-src/Toyota-Sienna-Hybrid"]
+	path = obdb-src/Toyota-Sienna-Hybrid
+	url = https://github.com/OBDb/Toyota-Sienna-Hybrid.git
+[submodule "obdb-src/Nissan-Pathfinder"]
+	path = obdb-src/Nissan-Pathfinder
+	url = https://github.com/OBDb/Nissan-Pathfinder.git
+[submodule "obdb-src/Hyundai-IONIQ-5"]
+	path = obdb-src/Hyundai-IONIQ-5
+	url = https://github.com/OBDb/Hyundai-IONIQ-5.git
+[submodule "obdb-src/Kia-K5"]
+	path = obdb-src/Kia-K5
+	url = https://github.com/OBDb/Kia-K5.git
+[submodule "obdb-src/Hyundai-Sonata"]
+	path = obdb-src/Hyundai-Sonata
+	url = https://github.com/OBDb/Hyundai-Sonata.git
+[submodule "obdb-src/Kia-Sorento"]
+	path = obdb-src/Kia-Sorento
+	url = https://github.com/OBDb/Kia-Sorento.git
+[submodule "obdb-src/Honda-Fit"]
+	path = obdb-src/Honda-Fit
+	url = https://github.com/OBDb/Honda-Fit.git
+[submodule "obdb-src/Honda-Ridgeline"]
+	path = obdb-src/Honda-Ridgeline
+	url = https://github.com/OBDb/Honda-Ridgeline.git
+[submodule "obdb-src/Chevrolet-Colorado"]
+	path = obdb-src/Chevrolet-Colorado
+	url = https://github.com/OBDb/Chevrolet-Colorado.git
+[submodule "obdb-src/Toyota-Tacoma"]
+	path = obdb-src/Toyota-Tacoma
+	url = https://github.com/OBDb/Toyota-Tacoma.git
+[submodule "obdb-src/Toyota-Sequoia"]
+	path = obdb-src/Toyota-Sequoia
+	url = https://github.com/OBDb/Toyota-Sequoia.git
+[submodule "obdb-src/Subaru-BRZ"]
+	path = obdb-src/Subaru-BRZ
+	url = https://github.com/OBDb/Subaru-BRZ.git
+[submodule "obdb-src/Subaru-Forester"]
+	path = obdb-src/Subaru-Forester
+	url = https://github.com/OBDb/Subaru-Forester.git
+[submodule "obdb-src/Mazda-CX-5"]
+	path = obdb-src/Mazda-CX-5
+	url = https://github.com/OBDb/Mazda-CX-5.git
+[submodule "obdb-src/Mazda-CX-50"]
+	path = obdb-src/Mazda-CX-50
+	url = https://github.com/OBDb/Mazda-CX-50.git
+[submodule "obdb-src/Hyundai-Santa-Fe-Hybrid"]
+	path = obdb-src/Hyundai-Santa-Fe-Hybrid
+	url = https://github.com/OBDb/Hyundai-Santa-Fe-Hybrid.git
+[submodule "obdb-src/Ford-Mustang"]
+	path = obdb-src/Ford-Mustang
+	url = https://github.com/OBDb/Ford-Mustang.git
+[submodule "obdb-src/Chevrolet-Equinox"]
+	path = obdb-src/Chevrolet-Equinox
+	url = https://github.com/OBDb/Chevrolet-Equinox.git
+[submodule "obdb-src/Subaru-Impreza"]
+	path = obdb-src/Subaru-Impreza
+	url = https://github.com/OBDb/Subaru-Impreza.git
+[submodule "obdb-src/Toyota-Corolla"]
+	path = obdb-src/Toyota-Corolla
+	url = https://github.com/OBDb/Toyota-Corolla.git
+[submodule "obdb-src/Subaru-WRX"]
+	path = obdb-src/Subaru-WRX
+	url = https://github.com/OBDb/Subaru-WRX.git
+[submodule "obdb-src/Nissan-Frontier"]
+	path = obdb-src/Nissan-Frontier
+	url = https://github.com/OBDb/Nissan-Frontier.git
+[submodule "obdb-src/Jeep-Grand-Cherokee"]
+	path = obdb-src/Jeep-Grand-Cherokee
+	url = https://github.com/OBDb/Jeep-Grand-Cherokee.git
+[submodule "obdb-src/Jeep-Cherokee"]
+	path = obdb-src/Jeep-Cherokee
+	url = https://github.com/OBDb/Jeep-Cherokee.git
+[submodule "obdb-src/Subaru-Ascent"]
+	path = obdb-src/Subaru-Ascent
+	url = https://github.com/OBDb/Subaru-Ascent.git
+[submodule "obdb-src/Kia-EV3"]
+	path = obdb-src/Kia-EV3
+	url = https://github.com/OBDb/Kia-EV3.git
+[submodule "obdb-src/Volkswagen-Jetta-GLI"]
+	path = obdb-src/Volkswagen-Jetta-GLI
+	url = https://github.com/OBDb/Volkswagen-Jetta-GLI.git
+[submodule "obdb-src/Toyota-4Runner"]
+	path = obdb-src/Toyota-4Runner
+	url = https://github.com/OBDb/Toyota-4Runner.git
+[submodule "obdb-src/Kia-Stinger"]
+	path = obdb-src/Kia-Stinger
+	url = https://github.com/OBDb/Kia-Stinger.git
+[submodule "obdb-src/Volkswagen-Taos"]
+	path = obdb-src/Volkswagen-Taos
+	url = https://github.com/OBDb/Volkswagen-Taos.git
+[submodule "obdb-src/Seat-Leon"]
+	path = obdb-src/Seat-Leon
+	url = https://github.com/OBDb/Seat-Leon.git
+[submodule "obdb-src/Dacia-Duster"]
+	path = obdb-src/Dacia-Duster
+	url = https://github.com/OBDb/Dacia-Duster.git
+[submodule "obdb-src/Ford-Explorer"]
+	path = obdb-src/Ford-Explorer
+	url = https://github.com/OBDb/Ford-Explorer.git
+[submodule "obdb-src/Mazda-3"]
+	path = obdb-src/Mazda-3
+	url = https://github.com/OBDb/Mazda-3.git
+[submodule "obdb-src/Audi-A3"]
+	path = obdb-src/Audi-A3
+	url = https://github.com/OBDb/Audi-A3.git
+[submodule "obdb-src/Kia-EV9"]
+	path = obdb-src/Kia-EV9
+	url = https://github.com/OBDb/Kia-EV9.git
+[submodule "obdb-src/Hyundai-Santa-Fe"]
+	path = obdb-src/Hyundai-Santa-Fe
+	url = https://github.com/OBDb/Hyundai-Santa-Fe.git
+[submodule "obdb-src/Lexus-RX"]
+	path = obdb-src/Lexus-RX
+	url = https://github.com/OBDb/Lexus-RX.git
+[submodule "obdb-src/Kia-Niro"]
+	path = obdb-src/Kia-Niro
+	url = https://github.com/OBDb/Kia-Niro.git
+[submodule "obdb-src/Lexus-ES-300h"]
+	path = obdb-src/Lexus-ES-300h
+	url = https://github.com/OBDb/Lexus-ES-300h.git
+[submodule "obdb-src/Honda-Clarity"]
+	path = obdb-src/Honda-Clarity
+	url = https://github.com/OBDb/Honda-Clarity.git
+[submodule "obdb-src/Holden-Cruze"]
+	path = obdb-src/Holden-Cruze
+	url = https://github.com/OBDb/Holden-Cruze.git
+[submodule "obdb-src/Nissan-ARIYA"]
+	path = obdb-src/Nissan-ARIYA
+	url = https://github.com/OBDb/Nissan-ARIYA.git
+[submodule "obdb-src/Nissan-Kicks"]
+	path = obdb-src/Nissan-Kicks
+	url = https://github.com/OBDb/Nissan-Kicks.git
+[submodule "obdb-src/Volkswagen-ID.4"]
+	path = obdb-src/Volkswagen-ID.4
+	url = https://github.com/OBDb/Volkswagen-ID.4.git
+[submodule "obdb-src/Toyota-Venza"]
+	path = obdb-src/Toyota-Venza
+	url = https://github.com/OBDb/Toyota-Venza.git
+[submodule "obdb-src/Subaru-Crosstrek"]
+	path = obdb-src/Subaru-Crosstrek
+	url = https://github.com/OBDb/Subaru-Crosstrek.git
+[submodule "obdb-src/Hyundai-Elantra"]
+	path = obdb-src/Hyundai-Elantra
+	url = https://github.com/OBDb/Hyundai-Elantra.git
+[submodule "obdb-src/Jeep-Gladiator"]
+	path = obdb-src/Jeep-Gladiator
+	url = https://github.com/OBDb/Jeep-Gladiator.git
+[submodule "obdb-src/Ford-Bronco-Sport"]
+	path = obdb-src/Ford-Bronco-Sport
+	url = https://github.com/OBDb/Ford-Bronco-Sport.git
+[submodule "obdb-src/Audi-Q3"]
+	path = obdb-src/Audi-Q3
+	url = https://github.com/OBDb/Audi-Q3.git
+[submodule "obdb-src/BMW-X5"]
+	path = obdb-src/BMW-X5
+	url = https://github.com/OBDb/BMW-X5.git
+[submodule "obdb-src/Toyota-RAV4-Hybrid"]
+	path = obdb-src/Toyota-RAV4-Hybrid
+	url = https://github.com/OBDb/Toyota-RAV4-Hybrid.git
+[submodule "obdb-src/Toyota-Sienna"]
+	path = obdb-src/Toyota-Sienna
+	url = https://github.com/OBDb/Toyota-Sienna.git
+[submodule "obdb-src/Hyundai-Tucson-Hybrid"]
+	path = obdb-src/Hyundai-Tucson-Hybrid
+	url = https://github.com/OBDb/Hyundai-Tucson-Hybrid.git
+[submodule "obdb-src/Ford-F-350"]
+	path = obdb-src/Ford-F-350
+	url = https://github.com/OBDb/Ford-F-350.git
+[submodule "obdb-src/Audi-A6"]
+	path = obdb-src/Audi-A6
+	url = https://github.com/OBDb/Audi-A6.git
+[submodule "obdb-src/BMW-M2"]
+	path = obdb-src/BMW-M2
+	url = https://github.com/OBDb/BMW-M2.git
+[submodule "obdb-src/Subaru-Outback"]
+	path = obdb-src/Subaru-Outback
+	url = https://github.com/OBDb/Subaru-Outback.git
+[submodule "obdb-src/Toyota-Land-Cruiser-Hybrid"]
+	path = obdb-src/Toyota-Land-Cruiser-Hybrid
+	url = https://github.com/OBDb/Toyota-Land-Cruiser-Hybrid.git
+[submodule "obdb-src/Honda-Pilot"]
+	path = obdb-src/Honda-Pilot
+	url = https://github.com/OBDb/Honda-Pilot.git
+[submodule "obdb-src/Honda-CR-V"]
+	path = obdb-src/Honda-CR-V
+	url = https://github.com/OBDb/Honda-CR-V.git
+[submodule "obdb-src/Hyundai-Palisade"]
+	path = obdb-src/Hyundai-Palisade
+	url = https://github.com/OBDb/Hyundai-Palisade.git
+[submodule "obdb-src/Chevrolet-Volt"]
+	path = obdb-src/Chevrolet-Volt
+	url = https://github.com/OBDb/Chevrolet-Volt.git
+[submodule "obdb-src/Chevrolet-Silverado-1500"]
+	path = obdb-src/Chevrolet-Silverado-1500
+	url = https://github.com/OBDb/Chevrolet-Silverado-1500.git
+[submodule "obdb-src/Acura-Integra"]
+	path = obdb-src/Acura-Integra
+	url = https://github.com/OBDb/Acura-Integra.git
+[submodule "obdb-src/Toyota-Tundra"]
+	path = obdb-src/Toyota-Tundra
+	url = https://github.com/OBDb/Toyota-Tundra.git
+[submodule "obdb-src/Nissan-Leaf"]
+	path = obdb-src/Nissan-Leaf
+	url = https://github.com/OBDb/Nissan-Leaf.git
+[submodule "obdb-src/Lexus-IS"]
+	path = obdb-src/Lexus-IS
+	url = https://github.com/OBDb/Lexus-IS.git
+[submodule "obdb-src/Kia-Sportage"]
+	path = obdb-src/Kia-Sportage
+	url = https://github.com/OBDb/Kia-Sportage.git
+[submodule "obdb-src/Volkswagen-Tiguan"]
+	path = obdb-src/Volkswagen-Tiguan
+	url = https://github.com/OBDb/Volkswagen-Tiguan.git
+[submodule "obdb-src/Hyundai-Kona"]
+	path = obdb-src/Hyundai-Kona
+	url = https://github.com/OBDb/Hyundai-Kona.git
+[submodule "obdb-src/Chevrolet-Trax"]
+	path = obdb-src/Chevrolet-Trax
+	url = https://github.com/OBDb/Chevrolet-Trax.git
+[submodule "obdb-src/Lexus-UX"]
+	path = obdb-src/Lexus-UX
+	url = https://github.com/OBDb/Lexus-UX.git
+[submodule "obdb-src/Haval-Jolion-HEV"]
+	path = obdb-src/Haval-Jolion-HEV
+	url = https://github.com/OBDb/Haval-Jolion-HEV.git
+[submodule "obdb-src/BMW-X3"]
+	path = obdb-src/BMW-X3
+	url = https://github.com/OBDb/BMW-X3.git
+[submodule "obdb-src/Volkswagen-Golf"]
+	path = obdb-src/Volkswagen-Golf
+	url = https://github.com/OBDb/Volkswagen-Golf.git
+[submodule "obdb-src/Toyota-Corolla-Hybrid"]
+	path = obdb-src/Toyota-Corolla-Hybrid
+	url = https://github.com/OBDb/Toyota-Corolla-Hybrid.git
+[submodule "obdb-src/Mercedes-Benz-E-Class"]
+	path = obdb-src/Mercedes-Benz-E-Class
+	url = https://github.com/OBDb/Mercedes-Benz-E-Class.git
+[submodule "obdb-src/Kia-Niro-EV"]
+	path = obdb-src/Kia-Niro-EV
+	url = https://github.com/OBDb/Kia-Niro-EV.git
+[submodule "obdb-src/Kia-Ceed"]
+	path = obdb-src/Kia-Ceed
+	url = https://github.com/OBDb/Kia-Ceed.git
+[submodule "obdb-src/Ford-Mustang-Mach-E"]
+	path = obdb-src/Ford-Mustang-Mach-E
+	url = https://github.com/OBDb/Ford-Mustang-Mach-E.git
+[submodule "obdb-src/Volkswagen-Jetta"]
+	path = obdb-src/Volkswagen-Jetta
+	url = https://github.com/OBDb/Volkswagen-Jetta.git
+[submodule "obdb-src/Honda-Accord-Hybrid"]
+	path = obdb-src/Honda-Accord-Hybrid
+	url = https://github.com/OBDb/Honda-Accord-Hybrid.git
+[submodule "obdb-src/BMW-1-Series"]
+	path = obdb-src/BMW-1-Series
+	url = https://github.com/OBDb/BMW-1-Series.git
+[submodule "obdb-src/Honda-Insight"]
+	path = obdb-src/Honda-Insight
+	url = https://github.com/OBDb/Honda-Insight.git
+[submodule "obdb-src/Volkswagen-Atlas"]
+	path = obdb-src/Volkswagen-Atlas
+	url = https://github.com/OBDb/Volkswagen-Atlas.git
+[submodule "obdb-src/Buick-Encore"]
+	path = obdb-src/Buick-Encore
+	url = https://github.com/OBDb/Buick-Encore.git
+[submodule "obdb-src/Volvo-XC60"]
+	path = obdb-src/Volvo-XC60
+	url = https://github.com/OBDb/Volvo-XC60.git
+[submodule "obdb-src/Renault-Megane"]
+	path = obdb-src/Renault-Megane
+	url = https://github.com/OBDb/Renault-Megane.git
+[submodule "obdb-src/Mazda-2"]
+	path = obdb-src/Mazda-2
+	url = https://github.com/OBDb/Mazda-2.git
+[submodule "obdb-src/Ford-F-150-Lightning"]
+	path = obdb-src/Ford-F-150-Lightning
+	url = https://github.com/OBDb/Ford-F-150-Lightning.git
+[submodule "obdb-src/Toyota-Grand-Highlander"]
+	path = obdb-src/Toyota-Grand-Highlander
+	url = https://github.com/OBDb/Toyota-Grand-Highlander.git
+[submodule "obdb-src/Ford-Taurus"]
+	path = obdb-src/Ford-Taurus
+	url = https://github.com/OBDb/Ford-Taurus.git
+[submodule "obdb-src/Ford-Ranger"]
+	path = obdb-src/Ford-Ranger
+	url = https://github.com/OBDb/Ford-Ranger.git
+[submodule "obdb-src/Audi-Q5"]
+	path = obdb-src/Audi-Q5
+	url = https://github.com/OBDb/Audi-Q5.git
+[submodule "obdb-src/Ford-Transit"]
+	path = obdb-src/Ford-Transit
+	url = https://github.com/OBDb/Ford-Transit.git
+[submodule "obdb-src/GMC-Yukon"]
+	path = obdb-src/GMC-Yukon
+	url = https://github.com/OBDb/GMC-Yukon.git
+[submodule "obdb-src/Chevrolet-Camaro"]
+	path = obdb-src/Chevrolet-Camaro
+	url = https://github.com/OBDb/Chevrolet-Camaro.git
+[submodule "obdb-src/MG-One"]
+	path = obdb-src/MG-One
+	url = https://github.com/OBDb/MG-One.git
+[submodule "obdb-src/Ram-1500"]
+	path = obdb-src/Ram-1500
+	url = https://github.com/OBDb/Ram-1500.git
+[submodule "obdb-src/Toyota-Corolla-Cross"]
+	path = obdb-src/Toyota-Corolla-Cross
+	url = https://github.com/OBDb/Toyota-Corolla-Cross.git
+[submodule "obdb-src/Ford-Fusion-Hybrid"]
+	path = obdb-src/Ford-Fusion-Hybrid
+	url = https://github.com/OBDb/Ford-Fusion-Hybrid.git
+[submodule "obdb-src/Volkswagen-Scirocco"]
+	path = obdb-src/Volkswagen-Scirocco
+	url = https://github.com/OBDb/Volkswagen-Scirocco.git
+[submodule "obdb-src/Porsche-Panamera"]
+	path = obdb-src/Porsche-Panamera
+	url = https://github.com/OBDb/Porsche-Panamera.git
+[submodule "obdb-src/FIAT-500X"]
+	path = obdb-src/FIAT-500X
+	url = https://github.com/OBDb/FIAT-500X.git
+[submodule "obdb-src/Acura-MDX"]
+	path = obdb-src/Acura-MDX
+	url = https://github.com/OBDb/Acura-MDX.git
+[submodule "obdb-src/Peugeot-508"]
+	path = obdb-src/Peugeot-508
+	url = https://github.com/OBDb/Peugeot-508.git
+[submodule "obdb-src/Ford-Edge"]
+	path = obdb-src/Ford-Edge
+	url = https://github.com/OBDb/Ford-Edge.git
+[submodule "obdb-src/BMW-M5"]
+	path = obdb-src/BMW-M5
+	url = https://github.com/OBDb/BMW-M5.git
+[submodule "obdb-src/Hyundai-Tucson"]
+	path = obdb-src/Hyundai-Tucson
+	url = https://github.com/OBDb/Hyundai-Tucson.git
+[submodule "obdb-src/Audi-S6"]
+	path = obdb-src/Audi-S6
+	url = https://github.com/OBDb/Audi-S6.git
+[submodule "obdb-src/Ford-Fusion-Energi"]
+	path = obdb-src/Ford-Fusion-Energi
+	url = https://github.com/OBDb/Ford-Fusion-Energi.git
+[submodule "obdb-src/Mercedes-Benz-A-180"]
+	path = obdb-src/Mercedes-Benz-A-180
+	url = https://github.com/OBDb/Mercedes-Benz-A-180.git
+[submodule "obdb-src/MINI-Cooper"]
+	path = obdb-src/MINI-Cooper
+	url = https://github.com/OBDb/MINI-Cooper.git
+[submodule "obdb-src/Honda-Accord"]
+	path = obdb-src/Honda-Accord
+	url = https://github.com/OBDb/Honda-Accord.git
+[submodule "obdb-src/MINI-Hardtop"]
+	path = obdb-src/MINI-Hardtop
+	url = https://github.com/OBDb/MINI-Hardtop.git
+[submodule "obdb-src/Volkswagen-e-Golf"]
+	path = obdb-src/Volkswagen-e-Golf
+	url = https://github.com/OBDb/Volkswagen-e-Golf.git
+[submodule "obdb-src/Chevrolet-Bolt-EUV"]
+	path = obdb-src/Chevrolet-Bolt-EUV
+	url = https://github.com/OBDb/Chevrolet-Bolt-EUV.git
+[submodule "obdb-src/Audi-A4"]
+	path = obdb-src/Audi-A4
+	url = https://github.com/OBDb/Audi-A4.git
+[submodule "obdb-src/Toyota-RAV4"]
+	path = obdb-src/Toyota-RAV4
+	url = https://github.com/OBDb/Toyota-RAV4.git
+[submodule "obdb-src/Chevrolet-Traverse"]
+	path = obdb-src/Chevrolet-Traverse
+	url = https://github.com/OBDb/Chevrolet-Traverse.git
+[submodule "obdb-src/Hyundai-Santa-Cruz"]
+	path = obdb-src/Hyundai-Santa-Cruz
+	url = https://github.com/OBDb/Hyundai-Santa-Cruz.git
+[submodule "obdb-src/Toyota-Yaris-iA"]
+	path = obdb-src/Toyota-Yaris-iA
+	url = https://github.com/OBDb/Toyota-Yaris-iA.git
+[submodule "obdb-src/Toyota-RAV4-Prime"]
+	path = obdb-src/Toyota-RAV4-Prime
+	url = https://github.com/OBDb/Toyota-RAV4-Prime.git
+[submodule "obdb-src/Toyota-C-HR"]
+	path = obdb-src/Toyota-C-HR
+	url = https://github.com/OBDb/Toyota-C-HR.git
+[submodule "obdb-src/Subaru-Tribeca"]
+	path = obdb-src/Subaru-Tribeca
+	url = https://github.com/OBDb/Subaru-Tribeca.git
+[submodule "obdb-src/Land-Rover-Range-Rover"]
+	path = obdb-src/Land-Rover-Range-Rover
+	url = https://github.com/OBDb/Land-Rover-Range-Rover.git
+[submodule "obdb-src/Kia-Optima"]
+	path = obdb-src/Kia-Optima
+	url = https://github.com/OBDb/Kia-Optima.git
+[submodule "obdb-src/Cupra-Born"]
+	path = obdb-src/Cupra-Born
+	url = https://github.com/OBDb/Cupra-Born.git
+[submodule "obdb-src/Chrysler-300"]
+	path = obdb-src/Chrysler-300
+	url = https://github.com/OBDb/Chrysler-300.git
+[submodule "obdb-src/BMW-i5"]
+	path = obdb-src/BMW-i5
+	url = https://github.com/OBDb/BMW-i5.git
+[submodule "obdb-src/BMW-M3"]
+	path = obdb-src/BMW-M3
+	url = https://github.com/OBDb/BMW-M3.git
+[submodule "obdb-src/Audi-SQ5"]
+	path = obdb-src/Audi-SQ5
+	url = https://github.com/OBDb/Audi-SQ5.git
+[submodule "obdb-src/Audi-A5"]
+	path = obdb-src/Audi-A5
+	url = https://github.com/OBDb/Audi-A5.git
+[submodule "obdb-src/Toyota-Prius-Prime"]
+	path = obdb-src/Toyota-Prius-Prime
+	url = https://github.com/OBDb/Toyota-Prius-Prime.git
+[submodule "obdb-src/BMW-i3s"]
+	path = obdb-src/BMW-i3s
+	url = https://github.com/OBDb/BMW-i3s.git
+[submodule "obdb-src/MG-ZS-EV"]
+	path = obdb-src/MG-ZS-EV
+	url = https://github.com/OBDb/MG-ZS-EV.git
+[submodule "obdb-src/Kia-K4"]
+	path = obdb-src/Kia-K4
+	url = https://github.com/OBDb/Kia-K4.git
+[submodule "obdb-src/Volkswagen-Up"]
+	path = obdb-src/Volkswagen-Up
+	url = https://github.com/OBDb/Volkswagen-Up.git
+[submodule "obdb-src/Audi-A7"]
+	path = obdb-src/Audi-A7
+	url = https://github.com/OBDb/Audi-A7.git
+[submodule "obdb-src/Chevrolet-Silverado-2500"]
+	path = obdb-src/Chevrolet-Silverado-2500
+	url = https://github.com/OBDb/Chevrolet-Silverado-2500.git
+[submodule "obdb-src/Ram-3500"]
+	path = obdb-src/Ram-3500
+	url = https://github.com/OBDb/Ram-3500.git
+[submodule "obdb-src/Peugeot-2008"]
+	path = obdb-src/Peugeot-2008
+	url = https://github.com/OBDb/Peugeot-2008.git
+[submodule "obdb-src/Mazda-CX-9"]
+	path = obdb-src/Mazda-CX-9
+	url = https://github.com/OBDb/Mazda-CX-9.git
+[submodule "obdb-src/Volkswagen-Touareg"]
+	path = obdb-src/Volkswagen-Touareg
+	url = https://github.com/OBDb/Volkswagen-Touareg.git
+[submodule "obdb-src/Ford-Puma"]
+	path = obdb-src/Ford-Puma
+	url = https://github.com/OBDb/Ford-Puma.git
+[submodule "obdb-src/Mercedes-Benz-EQB"]
+	path = obdb-src/Mercedes-Benz-EQB
+	url = https://github.com/OBDb/Mercedes-Benz-EQB.git
+[submodule "obdb-src/Dodge-Challenger"]
+	path = obdb-src/Dodge-Challenger
+	url = https://github.com/OBDb/Dodge-Challenger.git
+[submodule "obdb-src/BMW-4-Series"]
+	path = obdb-src/BMW-4-Series
+	url = https://github.com/OBDb/BMW-4-Series.git
+[submodule "obdb-src/Toyota-FJ-Cruiser"]
+	path = obdb-src/Toyota-FJ-Cruiser
+	url = https://github.com/OBDb/Toyota-FJ-Cruiser.git
+[submodule "obdb-src/Peugeot-3008"]
+	path = obdb-src/Peugeot-3008
+	url = https://github.com/OBDb/Peugeot-3008.git
+[submodule "obdb-src/Ford-Fusion"]
+	path = obdb-src/Ford-Fusion
+	url = https://github.com/OBDb/Ford-Fusion.git
+[submodule "obdb-src/Cadillac-XT5"]
+	path = obdb-src/Cadillac-XT5
+	url = https://github.com/OBDb/Cadillac-XT5.git
+[submodule "obdb-src/Chrysler-Pacifica"]
+	path = obdb-src/Chrysler-Pacifica
+	url = https://github.com/OBDb/Chrysler-Pacifica.git
+[submodule "obdb-src/Toyota-Yaris"]
+	path = obdb-src/Toyota-Yaris
+	url = https://github.com/OBDb/Toyota-Yaris.git
+[submodule "obdb-src/Chrysler-200"]
+	path = obdb-src/Chrysler-200
+	url = https://github.com/OBDb/Chrysler-200.git
+[submodule "obdb-src/Nissan-Altima"]
+	path = obdb-src/Nissan-Altima
+	url = https://github.com/OBDb/Nissan-Altima.git
+[submodule "obdb-src/BMW-2-Series"]
+	path = obdb-src/BMW-2-Series
+	url = https://github.com/OBDb/BMW-2-Series.git
+[submodule "obdb-src/MG-Hector"]
+	path = obdb-src/MG-Hector
+	url = https://github.com/OBDb/MG-Hector.git
+[submodule "obdb-src/Chevrolet-Impala"]
+	path = obdb-src/Chevrolet-Impala
+	url = https://github.com/OBDb/Chevrolet-Impala.git
+[submodule "obdb-src/Cadillac-CTS"]
+	path = obdb-src/Cadillac-CTS
+	url = https://github.com/OBDb/Cadillac-CTS.git
+[submodule "obdb-src/Audi-SQ7"]
+	path = obdb-src/Audi-SQ7
+	url = https://github.com/OBDb/Audi-SQ7.git
+[submodule "obdb-src/Hyundai-Kona-Electric"]
+	path = obdb-src/Hyundai-Kona-Electric
+	url = https://github.com/OBDb/Hyundai-Kona-Electric.git
+[submodule "obdb-src/BMW-X4"]
+	path = obdb-src/BMW-X4
+	url = https://github.com/OBDb/BMW-X4.git
+[submodule "obdb-src/Land-Rover-Defender"]
+	path = obdb-src/Land-Rover-Defender
+	url = https://github.com/OBDb/Land-Rover-Defender.git
+[submodule "obdb-src/Volkswagen-Arteon"]
+	path = obdb-src/Volkswagen-Arteon
+	url = https://github.com/OBDb/Volkswagen-Arteon.git
+[submodule "obdb-src/Acura-TSX"]
+	path = obdb-src/Acura-TSX
+	url = https://github.com/OBDb/Acura-TSX.git
+[submodule "obdb-src/MG-MG4"]
+	path = obdb-src/MG-MG4
+	url = https://github.com/OBDb/MG-MG4.git
+[submodule "obdb-src/Ford-Territory"]
+	path = obdb-src/Ford-Territory
+	url = https://github.com/OBDb/Ford-Territory.git
+[submodule "obdb-src/Chevrolet-Malibu"]
+	path = obdb-src/Chevrolet-Malibu
+	url = https://github.com/OBDb/Chevrolet-Malibu.git
+[submodule "obdb-src/Subaru-Legacy"]
+	path = obdb-src/Subaru-Legacy
+	url = https://github.com/OBDb/Subaru-Legacy.git
+[submodule "obdb-src/Ford-Bronco"]
+	path = obdb-src/Ford-Bronco
+	url = https://github.com/OBDb/Ford-Bronco.git
+[submodule "obdb-src/BMW-i8"]
+	path = obdb-src/BMW-i8
+	url = https://github.com/OBDb/BMW-i8.git
+[submodule "obdb-src/Peugeot-208"]
+	path = obdb-src/Peugeot-208
+	url = https://github.com/OBDb/Peugeot-208.git
+[submodule "obdb-src/Toyota-Hilux"]
+	path = obdb-src/Toyota-Hilux
+	url = https://github.com/OBDb/Toyota-Hilux.git
+[submodule "obdb-src/Audi-Q4-e-tron"]
+	path = obdb-src/Audi-Q4-e-tron
+	url = https://github.com/OBDb/Audi-Q4-e-tron.git
+[submodule "obdb-src/Audi-Q7"]
+	path = obdb-src/Audi-Q7
+	url = https://github.com/OBDb/Audi-Q7.git
+[submodule "obdb-src/Lexus-RX-350"]
+	path = obdb-src/Lexus-RX-350
+	url = https://github.com/OBDb/Lexus-RX-350.git
+[submodule "obdb-src/Dodge-Grand-Caravan"]
+	path = obdb-src/Dodge-Grand-Caravan
+	url = https://github.com/OBDb/Dodge-Grand-Caravan.git
+[submodule "obdb-src/Toyota-Camry-Hybrid"]
+	path = obdb-src/Toyota-Camry-Hybrid
+	url = https://github.com/OBDb/Toyota-Camry-Hybrid.git
+[submodule "obdb-src/Nissan-Qashqai"]
+	path = obdb-src/Nissan-Qashqai
+	url = https://github.com/OBDb/Nissan-Qashqai.git
+[submodule "obdb-src/Kia-Soul"]
+	path = obdb-src/Kia-Soul
+	url = https://github.com/OBDb/Kia-Soul.git
+[submodule "obdb-src/MINI-Countryman"]
+	path = obdb-src/MINI-Countryman
+	url = https://github.com/OBDb/MINI-Countryman.git
+[submodule "obdb-src/Jeep-Renegade"]
+	path = obdb-src/Jeep-Renegade
+	url = https://github.com/OBDb/Jeep-Renegade.git
+[submodule "obdb-src/BMW-M4"]
+	path = obdb-src/BMW-M4
+	url = https://github.com/OBDb/BMW-M4.git
+[submodule "obdb-src/Nissan-Rogue"]
+	path = obdb-src/Nissan-Rogue
+	url = https://github.com/OBDb/Nissan-Rogue.git
+[submodule "obdb-src/BMW-X2"]
+	path = obdb-src/BMW-X2
+	url = https://github.com/OBDb/BMW-X2.git
+[submodule "obdb-src/Seat-Tarraco"]
+	path = obdb-src/Seat-Tarraco
+	url = https://github.com/OBDb/Seat-Tarraco.git
+[submodule "obdb-src/Genesis-G80"]
+	path = obdb-src/Genesis-G80
+	url = https://github.com/OBDb/Genesis-G80.git
+[submodule "obdb-src/Toyota-GR-Corolla"]
+	path = obdb-src/Toyota-GR-Corolla
+	url = https://github.com/OBDb/Toyota-GR-Corolla.git
+[submodule "obdb-src/Ford-Focus-ST"]
+	path = obdb-src/Ford-Focus-ST
+	url = https://github.com/OBDb/Ford-Focus-ST.git
+[submodule "obdb-src/BMW-X7"]
+	path = obdb-src/BMW-X7
+	url = https://github.com/OBDb/BMW-X7.git
+[submodule "obdb-src/Cupra-Formentor"]
+	path = obdb-src/Cupra-Formentor
+	url = https://github.com/OBDb/Cupra-Formentor.git
+[submodule "obdb-src/Kia-Forte"]
+	path = obdb-src/Kia-Forte
+	url = https://github.com/OBDb/Kia-Forte.git
+[submodule "obdb-src/Porsche-911"]
+	path = obdb-src/Porsche-911
+	url = https://github.com/OBDb/Porsche-911.git
+[submodule "obdb-src/Alfa-Romeo-Giulia"]
+	path = obdb-src/Alfa-Romeo-Giulia
+	url = https://github.com/OBDb/Alfa-Romeo-Giulia.git
+[submodule "obdb-src/Seat-Ibiza"]
+	path = obdb-src/Seat-Ibiza
+	url = https://github.com/OBDb/Seat-Ibiza.git
+[submodule "obdb-src/Porsche-Macan"]
+	path = obdb-src/Porsche-Macan
+	url = https://github.com/OBDb/Porsche-Macan.git
+[submodule "obdb-src/GMC-Canyon"]
+	path = obdb-src/GMC-Canyon
+	url = https://github.com/OBDb/GMC-Canyon.git
+[submodule "obdb-src/Volvo-S60"]
+	path = obdb-src/Volvo-S60
+	url = https://github.com/OBDb/Volvo-S60.git
+[submodule "obdb-src/BMW-X1"]
+	path = obdb-src/BMW-X1
+	url = https://github.com/OBDb/BMW-X1.git
+[submodule "obdb-src/Cadillac-Escalade"]
+	path = obdb-src/Cadillac-Escalade
+	url = https://github.com/OBDb/Cadillac-Escalade.git
+[submodule "obdb-src/Mazda"]
+	path = obdb-src/Mazda
+	url = https://github.com/OBDb/Mazda.git
+[submodule "obdb-src/Mazda-6"]
+	path = obdb-src/Mazda-6
+	url = https://github.com/OBDb/Mazda-6.git
+[submodule "obdb-src/Audi-A1"]
+	path = obdb-src/Audi-A1
+	url = https://github.com/OBDb/Audi-A1.git
+[submodule "obdb-src/Ford-Expedition"]
+	path = obdb-src/Ford-Expedition
+	url = https://github.com/OBDb/Ford-Expedition.git
+[submodule "obdb-src/Hyundai-i30"]
+	path = obdb-src/Hyundai-i30
+	url = https://github.com/OBDb/Hyundai-i30.git
+[submodule "obdb-src/Cupra-Leon"]
+	path = obdb-src/Cupra-Leon
+	url = https://github.com/OBDb/Cupra-Leon.git
+[submodule "obdb-src/Chevrolet-Cruze"]
+	path = obdb-src/Chevrolet-Cruze
+	url = https://github.com/OBDb/Chevrolet-Cruze.git
+[submodule "obdb-src/Kia-Telluride"]
+	path = obdb-src/Kia-Telluride
+	url = https://github.com/OBDb/Kia-Telluride.git
+[submodule "obdb-src/Mitsubishi-ASX"]
+	path = obdb-src/Mitsubishi-ASX
+	url = https://github.com/OBDb/Mitsubishi-ASX.git
+[submodule "obdb-src/Porsche-Cayman"]
+	path = obdb-src/Porsche-Cayman
+	url = https://github.com/OBDb/Porsche-Cayman.git
+[submodule "obdb-src/Polestar-2"]
+	path = obdb-src/Polestar-2
+	url = https://github.com/OBDb/Polestar-2.git
+[submodule "obdb-src/Porsche-Cayenne"]
+	path = obdb-src/Porsche-Cayenne
+	url = https://github.com/OBDb/Porsche-Cayenne.git
+[submodule "obdb-src/Audi-S4"]
+	path = obdb-src/Audi-S4
+	url = https://github.com/OBDb/Audi-S4.git
+[submodule "obdb-src/BMW"]
+	path = obdb-src/BMW
+	url = https://github.com/OBDb/BMW.git
+[submodule "obdb-src/MINI"]
+	path = obdb-src/MINI
+	url = https://github.com/OBDb/MINI.git
+[submodule "obdb-src/Lexus-GX"]
+	path = obdb-src/Lexus-GX
+	url = https://github.com/OBDb/Lexus-GX.git
+[submodule "obdb-src/Porsche-718"]
+	path = obdb-src/Porsche-718
+	url = https://github.com/OBDb/Porsche-718.git
+[submodule "obdb-src/BMW-7-Series"]
+	path = obdb-src/BMW-7-Series
+	url = https://github.com/OBDb/BMW-7-Series.git
+[submodule "obdb-src/Audi-TT"]
+	path = obdb-src/Audi-TT
+	url = https://github.com/OBDb/Audi-TT.git
+[submodule "obdb-src/GMC-Terrain"]
+	path = obdb-src/GMC-Terrain
+	url = https://github.com/OBDb/GMC-Terrain.git
+[submodule "obdb-src/Toyota-Land-Cruiser"]
+	path = obdb-src/Toyota-Land-Cruiser
+	url = https://github.com/OBDb/Toyota-Land-Cruiser.git
+[submodule "obdb-src/Chevrolet-Tahoe"]
+	path = obdb-src/Chevrolet-Tahoe
+	url = https://github.com/OBDb/Chevrolet-Tahoe.git
+[submodule "obdb-src/Renault-ZOE"]
+	path = obdb-src/Renault-ZOE
+	url = https://github.com/OBDb/Renault-ZOE.git
+[submodule "obdb-src/Volkswagen-T-Cross"]
+	path = obdb-src/Volkswagen-T-Cross
+	url = https://github.com/OBDb/Volkswagen-T-Cross.git
+[submodule "obdb-src/Toyota-Yaris-Cross"]
+	path = obdb-src/Toyota-Yaris-Cross
+	url = https://github.com/OBDb/Toyota-Yaris-Cross.git
+[submodule "obdb-src/Kia-Carens"]
+	path = obdb-src/Kia-Carens
+	url = https://github.com/OBDb/Kia-Carens.git
+[submodule "obdb-src/Toyota-Auris"]
+	path = obdb-src/Toyota-Auris
+	url = https://github.com/OBDb/Toyota-Auris.git
+[submodule "obdb-src/Saab-9-3"]
+	path = obdb-src/Saab-9-3
+	url = https://github.com/OBDb/Saab-9-3.git
+[submodule "obdb-src/Kia-Picanto"]
+	path = obdb-src/Kia-Picanto
+	url = https://github.com/OBDb/Kia-Picanto.git
+[submodule "obdb-src/Buick-Encore-GX"]
+	path = obdb-src/Buick-Encore-GX
+	url = https://github.com/OBDb/Buick-Encore-GX.git
+[submodule "obdb-src/BMW-iX3"]
+	path = obdb-src/BMW-iX3
+	url = https://github.com/OBDb/BMW-iX3.git
+[submodule "obdb-src/Ram-2500"]
+	path = obdb-src/Ram-2500
+	url = https://github.com/OBDb/Ram-2500.git
+[submodule "obdb-src/Renault-Clio"]
+	path = obdb-src/Renault-Clio
+	url = https://github.com/OBDb/Renault-Clio.git
+[submodule "obdb-src/Volkswagen-Touran"]
+	path = obdb-src/Volkswagen-Touran
+	url = https://github.com/OBDb/Volkswagen-Touran.git
+[submodule "obdb-src/INFINITI-Q50"]
+	path = obdb-src/INFINITI-Q50
+	url = https://github.com/OBDb/INFINITI-Q50.git
+[submodule "obdb-src/Acura-RDX"]
+	path = obdb-src/Acura-RDX
+	url = https://github.com/OBDb/Acura-RDX.git
+[submodule "obdb-src/Lexus-GX-460"]
+	path = obdb-src/Lexus-GX-460
+	url = https://github.com/OBDb/Lexus-GX-460.git
+[submodule "obdb-src/Honda-CR-V-Hybrid"]
+	path = obdb-src/Honda-CR-V-Hybrid
+	url = https://github.com/OBDb/Honda-CR-V-Hybrid.git
+[submodule "obdb-src/Toyota-Aygo"]
+	path = obdb-src/Toyota-Aygo
+	url = https://github.com/OBDb/Toyota-Aygo.git
+[submodule "obdb-src/Kia-Cerato"]
+	path = obdb-src/Kia-Cerato
+	url = https://github.com/OBDb/Kia-Cerato.git
+[submodule "obdb-src/Toyota-Avalon"]
+	path = obdb-src/Toyota-Avalon
+	url = https://github.com/OBDb/Toyota-Avalon.git
+[submodule "obdb-src/Audi-RS-e-tron"]
+	path = obdb-src/Audi-RS-e-tron
+	url = https://github.com/OBDb/Audi-RS-e-tron.git
+[submodule "obdb-src/GMC-Acadia"]
+	path = obdb-src/GMC-Acadia
+	url = https://github.com/OBDb/GMC-Acadia.git
+[submodule "obdb-src/Honda-Prologue"]
+	path = obdb-src/Honda-Prologue
+	url = https://github.com/OBDb/Honda-Prologue.git
+[submodule "obdb-src/Volvo-XC90"]
+	path = obdb-src/Volvo-XC90
+	url = https://github.com/OBDb/Volvo-XC90.git
+[submodule "obdb-src/Volkswagen-Polo"]
+	path = obdb-src/Volkswagen-Polo
+	url = https://github.com/OBDb/Volkswagen-Polo.git
+[submodule "obdb-src/Mercedes-Benz-G-Class"]
+	path = obdb-src/Mercedes-Benz-G-Class
+	url = https://github.com/OBDb/Mercedes-Benz-G-Class.git
+[submodule "obdb-src/Chevrolet-Sonic"]
+	path = obdb-src/Chevrolet-Sonic
+	url = https://github.com/OBDb/Chevrolet-Sonic.git
+[submodule "obdb-src/Kia"]
+	path = obdb-src/Kia
+	url = https://github.com/OBDb/Kia.git
+[submodule "obdb-src/Renault-Captur"]
+	path = obdb-src/Renault-Captur
+	url = https://github.com/OBDb/Renault-Captur.git
+[submodule "obdb-src/Volvo-XC40"]
+	path = obdb-src/Volvo-XC40
+	url = https://github.com/OBDb/Volvo-XC40.git
+[submodule "obdb-src/Toyota-GR-Supra"]
+	path = obdb-src/Toyota-GR-Supra
+	url = https://github.com/OBDb/Toyota-GR-Supra.git
+[submodule "obdb-src/Renault"]
+	path = obdb-src/Renault
+	url = https://github.com/OBDb/Renault.git
+[submodule "obdb-src/Jeep-Wrangler-4xe"]
+	path = obdb-src/Jeep-Wrangler-4xe
+	url = https://github.com/OBDb/Jeep-Wrangler-4xe.git
+[submodule "obdb-src/Dacia"]
+	path = obdb-src/Dacia
+	url = https://github.com/OBDb/Dacia.git
+[submodule "obdb-src/Aiways-U5"]
+	path = obdb-src/Aiways-U5
+	url = https://github.com/OBDb/Aiways-U5.git
+[submodule "obdb-src/Audi-A3-e-tron"]
+	path = obdb-src/Audi-A3-e-tron
+	url = https://github.com/OBDb/Audi-A3-e-tron.git
+[submodule "obdb-src/Lincoln-Town-Car"]
+	path = obdb-src/Lincoln-Town-Car
+	url = https://github.com/OBDb/Lincoln-Town-Car.git
+[submodule "obdb-src/Nissan-Juke"]
+	path = obdb-src/Nissan-Juke
+	url = https://github.com/OBDb/Nissan-Juke.git
+[submodule "obdb-src/Dodge-Durango"]
+	path = obdb-src/Dodge-Durango
+	url = https://github.com/OBDb/Dodge-Durango.git
+[submodule "obdb-src/Polestar-3"]
+	path = obdb-src/Polestar-3
+	url = https://github.com/OBDb/Polestar-3.git
+[submodule "obdb-src/Mazda-CX-3"]
+	path = obdb-src/Mazda-CX-3
+	url = https://github.com/OBDb/Mazda-CX-3.git
+[submodule "obdb-src/Mazda-CX-90"]
+	path = obdb-src/Mazda-CX-90
+	url = https://github.com/OBDb/Mazda-CX-90.git
+[submodule "obdb-src/BMW-i3"]
+	path = obdb-src/BMW-i3
+	url = https://github.com/OBDb/BMW-i3.git
+[submodule "obdb-src/Lamborghini"]
+	path = obdb-src/Lamborghini
+	url = https://github.com/OBDb/Lamborghini.git
+[submodule "obdb-src/Chevrolet"]
+	path = obdb-src/Chevrolet
+	url = https://github.com/OBDb/Chevrolet.git
+[submodule "obdb-src/Audi"]
+	path = obdb-src/Audi
+	url = https://github.com/OBDb/Audi.git
+[submodule "obdb-src/Toyota"]
+	path = obdb-src/Toyota
+	url = https://github.com/OBDb/Toyota.git
+[submodule "obdb-src/Suzuki"]
+	path = obdb-src/Suzuki
+	url = https://github.com/OBDb/Suzuki.git
+[submodule "obdb-src/SEAT"]
+	path = obdb-src/SEAT
+	url = https://github.com/OBDb/SEAT.git
+[submodule "obdb-src/Volkswagen"]
+	path = obdb-src/Volkswagen
+	url = https://github.com/OBDb/Volkswagen.git
+[submodule "obdb-src/Daihatsu"]
+	path = obdb-src/Daihatsu
+	url = https://github.com/OBDb/Daihatsu.git
+[submodule "obdb-src/Skoda"]
+	path = obdb-src/Skoda
+	url = https://github.com/OBDb/Skoda.git
+[submodule "obdb-src/Cupra"]
+	path = obdb-src/Cupra
+	url = https://github.com/OBDb/Cupra.git
+[submodule "obdb-src/Porsche"]
+	path = obdb-src/Porsche
+	url = https://github.com/OBDb/Porsche.git
+[submodule "obdb-src/Bentley"]
+	path = obdb-src/Bentley
+	url = https://github.com/OBDb/Bentley.git
+[submodule "obdb-src/BMW-Z4"]
+	path = obdb-src/BMW-Z4
+	url = https://github.com/OBDb/BMW-Z4.git
+[submodule "obdb-src/Jeep-Compass"]
+	path = obdb-src/Jeep-Compass
+	url = https://github.com/OBDb/Jeep-Compass.git
+[submodule "obdb-src/BMW-3-Series"]
+	path = obdb-src/BMW-3-Series
+	url = https://github.com/OBDb/BMW-3-Series.git
+[submodule "obdb-src/Hyundai"]
+	path = obdb-src/Hyundai
+	url = https://github.com/OBDb/Hyundai.git
+[submodule "obdb-src/Nissan-Patrol"]
+	path = obdb-src/Nissan-Patrol
+	url = https://github.com/OBDb/Nissan-Patrol.git
+[submodule "obdb-src/Lexus-CT-200h"]
+	path = obdb-src/Lexus-CT-200h
+	url = https://github.com/OBDb/Lexus-CT-200h.git
+[submodule "obdb-src/Nissan-Sentra"]
+	path = obdb-src/Nissan-Sentra
+	url = https://github.com/OBDb/Nissan-Sentra.git
+[submodule "obdb-src/Mercedes-Benz"]
+	path = obdb-src/Mercedes-Benz
+	url = https://github.com/OBDb/Mercedes-Benz.git
+[submodule "obdb-src/Volvo"]
+	path = obdb-src/Volvo
+	url = https://github.com/OBDb/Volvo.git
+[submodule "obdb-src/Lexus"]
+	path = obdb-src/Lexus
+	url = https://github.com/OBDb/Lexus.git
+[submodule "obdb-src/Honda"]
+	path = obdb-src/Honda
+	url = https://github.com/OBDb/Honda.git
+[submodule "obdb-src/Nissan"]
+	path = obdb-src/Nissan
+	url = https://github.com/OBDb/Nissan.git
+[submodule "obdb-src/BMW-iX"]
+	path = obdb-src/BMW-iX
+	url = https://github.com/OBDb/BMW-iX.git
+[submodule "obdb-src/Mercedes-Benz-EQE"]
+	path = obdb-src/Mercedes-Benz-EQE
+	url = https://github.com/OBDb/Mercedes-Benz-EQE.git
+[submodule "obdb-src/Honda-Odyssey"]
+	path = obdb-src/Honda-Odyssey
+	url = https://github.com/OBDb/Honda-Odyssey.git
+[submodule "obdb-src/Dodge-Charger"]
+	path = obdb-src/Dodge-Charger
+	url = https://github.com/OBDb/Dodge-Charger.git
+[submodule "obdb-src/Chevrolet-Trailblazer"]
+	path = obdb-src/Chevrolet-Trailblazer
+	url = https://github.com/OBDb/Chevrolet-Trailblazer.git
+[submodule "obdb-src/Chevrolet-Corvette"]
+	path = obdb-src/Chevrolet-Corvette
+	url = https://github.com/OBDb/Chevrolet-Corvette.git
+[submodule "obdb-src/Suzuki-Jimny"]
+	path = obdb-src/Suzuki-Jimny
+	url = https://github.com/OBDb/Suzuki-Jimny.git
+[submodule "obdb-src/Kia-Stonic"]
+	path = obdb-src/Kia-Stonic
+	url = https://github.com/OBDb/Kia-Stonic.git
+[submodule "obdb-src/Honda-City"]
+	path = obdb-src/Honda-City
+	url = https://github.com/OBDb/Honda-City.git
+[submodule "obdb-src/Toyota-bZ4X"]
+	path = obdb-src/Toyota-bZ4X
+	url = https://github.com/OBDb/Toyota-bZ4X.git
+[submodule "obdb-src/Aiways"]
+	path = obdb-src/Aiways
+	url = https://github.com/OBDb/Aiways.git
+[submodule "obdb-src/Mercedes-Benz-CLA-Class"]
+	path = obdb-src/Mercedes-Benz-CLA-Class
+	url = https://github.com/OBDb/Mercedes-Benz-CLA-Class.git
+[submodule "obdb-src/Toyota-Grand-Highlander-Hybrid"]
+	path = obdb-src/Toyota-Grand-Highlander-Hybrid
+	url = https://github.com/OBDb/Toyota-Grand-Highlander-Hybrid.git
+[submodule "obdb-src/Chevrolet-Silverado-3500"]
+	path = obdb-src/Chevrolet-Silverado-3500
+	url = https://github.com/OBDb/Chevrolet-Silverado-3500.git
+[submodule "obdb-src/Suzuki-Splash"]
+	path = obdb-src/Suzuki-Splash
+	url = https://github.com/OBDb/Suzuki-Splash.git
+[submodule "obdb-src/INFINITI-G-Sedan"]
+	path = obdb-src/INFINITI-G-Sedan
+	url = https://github.com/OBDb/INFINITI-G-Sedan.git
+[submodule "obdb-src/Toyota-Highlander"]
+	path = obdb-src/Toyota-Highlander
+	url = https://github.com/OBDb/Toyota-Highlander.git
+[submodule "obdb-src/MG-HS"]
+	path = obdb-src/MG-HS
+	url = https://github.com/OBDb/MG-HS.git
+[submodule "obdb-src/Lincoln-MKX"]
+	path = obdb-src/Lincoln-MKX
+	url = https://github.com/OBDb/Lincoln-MKX.git
+[submodule "obdb-src/Zeekr-009"]
+	path = obdb-src/Zeekr-009
+	url = https://github.com/OBDb/Zeekr-009.git
+[submodule "obdb-src/VW-Golf"]
+	path = obdb-src/VW-Golf
+	url = https://github.com/OBDb/VW-Golf.git
+[submodule "obdb-src/Voyah-Free"]
+	path = obdb-src/Voyah-Free
+	url = https://github.com/OBDb/Voyah-Free.git
+[submodule "obdb-src/Volvo-XC40-T4-Recharge"]
+	path = obdb-src/Volvo-XC40-T4-Recharge
+	url = https://github.com/OBDb/Volvo-XC40-T4-Recharge.git
+[submodule "obdb-src/Volvo-V90CC"]
+	path = obdb-src/Volvo-V90CC
+	url = https://github.com/OBDb/Volvo-V90CC.git
+[submodule "obdb-src/Volvo-V90-Cross-Country"]
+	path = obdb-src/Volvo-V90-Cross-Country
+	url = https://github.com/OBDb/Volvo-V90-Cross-Country.git
+[submodule "obdb-src/Volvo-V70"]
+	path = obdb-src/Volvo-V70
+	url = https://github.com/OBDb/Volvo-V70.git
+[submodule "obdb-src/Volvo-V60"]
+	path = obdb-src/Volvo-V60
+	url = https://github.com/OBDb/Volvo-V60.git
+[submodule "obdb-src/Volvo-V50"]
+	path = obdb-src/Volvo-V50
+	url = https://github.com/OBDb/Volvo-V50.git
+[submodule "obdb-src/Volvo-S90"]
+	path = obdb-src/Volvo-S90
+	url = https://github.com/OBDb/Volvo-S90.git
+[submodule "obdb-src/Volvo-S40"]
+	path = obdb-src/Volvo-S40
+	url = https://github.com/OBDb/Volvo-S40.git
+[submodule "obdb-src/Volvo-EX30"]
+	path = obdb-src/Volvo-EX30
+	url = https://github.com/OBDb/Volvo-EX30.git
+[submodule "obdb-src/Volvo-C30"]
+	path = obdb-src/Volvo-C30
+	url = https://github.com/OBDb/Volvo-C30.git
+[submodule "obdb-src/Volkswagen-Virtus"]
+	path = obdb-src/Volkswagen-Virtus
+	url = https://github.com/OBDb/Volkswagen-Virtus.git
+[submodule "obdb-src/Volkswagen-T5"]
+	path = obdb-src/Volkswagen-T5
+	url = https://github.com/OBDb/Volkswagen-T5.git
+[submodule "obdb-src/Volkswagen-Sharan"]
+	path = obdb-src/Volkswagen-Sharan
+	url = https://github.com/OBDb/Volkswagen-Sharan.git
+[submodule "obdb-src/Volkswagen-Rabbit"]
+	path = obdb-src/Volkswagen-Rabbit
+	url = https://github.com/OBDb/Volkswagen-Rabbit.git
+[submodule "obdb-src/Volkswagen-R32"]
+	path = obdb-src/Volkswagen-R32
+	url = https://github.com/OBDb/Volkswagen-R32.git
+[submodule "obdb-src/Volkswagen-Passat-Variant"]
+	path = obdb-src/Volkswagen-Passat-Variant
+	url = https://github.com/OBDb/Volkswagen-Passat-Variant.git
+[submodule "obdb-src/Volkswagen-ID7-Tourer"]
+	path = obdb-src/Volkswagen-ID7-Tourer
+	url = https://github.com/OBDb/Volkswagen-ID7-Tourer.git
+[submodule "obdb-src/Volkswagen-ID5"]
+	path = obdb-src/Volkswagen-ID5
+	url = https://github.com/OBDb/Volkswagen-ID5.git
+[submodule "obdb-src/Volkswagen-ID3"]
+	path = obdb-src/Volkswagen-ID3
+	url = https://github.com/OBDb/Volkswagen-ID3.git
+[submodule "obdb-src/Volkswagen-ID-Buzz"]
+	path = obdb-src/Volkswagen-ID-Buzz
+	url = https://github.com/OBDb/Volkswagen-ID-Buzz.git
+[submodule "obdb-src/Volkswagen-GTE"]
+	path = obdb-src/Volkswagen-GTE
+	url = https://github.com/OBDb/Volkswagen-GTE.git
+[submodule "obdb-src/Volkswagen-Crafter"]
+	path = obdb-src/Volkswagen-Crafter
+	url = https://github.com/OBDb/Volkswagen-Crafter.git
+[submodule "obdb-src/Volkswagen-CC"]
+	path = obdb-src/Volkswagen-CC
+	url = https://github.com/OBDb/Volkswagen-CC.git
+[submodule "obdb-src/Volkswagen-Beetle"]
+	path = obdb-src/Volkswagen-Beetle
+	url = https://github.com/OBDb/Volkswagen-Beetle.git
+[submodule "obdb-src/Volkswagen-Amarok"]
+	path = obdb-src/Volkswagen-Amarok
+	url = https://github.com/OBDb/Volkswagen-Amarok.git
+[submodule "obdb-src/VauxhallOpel-Zafira-B"]
+	path = obdb-src/VauxhallOpel-Zafira-B
+	url = https://github.com/OBDb/VauxhallOpel-Zafira-B.git
+[submodule "obdb-src/VauxhallOpel-Mokka"]
+	path = obdb-src/VauxhallOpel-Mokka
+	url = https://github.com/OBDb/VauxhallOpel-Mokka.git
+[submodule "obdb-src/VauxhallOpel-Insignia"]
+	path = obdb-src/VauxhallOpel-Insignia
+	url = https://github.com/OBDb/VauxhallOpel-Insignia.git
+[submodule "obdb-src/VauxhallOpel-Grandland-X"]
+	path = obdb-src/VauxhallOpel-Grandland-X
+	url = https://github.com/OBDb/VauxhallOpel-Grandland-X.git
+[submodule "obdb-src/VauxhallOpel-Crossland"]
+	path = obdb-src/VauxhallOpel-Crossland
+	url = https://github.com/OBDb/VauxhallOpel-Crossland.git
+[submodule "obdb-src/VauxhallOpel-Corsa-e"]
+	path = obdb-src/VauxhallOpel-Corsa-e
+	url = https://github.com/OBDb/VauxhallOpel-Corsa-e.git
+[submodule "obdb-src/VauxhallOpel-Astra"]
+	path = obdb-src/VauxhallOpel-Astra
+	url = https://github.com/OBDb/VauxhallOpel-Astra.git
+[submodule "obdb-src/VauxhallOpel-Ampera"]
+	path = obdb-src/VauxhallOpel-Ampera
+	url = https://github.com/OBDb/VauxhallOpel-Ampera.git
+[submodule "obdb-src/Vauxhall-Mokka-e"]
+	path = obdb-src/Vauxhall-Mokka-e
+	url = https://github.com/OBDb/Vauxhall-Mokka-e.git
+[submodule "obdb-src/Vauxhall-Astra"]
+	path = obdb-src/Vauxhall-Astra
+	url = https://github.com/OBDb/Vauxhall-Astra.git
+[submodule "obdb-src/Toyota-Venza-Hybrid"]
+	path = obdb-src/Toyota-Venza-Hybrid
+	url = https://github.com/OBDb/Toyota-Venza-Hybrid.git
+[submodule "obdb-src/Toyota-Rush"]
+	path = obdb-src/Toyota-Rush
+	url = https://github.com/OBDb/Toyota-Rush.git
+[submodule "obdb-src/Toyota-Prius-v"]
+	path = obdb-src/Toyota-Prius-v
+	url = https://github.com/OBDb/Toyota-Prius-v.git
+[submodule "obdb-src/Toyota-MR2"]
+	path = obdb-src/Toyota-MR2
+	url = https://github.com/OBDb/Toyota-MR2.git
+[submodule "obdb-src/Toyota-Mirai"]
+	path = obdb-src/Toyota-Mirai
+	url = https://github.com/OBDb/Toyota-Mirai.git
+[submodule "obdb-src/Toyota-Matrix"]
+	path = obdb-src/Toyota-Matrix
+	url = https://github.com/OBDb/Toyota-Matrix.git
+[submodule "obdb-src/Toyota-Ist"]
+	path = obdb-src/Toyota-Ist
+	url = https://github.com/OBDb/Toyota-Ist.git
+[submodule "obdb-src/Toyota-iQ"]
+	path = obdb-src/Toyota-iQ
+	url = https://github.com/OBDb/Toyota-iQ.git
+[submodule "obdb-src/Toyota-Innova"]
+	path = obdb-src/Toyota-Innova
+	url = https://github.com/OBDb/Toyota-Innova.git
+[submodule "obdb-src/Toyota-GR86"]
+	path = obdb-src/Toyota-GR86
+	url = https://github.com/OBDb/Toyota-GR86.git
+[submodule "obdb-src/Toyota-Fortuner"]
+	path = obdb-src/Toyota-Fortuner
+	url = https://github.com/OBDb/Toyota-Fortuner.git
+[submodule "obdb-src/Toyota-Crown-Signia"]
+	path = obdb-src/Toyota-Crown-Signia
+	url = https://github.com/OBDb/Toyota-Crown-Signia.git
+[submodule "obdb-src/Toyota-Crown"]
+	path = obdb-src/Toyota-Crown
+	url = https://github.com/OBDb/Toyota-Crown.git
+[submodule "obdb-src/Toyota-Corolla-iM"]
+	path = obdb-src/Toyota-Corolla-iM
+	url = https://github.com/OBDb/Toyota-Corolla-iM.git
+[submodule "obdb-src/Toyota-Celica"]
+	path = obdb-src/Toyota-Celica
+	url = https://github.com/OBDb/Toyota-Celica.git
+[submodule "obdb-src/Nissan-Maxima"]
+	path = obdb-src/Nissan-Maxima
+	url = https://github.com/OBDb/Nissan-Maxima.git
+[submodule "obdb-src/Toyota-Aqua"]
+	path = obdb-src/Toyota-Aqua
+	url = https://github.com/OBDb/Toyota-Aqua.git
+[submodule "obdb-src/Toyota-Alphard"]
+	path = obdb-src/Toyota-Alphard
+	url = https://github.com/OBDb/Toyota-Alphard.git
+[submodule "obdb-src/Tesla-Model-Y"]
+	path = obdb-src/Tesla-Model-Y
+	url = https://github.com/OBDb/Tesla-Model-Y.git
+[submodule "obdb-src/Tesla-Model-X"]
+	path = obdb-src/Tesla-Model-X
+	url = https://github.com/OBDb/Tesla-Model-X.git
+[submodule "obdb-src/Tesla-Model-S"]
+	path = obdb-src/Tesla-Model-S
+	url = https://github.com/OBDb/Tesla-Model-S.git
+[submodule "obdb-src/Tesla-Model-3"]
+	path = obdb-src/Tesla-Model-3
+	url = https://github.com/OBDb/Tesla-Model-3.git
+[submodule "obdb-src/Tesla-Cybertruck"]
+	path = obdb-src/Tesla-Cybertruck
+	url = https://github.com/OBDb/Tesla-Cybertruck.git
+[submodule "obdb-src/Tata-Tiago"]
+	path = obdb-src/Tata-Tiago
+	url = https://github.com/OBDb/Tata-Tiago.git
+[submodule "obdb-src/Tata-Harrier"]
+	path = obdb-src/Tata-Harrier
+	url = https://github.com/OBDb/Tata-Harrier.git
+[submodule "obdb-src/Suzuki-Vitara"]
+	path = obdb-src/Suzuki-Vitara
+	url = https://github.com/OBDb/Suzuki-Vitara.git
+[submodule "obdb-src/Suzuki-SX4"]
+	path = obdb-src/Suzuki-SX4
+	url = https://github.com/OBDb/Suzuki-SX4.git
+[submodule "obdb-src/Suzuki-Swift"]
+	path = obdb-src/Suzuki-Swift
+	url = https://github.com/OBDb/Suzuki-Swift.git
+[submodule "obdb-src/Suzuki-Ignis"]
+	path = obdb-src/Suzuki-Ignis
+	url = https://github.com/OBDb/Suzuki-Ignis.git
+[submodule "obdb-src/Suzuki-Baleno"]
+	path = obdb-src/Suzuki-Baleno
+	url = https://github.com/OBDb/Suzuki-Baleno.git
+[submodule "obdb-src/Suzuki-Alto"]
+	path = obdb-src/Suzuki-Alto
+	url = https://github.com/OBDb/Suzuki-Alto.git
+[submodule "obdb-src/Subaru-WRX-STI"]
+	path = obdb-src/Subaru-WRX-STI
+	url = https://github.com/OBDb/Subaru-WRX-STI.git
+[submodule "obdb-src/Subaru-Baja"]
+	path = obdb-src/Subaru-Baja
+	url = https://github.com/OBDb/Subaru-Baja.git
+[submodule "obdb-src/Smart-Smart-1"]
+	path = obdb-src/Smart-Smart-1
+	url = https://github.com/OBDb/Smart-Smart-1.git
+[submodule "obdb-src/smart-fortwo"]
+	path = obdb-src/smart-fortwo
+	url = https://github.com/OBDb/smart-fortwo.git
+[submodule "obdb-src/Skoda-Superb"]
+	path = obdb-src/Skoda-Superb
+	url = https://github.com/OBDb/Skoda-Superb.git
+[submodule "obdb-src/Skoda-Scala"]
+	path = obdb-src/Skoda-Scala
+	url = https://github.com/OBDb/Skoda-Scala.git
+[submodule "obdb-src/Skoda-Rapid"]
+	path = obdb-src/Skoda-Rapid
+	url = https://github.com/OBDb/Skoda-Rapid.git
+[submodule "obdb-src/Skoda-Octavia"]
+	path = obdb-src/Skoda-Octavia
+	url = https://github.com/OBDb/Skoda-Octavia.git
+[submodule "obdb-src/Skoda-Kodiaq"]
+	path = obdb-src/Skoda-Kodiaq
+	url = https://github.com/OBDb/Skoda-Kodiaq.git
+[submodule "obdb-src/Skoda-Kamiq"]
+	path = obdb-src/Skoda-Kamiq
+	url = https://github.com/OBDb/Skoda-Kamiq.git
+[submodule "obdb-src/Skoda-Fabia"]
+	path = obdb-src/Skoda-Fabia
+	url = https://github.com/OBDb/Skoda-Fabia.git
+[submodule "obdb-src/Skoda-Enyaq"]
+	path = obdb-src/Skoda-Enyaq
+	url = https://github.com/OBDb/Skoda-Enyaq.git
+[submodule "obdb-src/Skoda-Elroq"]
+	path = obdb-src/Skoda-Elroq
+	url = https://github.com/OBDb/Skoda-Elroq.git
+[submodule "obdb-src/Seat-Mii-Electric"]
+	path = obdb-src/Seat-Mii-Electric
+	url = https://github.com/OBDb/Seat-Mii-Electric.git
+[submodule "obdb-src/Seat-Arona"]
+	path = obdb-src/Seat-Arona
+	url = https://github.com/OBDb/Seat-Arona.git
+[submodule "obdb-src/Seat-Altea"]
+	path = obdb-src/Seat-Altea
+	url = https://github.com/OBDb/Seat-Altea.git
+[submodule "obdb-src/Seat-Alhambra"]
+	path = obdb-src/Seat-Alhambra
+	url = https://github.com/OBDb/Seat-Alhambra.git
+[submodule "obdb-src/Scion-xB"]
+	path = obdb-src/Scion-xB
+	url = https://github.com/OBDb/Scion-xB.git
+[submodule "obdb-src/Scion-tC"]
+	path = obdb-src/Scion-tC
+	url = https://github.com/OBDb/Scion-tC.git
+[submodule "obdb-src/Scion-iQ"]
+	path = obdb-src/Scion-iQ
+	url = https://github.com/OBDb/Scion-iQ.git
+[submodule "obdb-src/Scion-FR-S"]
+	path = obdb-src/Scion-FR-S
+	url = https://github.com/OBDb/Scion-FR-S.git
+[submodule "obdb-src/Saab-9-5"]
+	path = obdb-src/Saab-9-5
+	url = https://github.com/OBDb/Saab-9-5.git
+[submodule "obdb-src/Rivian-R1T"]
+	path = obdb-src/Rivian-R1T
+	url = https://github.com/OBDb/Rivian-R1T.git
+[submodule "obdb-src/Rivian-R1S"]
+	path = obdb-src/Rivian-R1S
+	url = https://github.com/OBDb/Rivian-R1S.git
+[submodule "obdb-src/Mitsubishi-RVR"]
+	path = obdb-src/Mitsubishi-RVR
+	url = https://github.com/OBDb/Mitsubishi-RVR.git
+[submodule "obdb-src/Renault-Megane-E-Tech"]
+	path = obdb-src/Renault-Megane-E-Tech
+	url = https://github.com/OBDb/Renault-Megane-E-Tech.git
+[submodule "obdb-src/Renault-Kwid"]
+	path = obdb-src/Renault-Kwid
+	url = https://github.com/OBDb/Renault-Kwid.git
+[submodule "obdb-src/Renault-Koleos"]
+	path = obdb-src/Renault-Koleos
+	url = https://github.com/OBDb/Renault-Koleos.git
+[submodule "obdb-src/Renault-Kadjar"]
+	path = obdb-src/Renault-Kadjar
+	url = https://github.com/OBDb/Renault-Kadjar.git
+[submodule "obdb-src/Renault-Clio-V"]
+	path = obdb-src/Renault-Clio-V
+	url = https://github.com/OBDb/Renault-Clio-V.git
+[submodule "obdb-src/Renault-Clio-III"]
+	path = obdb-src/Renault-Clio-III
+	url = https://github.com/OBDb/Renault-Clio-III.git
+[submodule "obdb-src/Porsche-Macan-Electric"]
+	path = obdb-src/Porsche-Macan-Electric
+	url = https://github.com/OBDb/Porsche-Macan-Electric.git
+[submodule "obdb-src/Porsche-Boxster"]
+	path = obdb-src/Porsche-Boxster
+	url = https://github.com/OBDb/Porsche-Boxster.git
+[submodule "obdb-src/Porsche-981-Cayman"]
+	path = obdb-src/Porsche-981-Cayman
+	url = https://github.com/OBDb/Porsche-981-Cayman.git
+[submodule "obdb-src/Pontiac-Vibe"]
+	path = obdb-src/Pontiac-Vibe
+	url = https://github.com/OBDb/Pontiac-Vibe.git
+[submodule "obdb-src/Polestar-4"]
+	path = obdb-src/Polestar-4
+	url = https://github.com/OBDb/Polestar-4.git
+[submodule "obdb-src/Peugeot-Expert"]
+	path = obdb-src/Peugeot-Expert
+	url = https://github.com/OBDb/Peugeot-Expert.git
+[submodule "obdb-src/Peugeot-e-208"]
+	path = obdb-src/Peugeot-e-208
+	url = https://github.com/OBDb/Peugeot-e-208.git
+[submodule "obdb-src/Peugeot-505"]
+	path = obdb-src/Peugeot-505
+	url = https://github.com/OBDb/Peugeot-505.git
+[submodule "obdb-src/Peugeot-407"]
+	path = obdb-src/Peugeot-407
+	url = https://github.com/OBDb/Peugeot-407.git
+[submodule "obdb-src/Peugeot-308-Hybrid"]
+	path = obdb-src/Peugeot-308-Hybrid
+	url = https://github.com/OBDb/Peugeot-308-Hybrid.git
+[submodule "obdb-src/Peugeot-308"]
+	path = obdb-src/Peugeot-308
+	url = https://github.com/OBDb/Peugeot-308.git
+[submodule "obdb-src/Peugeot-307"]
+	path = obdb-src/Peugeot-307
+	url = https://github.com/OBDb/Peugeot-307.git
+[submodule "obdb-src/Peugeot-207"]
+	path = obdb-src/Peugeot-207
+	url = https://github.com/OBDb/Peugeot-207.git
+[submodule "obdb-src/Peugeot-206"]
+	path = obdb-src/Peugeot-206
+	url = https://github.com/OBDb/Peugeot-206.git
+[submodule "obdb-src/Peugeot-205"]
+	path = obdb-src/Peugeot-205
+	url = https://github.com/OBDb/Peugeot-205.git
+[submodule "obdb-src/Perodua-Bezza"]
+	path = obdb-src/Perodua-Bezza
+	url = https://github.com/OBDb/Perodua-Bezza.git
+[submodule "obdb-src/Omoda-Omoda-5-EV"]
+	path = obdb-src/Omoda-Omoda-5-EV
+	url = https://github.com/OBDb/Omoda-Omoda-5-EV.git
+[submodule "obdb-src/Nissan-Xterra"]
+	path = obdb-src/Nissan-Xterra
+	url = https://github.com/OBDb/Nissan-Xterra.git
+[submodule "obdb-src/Nissan-Versa"]
+	path = obdb-src/Nissan-Versa
+	url = https://github.com/OBDb/Nissan-Versa.git
+[submodule "obdb-src/Nissan-Rogue-Sport"]
+	path = obdb-src/Nissan-Rogue-Sport
+	url = https://github.com/OBDb/Nissan-Rogue-Sport.git
+[submodule "obdb-src/Nissan-Pulsar"]
+	path = obdb-src/Nissan-Pulsar
+	url = https://github.com/OBDb/Nissan-Pulsar.git
+[submodule "obdb-src/Nissan-Navara"]
+	path = obdb-src/Nissan-Navara
+	url = https://github.com/OBDb/Nissan-Navara.git
+[submodule "obdb-src/Nissan-Armada"]
+	path = obdb-src/Nissan-Armada
+	url = https://github.com/OBDb/Nissan-Armada.git
+[submodule "obdb-src/Mitsubishi-Triton"]
+	path = obdb-src/Mitsubishi-Triton
+	url = https://github.com/OBDb/Mitsubishi-Triton.git
+[submodule "obdb-src/Mitsubishi-Pajero"]
+	path = obdb-src/Mitsubishi-Pajero
+	url = https://github.com/OBDb/Mitsubishi-Pajero.git
+[submodule "obdb-src/Mitsubishi-Outlander-Sport"]
+	path = obdb-src/Mitsubishi-Outlander-Sport
+	url = https://github.com/OBDb/Mitsubishi-Outlander-Sport.git
+[submodule "obdb-src/Mitsubishi-Outlander-PHEV"]
+	path = obdb-src/Mitsubishi-Outlander-PHEV
+	url = https://github.com/OBDb/Mitsubishi-Outlander-PHEV.git
+[submodule "obdb-src/Mitsubishi-Mirage"]
+	path = obdb-src/Mitsubishi-Mirage
+	url = https://github.com/OBDb/Mitsubishi-Mirage.git
+[submodule "obdb-src/Mitsubishi-Lancer"]
+	path = obdb-src/Mitsubishi-Lancer
+	url = https://github.com/OBDb/Mitsubishi-Lancer.git
+[submodule "obdb-src/Mitsubishi-Eclipse-Cross-PHEV"]
+	path = obdb-src/Mitsubishi-Eclipse-Cross-PHEV
+	url = https://github.com/OBDb/Mitsubishi-Eclipse-Cross-PHEV.git
+[submodule "obdb-src/Mitsubishi-Eclipse-Cross"]
+	path = obdb-src/Mitsubishi-Eclipse-Cross
+	url = https://github.com/OBDb/Mitsubishi-Eclipse-Cross.git
+[submodule "obdb-src/Mitsubishi-Challenger"]
+	path = obdb-src/Mitsubishi-Challenger
+	url = https://github.com/OBDb/Mitsubishi-Challenger.git
+[submodule "obdb-src/MINI-JCW"]
+	path = obdb-src/MINI-JCW
+	url = https://github.com/OBDb/MINI-JCW.git
+[submodule "obdb-src/MINI-Cooper-S"]
+	path = obdb-src/MINI-Cooper-S
+	url = https://github.com/OBDb/MINI-Cooper-S.git
+[submodule "obdb-src/MINI-Clubman"]
+	path = obdb-src/MINI-Clubman
+	url = https://github.com/OBDb/MINI-Clubman.git
+[submodule "obdb-src/MG-ZS"]
+	path = obdb-src/MG-ZS
+	url = https://github.com/OBDb/MG-ZS.git
+[submodule "obdb-src/MG-Comet"]
+	path = obdb-src/MG-Comet
+	url = https://github.com/OBDb/MG-Comet.git
+[submodule "obdb-src/Mercedes-Benz-S-Class"]
+	path = obdb-src/Mercedes-Benz-S-Class
+	url = https://github.com/OBDb/Mercedes-Benz-S-Class.git
+[submodule "obdb-src/Mercedes-Benz-Ml63"]
+	path = obdb-src/Mercedes-Benz-Ml63
+	url = https://github.com/OBDb/Mercedes-Benz-Ml63.git
+[submodule "obdb-src/Mercedes-Benz-GLC-Class"]
+	path = obdb-src/Mercedes-Benz-GLC-Class
+	url = https://github.com/OBDb/Mercedes-Benz-GLC-Class.git
+[submodule "obdb-src/Mercedes-Benz-GLB-250"]
+	path = obdb-src/Mercedes-Benz-GLB-250
+	url = https://github.com/OBDb/Mercedes-Benz-GLB-250.git
+[submodule "obdb-src/Mercedes-Benz-GLA250"]
+	path = obdb-src/Mercedes-Benz-GLA250
+	url = https://github.com/OBDb/Mercedes-Benz-GLA250.git
+[submodule "obdb-src/Mercedes-Benz-EQS-Class-Sedan"]
+	path = obdb-src/Mercedes-Benz-EQS-Class-Sedan
+	url = https://github.com/OBDb/Mercedes-Benz-EQS-Class-Sedan.git
+[submodule "obdb-src/Mercedes-Benz-EQS"]
+	path = obdb-src/Mercedes-Benz-EQS
+	url = https://github.com/OBDb/Mercedes-Benz-EQS.git
+[submodule "obdb-src/Mercedes-Benz-EQA"]
+	path = obdb-src/Mercedes-Benz-EQA
+	url = https://github.com/OBDb/Mercedes-Benz-EQA.git
+[submodule "obdb-src/Mercedes-Benz-E180"]
+	path = obdb-src/Mercedes-Benz-E180
+	url = https://github.com/OBDb/Mercedes-Benz-E180.git
+[submodule "obdb-src/Mercedes-Benz-CLS"]
+	path = obdb-src/Mercedes-Benz-CLS
+	url = https://github.com/OBDb/Mercedes-Benz-CLS.git
+[submodule "obdb-src/Mercedes-Benz-CLA-200"]
+	path = obdb-src/Mercedes-Benz-CLA-200
+	url = https://github.com/OBDb/Mercedes-Benz-CLA-200.git
+[submodule "obdb-src/Mercedes-Benz-C200d"]
+	path = obdb-src/Mercedes-Benz-C200d
+	url = https://github.com/OBDb/Mercedes-Benz-C200d.git
+[submodule "obdb-src/Mercedes-Benz-C-Class"]
+	path = obdb-src/Mercedes-Benz-C-Class
+	url = https://github.com/OBDb/Mercedes-Benz-C-Class.git
+[submodule "obdb-src/Mercedes-Benz-C-180"]
+	path = obdb-src/Mercedes-Benz-C-180
+	url = https://github.com/OBDb/Mercedes-Benz-C-180.git
+[submodule "obdb-src/Mercedes-Benz-AMG-GT"]
+	path = obdb-src/Mercedes-Benz-AMG-GT
+	url = https://github.com/OBDb/Mercedes-Benz-AMG-GT.git
+[submodule "obdb-src/Mercedes-Benz-AMG-A-45"]
+	path = obdb-src/Mercedes-Benz-AMG-A-45
+	url = https://github.com/OBDb/Mercedes-Benz-AMG-A-45.git
+[submodule "obdb-src/Mercedes-Benz-A-220"]
+	path = obdb-src/Mercedes-Benz-A-220
+	url = https://github.com/OBDb/Mercedes-Benz-A-220.git
+[submodule "obdb-src/Mercedes-Benz-A-200"]
+	path = obdb-src/Mercedes-Benz-A-200
+	url = https://github.com/OBDb/Mercedes-Benz-A-200.git
+[submodule "obdb-src/McLaren-Artura"]
+	path = obdb-src/McLaren-Artura
+	url = https://github.com/OBDb/McLaren-Artura.git
+[submodule "obdb-src/Mazda-Tribute"]
+	path = obdb-src/Mazda-Tribute
+	url = https://github.com/OBDb/Mazda-Tribute.git
+[submodule "obdb-src/Mazda-RX-7"]
+	path = obdb-src/Mazda-RX-7
+	url = https://github.com/OBDb/Mazda-RX-7.git
+[submodule "obdb-src/Mazda-MX-30"]
+	path = obdb-src/Mazda-MX-30
+	url = https://github.com/OBDb/Mazda-MX-30.git
+[submodule "obdb-src/Mazda-CX-70"]
+	path = obdb-src/Mazda-CX-70
+	url = https://github.com/OBDb/Mazda-CX-70.git
+[submodule "obdb-src/Mazda-CX-7"]
+	path = obdb-src/Mazda-CX-7
+	url = https://github.com/OBDb/Mazda-CX-7.git
+[submodule "obdb-src/Mazda-CX-60"]
+	path = obdb-src/Mazda-CX-60
+	url = https://github.com/OBDb/Mazda-CX-60.git
+[submodule "obdb-src/Mazda-BT50"]
+	path = obdb-src/Mazda-BT50
+	url = https://github.com/OBDb/Mazda-BT50.git
+[submodule "obdb-src/Mazda-5"]
+	path = obdb-src/Mazda-5
+	url = https://github.com/OBDb/Mazda-5.git
+[submodule "obdb-src/Honda-Element"]
+	path = obdb-src/Honda-Element
+	url = https://github.com/OBDb/Honda-Element.git
+[submodule "obdb-src/Maxus-eDeliver-3"]
+	path = obdb-src/Maxus-eDeliver-3
+	url = https://github.com/OBDb/Maxus-eDeliver-3.git
+[submodule "obdb-src/Maserati-Levante"]
+	path = obdb-src/Maserati-Levante
+	url = https://github.com/OBDb/Maserati-Levante.git
+[submodule "obdb-src/Maruti-Suzuki-Fronx-Delta"]
+	path = obdb-src/Maruti-Suzuki-Fronx-Delta
+	url = https://github.com/OBDb/Maruti-Suzuki-Fronx-Delta.git
+[submodule "obdb-src/Maruti-Celerio"]
+	path = obdb-src/Maruti-Celerio
+	url = https://github.com/OBDb/Maruti-Celerio.git
+[submodule "obdb-src/Lucid-Air"]
+	path = obdb-src/Lucid-Air
+	url = https://github.com/OBDb/Lucid-Air.git
+[submodule "obdb-src/Lincoln-Navigator"]
+	path = obdb-src/Lincoln-Navigator
+	url = https://github.com/OBDb/Lincoln-Navigator.git
+[submodule "obdb-src/Lincoln-Nautilus"]
+	path = obdb-src/Lincoln-Nautilus
+	url = https://github.com/OBDb/Lincoln-Nautilus.git
+[submodule "obdb-src/Lincoln-Corsair"]
+	path = obdb-src/Lincoln-Corsair
+	url = https://github.com/OBDb/Lincoln-Corsair.git
+[submodule "obdb-src/Lincoln-Aviator"]
+	path = obdb-src/Lincoln-Aviator
+	url = https://github.com/OBDb/Lincoln-Aviator.git
+[submodule "obdb-src/Lexus-RX-450h"]
+	path = obdb-src/Lexus-RX-450h
+	url = https://github.com/OBDb/Lexus-RX-450h.git
+[submodule "obdb-src/Lexus-NX-350h"]
+	path = obdb-src/Lexus-NX-350h
+	url = https://github.com/OBDb/Lexus-NX-350h.git
+[submodule "obdb-src/Lexus-LS"]
+	path = obdb-src/Lexus-LS
+	url = https://github.com/OBDb/Lexus-LS.git
+[submodule "obdb-src/Land-Rover-Range-Rover-Velar"]
+	path = obdb-src/Land-Rover-Range-Rover-Velar
+	url = https://github.com/OBDb/Land-Rover-Range-Rover-Velar.git
+[submodule "obdb-src/Lamborghini-Huracan-evo"]
+	path = obdb-src/Lamborghini-Huracan-evo
+	url = https://github.com/OBDb/Lamborghini-Huracan-evo.git
+[submodule "obdb-src/KTM-RC"]
+	path = obdb-src/KTM-RC
+	url = https://github.com/OBDb/KTM-RC.git
+[submodule "obdb-src/Kia-Sportage-HEV"]
+	path = obdb-src/Kia-Sportage-HEV
+	url = https://github.com/OBDb/Kia-Sportage-HEV.git
+[submodule "obdb-src/Kia-Seltos"]
+	path = obdb-src/Kia-Seltos
+	url = https://github.com/OBDb/Kia-Seltos.git
+[submodule "obdb-src/Kia-Sonet"]
+	path = obdb-src/Kia-Sonet
+	url = https://github.com/OBDb/Kia-Sonet.git
+[submodule "obdb-src/Kia-Rio"]
+	path = obdb-src/Kia-Rio
+	url = https://github.com/OBDb/Kia-Rio.git
+[submodule "obdb-src/Lexus-GX-470"]
+	path = obdb-src/Lexus-GX-470
+	url = https://github.com/OBDb/Lexus-GX-470.git
+[submodule "obdb-src/Lexus-ES"]
+	path = obdb-src/Lexus-ES
+	url = https://github.com/OBDb/Lexus-ES.git
+[submodule "obdb-src/KTM-RC-390"]
+	path = obdb-src/KTM-RC-390
+	url = https://github.com/OBDb/KTM-RC-390.git
+[submodule "obdb-src/Kia-Rondo"]
+	path = obdb-src/Kia-Rondo
+	url = https://github.com/OBDb/Kia-Rondo.git
+[submodule "obdb-src/Kia-Carnival"]
+	path = obdb-src/Kia-Carnival
+	url = https://github.com/OBDb/Kia-Carnival.git
+[submodule "obdb-src/Kia-Cadenza"]
+	path = obdb-src/Kia-Cadenza
+	url = https://github.com/OBDb/Kia-Cadenza.git
+[submodule "obdb-src/Kawasaki-W800"]
+	path = obdb-src/Kawasaki-W800
+	url = https://github.com/OBDb/Kawasaki-W800.git
+[submodule "obdb-src/Jeep-Wrangler-JK"]
+	path = obdb-src/Jeep-Wrangler-JK
+	url = https://github.com/OBDb/Jeep-Wrangler-JK.git
+[submodule "obdb-src/Jeep-Wrangler"]
+	path = obdb-src/Jeep-Wrangler
+	url = https://github.com/OBDb/Jeep-Wrangler.git
+[submodule "obdb-src/Jeep-Wagoneer"]
+	path = obdb-src/Jeep-Wagoneer
+	url = https://github.com/OBDb/Jeep-Wagoneer.git
+[submodule "obdb-src/Jeep-Patriot"]
+	path = obdb-src/Jeep-Patriot
+	url = https://github.com/OBDb/Jeep-Patriot.git
+[submodule "obdb-src/Jeep-Liberty"]
+	path = obdb-src/Jeep-Liberty
+	url = https://github.com/OBDb/Jeep-Liberty.git
+[submodule "obdb-src/Jeep-Commander"]
+	path = obdb-src/Jeep-Commander
+	url = https://github.com/OBDb/Jeep-Commander.git
+[submodule "obdb-src/Jeep-Avenger"]
+	path = obdb-src/Jeep-Avenger
+	url = https://github.com/OBDb/Jeep-Avenger.git
+[submodule "obdb-src/Jaguar-I-PACE"]
+	path = obdb-src/Jaguar-I-PACE
+	url = https://github.com/OBDb/Jaguar-I-PACE.git
+[submodule "obdb-src/Jaguar-F-TYPE"]
+	path = obdb-src/Jaguar-F-TYPE
+	url = https://github.com/OBDb/Jaguar-F-TYPE.git
+[submodule "obdb-src/Jaguar-F-PACE"]
+	path = obdb-src/Jaguar-F-PACE
+	url = https://github.com/OBDb/Jaguar-F-PACE.git
+[submodule "obdb-src/Jaecoo-J7"]
+	path = obdb-src/Jaecoo-J7
+	url = https://github.com/OBDb/Jaecoo-J7.git
+[submodule "obdb-src/JAC-EJ7"]
+	path = obdb-src/JAC-EJ7
+	url = https://github.com/OBDb/JAC-EJ7.git
+[submodule "obdb-src/INFINITI-QX70"]
+	path = obdb-src/INFINITI-QX70
+	url = https://github.com/OBDb/INFINITI-QX70.git
+[submodule "obdb-src/INFINITI-QX55"]
+	path = obdb-src/INFINITI-QX55
+	url = https://github.com/OBDb/INFINITI-QX55.git
+[submodule "obdb-src/INFINITI-Q70"]
+	path = obdb-src/INFINITI-Q70
+	url = https://github.com/OBDb/INFINITI-Q70.git
+[submodule "obdb-src/INFINITI-Q45"]
+	path = obdb-src/INFINITI-Q45
+	url = https://github.com/OBDb/INFINITI-Q45.git
+[submodule "obdb-src/INFINITI-G35"]
+	path = obdb-src/INFINITI-G35
+	url = https://github.com/OBDb/INFINITI-G35.git
+[submodule "obdb-src/Hyundai-Verna"]
+	path = obdb-src/Hyundai-Verna
+	url = https://github.com/OBDb/Hyundai-Verna.git
+[submodule "obdb-src/FIAT-Panda"]
+	path = obdb-src/FIAT-Panda
+	url = https://github.com/OBDb/FIAT-Panda.git
+[submodule "obdb-src/Hyundai-IONIQ-PlugIn-Hybrid"]
+	path = obdb-src/Hyundai-IONIQ-PlugIn-Hybrid
+	url = https://github.com/OBDb/Hyundai-IONIQ-PlugIn-Hybrid.git
+[submodule "obdb-src/Hyundai-IONIQ-Electric"]
+	path = obdb-src/Hyundai-IONIQ-Electric
+	url = https://github.com/OBDb/Hyundai-IONIQ-Electric.git
+[submodule "obdb-src/Hyundai-IONIQ-6"]
+	path = obdb-src/Hyundai-IONIQ-6
+	url = https://github.com/OBDb/Hyundai-IONIQ-6.git
+[submodule "obdb-src/Hyundai-i20"]
+	path = obdb-src/Hyundai-i20
+	url = https://github.com/OBDb/Hyundai-i20.git
+[submodule "obdb-src/Hyundai-i10"]
+	path = obdb-src/Hyundai-i10
+	url = https://github.com/OBDb/Hyundai-i10.git
+[submodule "obdb-src/Hyundai-Genesis-Coupe"]
+	path = obdb-src/Hyundai-Genesis-Coupe
+	url = https://github.com/OBDb/Hyundai-Genesis-Coupe.git
+[submodule "obdb-src/Hyundai-Avante"]
+	path = obdb-src/Hyundai-Avante
+	url = https://github.com/OBDb/Hyundai-Avante.git
+[submodule "obdb-src/Hyundai-Accent"]
+	path = obdb-src/Hyundai-Accent
+	url = https://github.com/OBDb/Hyundai-Accent.git
+[submodule "obdb-src/Honda-ZR-V"]
+	path = obdb-src/Honda-ZR-V
+	url = https://github.com/OBDb/Honda-ZR-V.git
+[submodule "obdb-src/Honda-WRV"]
+	path = obdb-src/Honda-WRV
+	url = https://github.com/OBDb/Honda-WRV.git
+[submodule "obdb-src/Honda-M-NV"]
+	path = obdb-src/Honda-M-NV
+	url = https://github.com/OBDb/Honda-M-NV.git
+[submodule "obdb-src/Honda-Jazz"]
+	path = obdb-src/Honda-Jazz
+	url = https://github.com/OBDb/Honda-Jazz.git
+[submodule "obdb-src/Honda-HR-V"]
+	path = obdb-src/Honda-HR-V
+	url = https://github.com/OBDb/Honda-HR-V.git
+[submodule "obdb-src/Honda-e"]
+	path = obdb-src/Honda-e
+	url = https://github.com/OBDb/Honda-e.git
+[submodule "obdb-src/Honda-CR-Z"]
+	path = obdb-src/Honda-CR-Z
+	url = https://github.com/OBDb/Honda-CR-Z.git
+[submodule "obdb-src/Honda-Brio"]
+	path = obdb-src/Honda-Brio
+	url = https://github.com/OBDb/Honda-Brio.git
+[submodule "obdb-src/Holden-Commodore"]
+	path = obdb-src/Holden-Commodore
+	url = https://github.com/OBDb/Holden-Commodore.git
+[submodule "obdb-src/Haval-Jolion"]
+	path = obdb-src/Haval-Jolion
+	url = https://github.com/OBDb/Haval-Jolion.git
+[submodule "obdb-src/Haval-H6-HEV"]
+	path = obdb-src/Haval-H6-HEV
+	url = https://github.com/OBDb/Haval-H6-HEV.git
+[submodule "obdb-src/GMC-Yukon-XL"]
+	path = obdb-src/GMC-Yukon-XL
+	url = https://github.com/OBDb/GMC-Yukon-XL.git
+[submodule "obdb-src/GMC-Safari"]
+	path = obdb-src/GMC-Safari
+	url = https://github.com/OBDb/GMC-Safari.git
+[submodule "obdb-src/FSO-Polonez"]
+	path = obdb-src/FSO-Polonez
+	url = https://github.com/OBDb/FSO-Polonez.git
+[submodule "obdb-src/Ford-Transit-Connect"]
+	path = obdb-src/Ford-Transit-Connect
+	url = https://github.com/OBDb/Ford-Transit-Connect.git
+[submodule "obdb-src/Ford-Sierra"]
+	path = obdb-src/Ford-Sierra
+	url = https://github.com/OBDb/Ford-Sierra.git
+[submodule "obdb-src/Ford-Mondeo"]
+	path = obdb-src/Ford-Mondeo
+	url = https://github.com/OBDb/Ford-Mondeo.git
+[submodule "obdb-src/Ford-Kuga"]
+	path = obdb-src/Ford-Kuga
+	url = https://github.com/OBDb/Ford-Kuga.git
+[submodule "obdb-src/Ford-Ka"]
+	path = obdb-src/Ford-Ka
+	url = https://github.com/OBDb/Ford-Ka.git
+[submodule "obdb-src/Ford-Focus-RS"]
+	path = obdb-src/Ford-Focus-RS
+	url = https://github.com/OBDb/Ford-Focus-RS.git
+[submodule "obdb-src/Ford-Flex"]
+	path = obdb-src/Ford-Flex
+	url = https://github.com/OBDb/Ford-Flex.git
+[submodule "obdb-src/Ford-Five-Hundred"]
+	path = obdb-src/Ford-Five-Hundred
+	url = https://github.com/OBDb/Ford-Five-Hundred.git
+[submodule "obdb-src/Ford-Fiesta"]
+	path = obdb-src/Ford-Fiesta
+	url = https://github.com/OBDb/Ford-Fiesta.git
+[submodule "obdb-src/Ford-Everest"]
+	path = obdb-src/Ford-Everest
+	url = https://github.com/OBDb/Ford-Everest.git
+[submodule "obdb-src/Fiat-Punto"]
+	path = obdb-src/Fiat-Punto
+	url = https://github.com/OBDb/Fiat-Punto.git
+[submodule "obdb-src/Ford-EcoSport"]
+	path = obdb-src/Ford-EcoSport
+	url = https://github.com/OBDb/Ford-EcoSport.git
+[submodule "obdb-src/Ford-E-Series"]
+	path = obdb-src/Ford-E-Series
+	url = https://github.com/OBDb/Ford-E-Series.git
+[submodule "obdb-src/Fisker-Ocean"]
+	path = obdb-src/Fisker-Ocean
+	url = https://github.com/OBDb/Fisker-Ocean.git
+[submodule "obdb-src/Dodge-Journey"]
+	path = obdb-src/Dodge-Journey
+	url = https://github.com/OBDb/Dodge-Journey.git
+[submodule "obdb-src/Ferrari-458-Italia"]
+	path = obdb-src/Ferrari-458-Italia
+	url = https://github.com/OBDb/Ferrari-458-Italia.git
+[submodule "obdb-src/DS-7"]
+	path = obdb-src/DS-7
+	url = https://github.com/OBDb/DS-7.git
+[submodule "obdb-src/FIAT-500"]
+	path = obdb-src/FIAT-500
+	url = https://github.com/OBDb/FIAT-500.git
+[submodule "obdb-src/DongFeng-Seres-3"]
+	path = obdb-src/DongFeng-Seres-3
+	url = https://github.com/OBDb/DongFeng-Seres-3.git
+[submodule "obdb-src/Fiat-Grande-Punto"]
+	path = obdb-src/Fiat-Grande-Punto
+	url = https://github.com/OBDb/Fiat-Grande-Punto.git
+[submodule "obdb-src/FIAT-Fastback"]
+	path = obdb-src/FIAT-Fastback
+	url = https://github.com/OBDb/FIAT-Fastback.git
+[submodule "obdb-src/Dacia-Sandero"]
+	path = obdb-src/Dacia-Sandero
+	url = https://github.com/OBDb/Dacia-Sandero.git
+[submodule "obdb-src/Dacia-Spring"]
+	path = obdb-src/Dacia-Spring
+	url = https://github.com/OBDb/Dacia-Spring.git
+[submodule "obdb-src/Dacia-Lodgy"]
+	path = obdb-src/Dacia-Lodgy
+	url = https://github.com/OBDb/Dacia-Lodgy.git
+[submodule "obdb-src/Dodge-Hornet"]
+	path = obdb-src/Dodge-Hornet
+	url = https://github.com/OBDb/Dodge-Hornet.git
+[submodule "obdb-src/Dodge-Dakota"]
+	path = obdb-src/Dodge-Dakota
+	url = https://github.com/OBDb/Dodge-Dakota.git
+[submodule "obdb-src/Citroen-E-C4"]
+	path = obdb-src/Citroen-E-C4
+	url = https://github.com/OBDb/Citroen-E-C4.git
+[submodule "obdb-src/Cupra-Leon-Sportstourer"]
+	path = obdb-src/Cupra-Leon-Sportstourer
+	url = https://github.com/OBDb/Cupra-Leon-Sportstourer.git
+[submodule "obdb-src/Citroen-C3"]
+	path = obdb-src/Citroen-C3
+	url = https://github.com/OBDb/Citroen-C3.git
+[submodule "obdb-src/Citroen-eC4-X"]
+	path = obdb-src/Citroen-eC4-X
+	url = https://github.com/OBDb/Citroen-eC4-X.git
+[submodule "obdb-src/Citroen-C4"]
+	path = obdb-src/Citroen-C4
+	url = https://github.com/OBDb/Citroen-C4.git
+[submodule "obdb-src/Citroen-Berlingo"]
+	path = obdb-src/Citroen-Berlingo
+	url = https://github.com/OBDb/Citroen-Berlingo.git
+[submodule "obdb-src/Citroen-CZero"]
+	path = obdb-src/Citroen-CZero
+	url = https://github.com/OBDb/Citroen-CZero.git
+[submodule "obdb-src/Chrysler-Sebring"]
+	path = obdb-src/Chrysler-Sebring
+	url = https://github.com/OBDb/Chrysler-Sebring.git
+[submodule "obdb-src/Chrysler-Pacifica-Hybrid"]
+	path = obdb-src/Chrysler-Pacifica-Hybrid
+	url = https://github.com/OBDb/Chrysler-Pacifica-Hybrid.git
+[submodule "obdb-src/Citroen-Basalt"]
+	path = obdb-src/Citroen-Basalt
+	url = https://github.com/OBDb/Citroen-Basalt.git
+[submodule "obdb-src/Chevrolet-Spark"]
+	path = obdb-src/Chevrolet-Spark
+	url = https://github.com/OBDb/Chevrolet-Spark.git
+[submodule "obdb-src/Chevrolet-Express-Cargo"]
+	path = obdb-src/Chevrolet-Express-Cargo
+	url = https://github.com/OBDb/Chevrolet-Express-Cargo.git
+[submodule "obdb-src/Chevrolet-Silverado"]
+	path = obdb-src/Chevrolet-Silverado
+	url = https://github.com/OBDb/Chevrolet-Silverado.git
+[submodule "obdb-src/Chevrolet-Prizm"]
+	path = obdb-src/Chevrolet-Prizm
+	url = https://github.com/OBDb/Chevrolet-Prizm.git
+[submodule "obdb-src/Chevrolet-S-10"]
+	path = obdb-src/Chevrolet-S-10
+	url = https://github.com/OBDb/Chevrolet-S-10.git
+[submodule "obdb-src/Chevrolet-Montana"]
+	path = obdb-src/Chevrolet-Montana
+	url = https://github.com/OBDb/Chevrolet-Montana.git
+[submodule "obdb-src/Chevrolet-Bolt-EV"]
+	path = obdb-src/Chevrolet-Bolt-EV
+	url = https://github.com/OBDb/Chevrolet-Bolt-EV.git
+[submodule "obdb-src/Chevrolet-D-Max"]
+	path = obdb-src/Chevrolet-D-Max
+	url = https://github.com/OBDb/Chevrolet-D-Max.git
+[submodule "obdb-src/Chevrolet-Cobalt"]
+	path = obdb-src/Chevrolet-Cobalt
+	url = https://github.com/OBDb/Chevrolet-Cobalt.git
+[submodule "obdb-src/Chevrolet-Equinox-EV"]
+	path = obdb-src/Chevrolet-Equinox-EV
+	url = https://github.com/OBDb/Chevrolet-Equinox-EV.git
+[submodule "obdb-src/Chevrolet-Celta"]
+	path = obdb-src/Chevrolet-Celta
+	url = https://github.com/OBDb/Chevrolet-Celta.git
+[submodule "obdb-src/Chery-Tiggo-7-Pro"]
+	path = obdb-src/Chery-Tiggo-7-Pro
+	url = https://github.com/OBDb/Chery-Tiggo-7-Pro.git
+[submodule "obdb-src/Chery-Tiggo-8"]
+	path = obdb-src/Chery-Tiggo-8
+	url = https://github.com/OBDb/Chery-Tiggo-8.git
+[submodule "obdb-src/Chevrolet-Aveo"]
+	path = obdb-src/Chevrolet-Aveo
+	url = https://github.com/OBDb/Chevrolet-Aveo.git
+[submodule "obdb-src/Cadillac-ELR"]
+	path = obdb-src/Cadillac-ELR
+	url = https://github.com/OBDb/Cadillac-ELR.git
+[submodule "obdb-src/Cadillac-LYRIQ"]
+	path = obdb-src/Cadillac-LYRIQ
+	url = https://github.com/OBDb/Cadillac-LYRIQ.git
+[submodule "obdb-src/Chevrolet-Blazer-EV"]
+	path = obdb-src/Chevrolet-Blazer-EV
+	url = https://github.com/OBDb/Chevrolet-Blazer-EV.git
+[submodule "obdb-src/Buick-Envision"]
+	path = obdb-src/Buick-Envision
+	url = https://github.com/OBDb/Buick-Envision.git
+[submodule "obdb-src/BYD-Dolphin-Mini"]
+	path = obdb-src/BYD-Dolphin-Mini
+	url = https://github.com/OBDb/BYD-Dolphin-Mini.git
+[submodule "obdb-src/BYD-Atto-3"]
+	path = obdb-src/BYD-Atto-3
+	url = https://github.com/OBDb/BYD-Atto-3.git
+[submodule "obdb-src/Cadillac-CT5"]
+	path = obdb-src/Cadillac-CT5
+	url = https://github.com/OBDb/Cadillac-CT5.git
+[submodule "obdb-src/BYD-Sealion-6"]
+	path = obdb-src/BYD-Sealion-6
+	url = https://github.com/OBDb/BYD-Sealion-6.git
+[submodule "obdb-src/Buick-LaCrosse"]
+	path = obdb-src/Buick-LaCrosse
+	url = https://github.com/OBDb/Buick-LaCrosse.git
+[submodule "obdb-src/BMW-Z3"]
+	path = obdb-src/BMW-Z3
+	url = https://github.com/OBDb/BMW-Z3.git
+[submodule "obdb-src/BMW-F34"]
+	path = obdb-src/BMW-F34
+	url = https://github.com/OBDb/BMW-F34.git
+[submodule "obdb-src/BMW-i4"]
+	path = obdb-src/BMW-i4
+	url = https://github.com/OBDb/BMW-i4.git
+[submodule "obdb-src/BMW-330e"]
+	path = obdb-src/BMW-330e
+	url = https://github.com/OBDb/BMW-330e.git
+[submodule "obdb-src/BMW-E92"]
+	path = obdb-src/BMW-E92
+	url = https://github.com/OBDb/BMW-E92.git
+[submodule "obdb-src/BMW-640i-f13"]
+	path = obdb-src/BMW-640i-f13
+	url = https://github.com/OBDb/BMW-640i-f13.git
+[submodule "obdb-src/BMW-E91"]
+	path = obdb-src/BMW-E91
+	url = https://github.com/OBDb/BMW-E91.git
+[submodule "obdb-src/BMW-840i"]
+	path = obdb-src/BMW-840i
+	url = https://github.com/OBDb/BMW-840i.git
+[submodule "obdb-src/BMW-5-Series-xDrive"]
+	path = obdb-src/BMW-5-Series-xDrive
+	url = https://github.com/OBDb/BMW-5-Series-xDrive.git
+[submodule "obdb-src/BMW-3-Series-eDrive"]
+	path = obdb-src/BMW-3-Series-eDrive
+	url = https://github.com/OBDb/BMW-3-Series-eDrive.git
+[submodule "obdb-src/BMW-230e"]
+	path = obdb-src/BMW-230e
+	url = https://github.com/OBDb/BMW-230e.git
+[submodule "obdb-src/BMW-2-Grand-Coupe"]
+	path = obdb-src/BMW-2-Grand-Coupe
+	url = https://github.com/OBDb/BMW-2-Grand-Coupe.git
+[submodule "obdb-src/BMW-116i"]
+	path = obdb-src/BMW-116i
+	url = https://github.com/OBDb/BMW-116i.git
+[submodule "obdb-src/Audi-S3"]
+	path = obdb-src/Audi-S3
+	url = https://github.com/OBDb/Audi-S3.git
+[submodule "obdb-src/Audi-S5"]
+	path = obdb-src/Audi-S5
+	url = https://github.com/OBDb/Audi-S5.git
+[submodule "obdb-src/Audi-SQ2"]
+	path = obdb-src/Audi-SQ2
+	url = https://github.com/OBDb/Audi-SQ2.git
+[submodule "obdb-src/Audi-RS-3"]
+	path = obdb-src/Audi-RS-3
+	url = https://github.com/OBDb/Audi-RS-3.git
+[submodule "obdb-src/Audi-RS-5"]
+	path = obdb-src/Audi-RS-5
+	url = https://github.com/OBDb/Audi-RS-5.git
+[submodule "obdb-src/Audi-Q8-e-tron"]
+	path = obdb-src/Audi-Q8-e-tron
+	url = https://github.com/OBDb/Audi-Q8-e-tron.git
+[submodule "obdb-src/Audi-Q8"]
+	path = obdb-src/Audi-Q8
+	url = https://github.com/OBDb/Audi-Q8.git
+[submodule "obdb-src/Audi-Q2"]
+	path = obdb-src/Audi-Q2
+	url = https://github.com/OBDb/Audi-Q2.git
+[submodule "obdb-src/Aston-Martin-Vantage"]
+	path = obdb-src/Aston-Martin-Vantage
+	url = https://github.com/OBDb/Aston-Martin-Vantage.git
+[submodule "obdb-src/Alfa-Romeo-Giulietta"]
+	path = obdb-src/Alfa-Romeo-Giulietta
+	url = https://github.com/OBDb/Alfa-Romeo-Giulietta.git
+[submodule "obdb-src/Acura-TL"]
+	path = obdb-src/Acura-TL
+	url = https://github.com/OBDb/Acura-TL.git
+[submodule "obdb-src/Alfa-Romeo-MiTo"]
+	path = obdb-src/Alfa-Romeo-MiTo
+	url = https://github.com/OBDb/Alfa-Romeo-MiTo.git
+[submodule "obdb-src/Alfa-Romeo-Tonale"]
+	path = obdb-src/Alfa-Romeo-Tonale
+	url = https://github.com/OBDb/Alfa-Romeo-Tonale.git
+[submodule "obdb-src/Abarth-500"]
+	path = obdb-src/Abarth-500
+	url = https://github.com/OBDb/Abarth-500.git
+[submodule "obdb-src/Acura-ILX"]
+	path = obdb-src/Acura-ILX
+	url = https://github.com/OBDb/Acura-ILX.git
+[submodule "obdb-src/Volkswagen-Nivus"]
+	path = obdb-src/Volkswagen-Nivus
+	url = https://github.com/OBDb/Volkswagen-Nivus.git
+[submodule "obdb-src/Volvo-XC40-Recharge"]
+	path = obdb-src/Volvo-XC40-Recharge
+	url = https://github.com/OBDb/Volvo-XC40-Recharge.git
+[submodule "obdb-src/Volkswagen-Passat-B8"]
+	path = obdb-src/Volkswagen-Passat-B8
+	url = https://github.com/OBDb/Volkswagen-Passat-B8.git
+[submodule "obdb-src/Volkswagen-Polo-V"]
+	path = obdb-src/Volkswagen-Polo-V
+	url = https://github.com/OBDb/Volkswagen-Polo-V.git
+[submodule "obdb-src/Volvo-S70"]
+	path = obdb-src/Volvo-S70
+	url = https://github.com/OBDb/Volvo-S70.git
+[submodule "obdb-src/Volkswagen-Taigo"]
+	path = obdb-src/Volkswagen-Taigo
+	url = https://github.com/OBDb/Volkswagen-Taigo.git
+[submodule "obdb-src/Mitsubishi-Outlander"]
+	path = obdb-src/Mitsubishi-Outlander
+	url = https://github.com/OBDb/Mitsubishi-Outlander.git
+[submodule "obdb-src/Nissan-Murano"]
+	path = obdb-src/Nissan-Murano
+	url = https://github.com/OBDb/Nissan-Murano.git
+[submodule "obdb-src/Nissan-Titan"]
+	path = obdb-src/Nissan-Titan
+	url = https://github.com/OBDb/Nissan-Titan.git
+[submodule "obdb-src/Lincoln-MKZ"]
+	path = obdb-src/Lincoln-MKZ
+	url = https://github.com/OBDb/Lincoln-MKZ.git
+[submodule "obdb-src/Lexus-LC-500"]
+	path = obdb-src/Lexus-LC-500
+	url = https://github.com/OBDb/Lexus-LC-500.git
+[submodule "obdb-src/Genesis-G70"]
+	path = obdb-src/Genesis-G70
+	url = https://github.com/OBDb/Genesis-G70.git
+[submodule "obdb-src/FIAT-500e"]
+	path = obdb-src/FIAT-500e
+	url = https://github.com/OBDb/FIAT-500e.git
+[submodule "obdb-src/BMW-M440i"]
+	path = obdb-src/BMW-M440i
+	url = https://github.com/OBDb/BMW-M440i.git
+[submodule "obdb-src/Cadillac-CT4"]
+	path = obdb-src/Cadillac-CT4
+	url = https://github.com/OBDb/Cadillac-CT4.git
+[submodule "obdb-src/Bentley-Bentayga"]
+	path = obdb-src/Bentley-Bentayga
+	url = https://github.com/OBDb/Bentley-Bentayga.git
+[submodule "obdb-src/Acura-ZDX"]
+	path = obdb-src/Acura-ZDX
+	url = https://github.com/OBDb/Acura-ZDX.git
+[submodule "obdb-src/Acura-CL"]
+	path = obdb-src/Acura-CL
+	url = https://github.com/OBDb/Acura-CL.git
+[submodule "obdb-src/Fiat"]
+	path = obdb-src/Fiat
+	url = https://github.com/OBDb/Fiat.git
+[submodule "obdb-src/Ram"]
+	path = obdb-src/Ram
+	url = https://github.com/OBDb/Ram.git
+[submodule "obdb-src/Dodge"]
+	path = obdb-src/Dodge
+	url = https://github.com/OBDb/Dodge.git
+[submodule "obdb-src/Nissan-X-Trail"]
+	path = obdb-src/Nissan-X-Trail
+	url = https://github.com/OBDb/Nissan-X-Trail.git
+[submodule "obdb-src/Subaru"]
+	path = obdb-src/Subaru
+	url = https://github.com/OBDb/Subaru.git
+[submodule "obdb-src/Ford"]
+	path = obdb-src/Ford
+	url = https://github.com/OBDb/Ford.git
+[submodule "obdb-src/INFINITI-G37"]
+	path = obdb-src/INFINITI-G37
+	url = https://github.com/OBDb/INFINITI-G37.git
+[submodule "obdb-src/Acura"]
+	path = obdb-src/Acura
+	url = https://github.com/OBDb/Acura.git
+[submodule "obdb-src/Hyundai-Venue"]
+	path = obdb-src/Hyundai-Venue
+	url = https://github.com/OBDb/Hyundai-Venue.git
+[submodule "obdb-src/NissanInfiniti"]
+	path = obdb-src/NissanInfiniti
+	url = https://github.com/OBDb/NissanInfiniti.git
+[submodule "obdb-src/VauxhallOpel"]
+	path = obdb-src/VauxhallOpel
+	url = https://github.com/OBDb/VauxhallOpel.git
+[submodule "obdb-src/Genesis"]
+	path = obdb-src/Genesis
+	url = https://github.com/OBDb/Genesis.git
+[submodule "obdb-src/Rolls-Royce"]
+	path = obdb-src/Rolls-Royce
+	url = https://github.com/OBDb/Rolls-Royce.git
+[submodule "obdb-src/Citroen"]
+	path = obdb-src/Citroen
+	url = https://github.com/OBDb/Citroen.git
+[submodule "obdb-src/Abarth-595"]
+	path = obdb-src/Abarth-595
+	url = https://github.com/OBDb/Abarth-595.git
+[submodule "obdb-src/Omoda"]
+	path = obdb-src/Omoda
+	url = https://github.com/OBDb/Omoda.git
+[submodule "obdb-src/Jaguar"]
+	path = obdb-src/Jaguar
+	url = https://github.com/OBDb/Jaguar.git
+[submodule "obdb-src/Maserati"]
+	path = obdb-src/Maserati
+	url = https://github.com/OBDb/Maserati.git
+[submodule "obdb-src/Chrysler"]
+	path = obdb-src/Chrysler
+	url = https://github.com/OBDb/Chrysler.git
+[submodule "obdb-src/Chery"]
+	path = obdb-src/Chery
+	url = https://github.com/OBDb/Chery.git
+[submodule "obdb-src/Rivian"]
+	path = obdb-src/Rivian
+	url = https://github.com/OBDb/Rivian.git
+[submodule "obdb-src/Alfa-Romeo"]
+	path = obdb-src/Alfa-Romeo
+	url = https://github.com/OBDb/Alfa-Romeo.git
+[submodule "obdb-src/Peugeot"]
+	path = obdb-src/Peugeot
+	url = https://github.com/OBDb/Peugeot.git
+[submodule "obdb-src/Haval"]
+	path = obdb-src/Haval
+	url = https://github.com/OBDb/Haval.git
+[submodule "obdb-src/Chevrolet-Silverado-EV"]
+	path = obdb-src/Chevrolet-Silverado-EV
+	url = https://github.com/OBDb/Chevrolet-Silverado-EV.git
+[submodule "obdb-src/Maxus"]
+	path = obdb-src/Maxus
+	url = https://github.com/OBDb/Maxus.git
+[submodule "obdb-src/Cadillac"]
+	path = obdb-src/Cadillac
+	url = https://github.com/OBDb/Cadillac.git
+[submodule "obdb-src/Polestar"]
+	path = obdb-src/Polestar
+	url = https://github.com/OBDb/Polestar.git
+[submodule "obdb-src/Holden"]
+	path = obdb-src/Holden
+	url = https://github.com/OBDb/Holden.git
+[submodule "obdb-src/Landrover"]
+	path = obdb-src/Landrover
+	url = https://github.com/OBDb/Landrover.git
+[submodule "obdb-src/INFINITI"]
+	path = obdb-src/INFINITI
+	url = https://github.com/OBDb/INFINITI.git
+[submodule "obdb-src/Abarth"]
+	path = obdb-src/Abarth
+	url = https://github.com/OBDb/Abarth.git
+[submodule "obdb-src/Renault-Symbol"]
+	path = obdb-src/Renault-Symbol
+	url = https://github.com/OBDb/Renault-Symbol.git
+[submodule "obdb-src/Tesla"]
+	path = obdb-src/Tesla
+	url = https://github.com/OBDb/Tesla.git
+[submodule "obdb-src/BYD"]
+	path = obdb-src/BYD
+	url = https://github.com/OBDb/BYD.git
+[submodule "obdb-src/Saab"]
+	path = obdb-src/Saab
+	url = https://github.com/OBDb/Saab.git
+[submodule "obdb-src/Lotus"]
+	path = obdb-src/Lotus
+	url = https://github.com/OBDb/Lotus.git
+[submodule "obdb-src/Land-Rover-LR4"]
+	path = obdb-src/Land-Rover-LR4
+	url = https://github.com/OBDb/Land-Rover-LR4.git
+[submodule "obdb-src/Datsun"]
+	path = obdb-src/Datsun
+	url = https://github.com/OBDb/Datsun.git
+[submodule "obdb-src/smart"]
+	path = obdb-src/smart
+	url = https://github.com/OBDb/smart.git
+[submodule "obdb-src/Fisker"]
+	path = obdb-src/Fisker
+	url = https://github.com/OBDb/Fisker.git
+[submodule "obdb-src/Buick"]
+	path = obdb-src/Buick
+	url = https://github.com/OBDb/Buick.git
+[submodule "obdb-src/Land-Rover"]
+	path = obdb-src/Land-Rover
+	url = https://github.com/OBDb/Land-Rover.git
+[submodule "obdb-src/Maruti"]
+	path = obdb-src/Maruti
+	url = https://github.com/OBDb/Maruti.git
+[submodule "obdb-src/Tata"]
+	path = obdb-src/Tata
+	url = https://github.com/OBDb/Tata.git
+[submodule "obdb-src/KTM"]
+	path = obdb-src/KTM
+	url = https://github.com/OBDb/KTM.git
+[submodule "obdb-src/DS"]
+	path = obdb-src/DS
+	url = https://github.com/OBDb/DS.git
+[submodule "obdb-src/MG"]
+	path = obdb-src/MG
+	url = https://github.com/OBDb/MG.git
+[submodule "obdb-src/MINI-Cooper-SE"]
+	path = obdb-src/MINI-Cooper-SE
+	url = https://github.com/OBDb/MINI-Cooper-SE.git
+[submodule "obdb-src/Jeep"]
+	path = obdb-src/Jeep
+	url = https://github.com/OBDb/Jeep.git
+[submodule "obdb-src/Scion"]
+	path = obdb-src/Scion
+	url = https://github.com/OBDb/Scion.git
+[submodule "obdb-src/Changan"]
+	path = obdb-src/Changan
+	url = https://github.com/OBDb/Changan.git
+[submodule "obdb-src/Lincoln"]
+	path = obdb-src/Lincoln
+	url = https://github.com/OBDb/Lincoln.git
+[submodule "obdb-src/GMC"]
+	path = obdb-src/GMC
+	url = https://github.com/OBDb/GMC.git
+[submodule "obdb-src/Alpine"]
+	path = obdb-src/Alpine
+	url = https://github.com/OBDb/Alpine.git
+[submodule "obdb-src/Mitsubishi"]
+	path = obdb-src/Mitsubishi
+	url = https://github.com/OBDb/Mitsubishi.git
+[submodule "obdb-src/Dongfeng"]
+	path = obdb-src/Dongfeng
+	url = https://github.com/OBDb/Dongfeng.git
