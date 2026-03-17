@@ -1,5 +1,6 @@
 # python-obdb
-[python-OBD](https://github.com/brendan-w/python-OBD) extended command set with [OBDb repos](https://github.com/OBDb).
+[python-OBD](https://github.com/brendan-w/python-OBD) extended command set with [OBDb repos](https://github.com/OBDb).  
+Due to the large number of cars this repo is pretty much large also (around 500MB)
 
 # Install
 ```bash

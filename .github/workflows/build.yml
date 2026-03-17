@@ -1,0 +1,59 @@
+name: release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: upgrade packaging tools
+        run: |
+          python -m pip install --upgrade pip setuptools wheel build
+
+      - name: sync submodules
+        run: |
+          git submodule sync --recursive
+          git submodule update --init --recursive --depth 1
+
+      - name: generate commands
+        run: |
+          python obdb-src/generate.py
+
+      - name: build package
+        run: |
+          python -m build
+
+      - name: upload dist artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/*
+
+      - name: create github release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      #- name: publish to pypi
+      #  uses: pypa/gh-action-pypi-publish@release/v1
+      #  with:
+      #    password: ${{ secrets.PYPI_API_TOKEN }}

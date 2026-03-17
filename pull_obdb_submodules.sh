@@ -8,7 +8,7 @@ mkdir -p "$DEST_DIR"
 
 special_repo() {
     case "$1" in
-        .github|.meta)
+        .github|.meta|.vehicle-template|.make-template)
             return 0
             ;;
         *)
@@ -35,16 +35,16 @@ while IFS= read -r repo; do
         continue
     fi
 
-    if ! repo_has_signalsets "$repo"; then
-        echo "skip without signalsets/: $repo"
-        continue
-    fi
-
     path="${DEST_DIR}/${repo}"
     url="https://github.com/${ORG}/${repo}.git"
 
     if submodule_exists "$path"; then
         echo "already submodule: $repo"
+        continue
+    fi
+
+    if ! repo_has_signalsets "$repo"; then
+        echo "skip without signalsets/: $repo"
         continue
     fi
 
@@ -57,5 +57,6 @@ while IFS= read -r repo; do
     git submodule add --depth 1 "$url" "$path"
 done < <(gh repo list "$ORG" --limit 1000 --json name -q '.[].name')
 
+echo "Sync modules"
 git submodule sync --recursive
 git submodule update --init --recursive --depth 1
