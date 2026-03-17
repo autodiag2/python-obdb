@@ -205,7 +205,7 @@ def emit_source_block(source_name, data):
                 f'{source_ident}.{name_ident} = OBDCommand('
                 f'"{name_ident}", '
                 f'"{desc}", '
-                f'bytes.fromhex("{cmd_info["command_hex"]}"), '
+                f'b"{cmd_info["command_hex"]}", '
                 f'{bytes_expected}, '
                 f'_make_decoder(bytes.fromhex("{cmd_info["response_prefix_hex"]}"), {bix}, {bitlen}, {repr(mul)}, {repr(add)}, {signed})'
                 f'{emit_header_arg(hdr)})'
