@@ -1,12 +1,22 @@
 # python-obdb
 [python-OBD](https://github.com/brendan-w/python-OBD) extended command set with [OBDb repos](https://github.com/OBDb).  
-Due to the large number of cars this repo is pretty much large also (around 500MB)
 
 # Install
 ```bash
 git clone --depth=1 https://github.com/autodiag2/python-obdb
 cd python-obdb
 pip install -e .
+```
+
+# Develop
+Due to the large number of cars in [OBDb submodules](https://github.com/OBDb) this repo is pretty much large also (around 500MB).
+```bash
+git clone --depth=1 https://github.com/autodiag2/python-obdb && \
+ git submodule update --init --recursive --depth 1
+```
+sync repos with [OBDb](https://github.com/OBDb)
+```bash
+./pull_obdb_submodules.sh
 ```
 
 # Use
