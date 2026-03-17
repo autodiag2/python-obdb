@@ -1,0 +1,6 @@
+[submodule "obdb-src/SAEJ1979"]
+	path = obdb-src/SAEJ1979
+	url = https://github.com/OBDb/SAEJ1979
+[submodule "obdb-src/Acura-TLX"]
+	path = obdb-src/Acura-TLX
+	url = https://github.com/OBDb/Acura-TLX
