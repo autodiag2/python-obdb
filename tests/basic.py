@@ -34,3 +34,7 @@ if __name__ == "__main__":
     response = connection.query(obdb.commands.SAEJ1979.MIL, force=True)
     print("obdb.commands.SAEJ1979.MIL")
     print(response.value)
+
+    response = connection.query(obdb.commands.SAEJ1979.ECT, force=True)
+    print("obdb.commands.SAEJ1979.ECT")
+    print(response.value)

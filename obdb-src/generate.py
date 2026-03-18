@@ -192,6 +192,13 @@ def _unit_from_name(unit_name):
     except Exception:
         return None
 
+def _quantity_from_value_unit(value, unit):
+    if unit is None:
+        return value
+    try:
+        return Unit.Quantity(value, unit)
+    except Exception:
+        return value * unit
 
 def _make_decoder(response_prefix, bix, bitlen, mul, add, div, signed, unit_name, value_min, value_max):
     unit = _unit_from_name(unit_name)
@@ -209,9 +216,7 @@ def _make_decoder(response_prefix, bix, bitlen, mul, add, div, signed, unit_name
         if value_max is not None and value > value_max:
             value = value_max
 
-        if unit is not None:
-            return value * unit
-        return value
+        return _quantity_from_value_unit(value, unit)
 
     return decoder
 
