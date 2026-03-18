@@ -1,25 +1,15 @@
 # python-obdb
 [python-OBD](https://github.com/brendan-w/python-OBD) extended command set with [OBDb repos](https://github.com/OBDb).  
 
-# Install
+## Use
+### Install
 ```bash
 git clone --depth=1 https://github.com/autodiag2/python-obdb
 cd python-obdb
 pip install -e .
 ```
 
-# Develop
-Due to the large number of cars in [OBDb submodules](https://github.com/OBDb) this repo is pretty much large also (around 500MB).
-```bash
-git clone --depth=1 https://github.com/autodiag2/python-obdb && \
- git submodule update --init --recursive --depth 1
-```
-sync repos with [OBDb](https://github.com/OBDb)
-```bash
-./pull_obdb_submodules.sh
-```
-
-# Use
+### Use
 Check the [command set](/obdb/commands.py)  
   
 For instance:
@@ -59,4 +49,25 @@ if __name__ == "__main__":
     response = connection.query(obdb.commands.SAEJ1979.MIL, force=True)
     print("obdb.commands.SAEJ1979.MIL")
     print(response.value)
+```
+
+## Contribute
+
+### Help in maintaining units
+Also there is various units in [OBDb repos](https://github.com/OBDb) not all of them are implemented 
+in python-obdb, your help may be required here.
+
+### Develop
+Due to the large number of cars in [OBDb submodules](https://github.com/OBDb) this repo is pretty much large also (around 500MB).
+```bash
+git clone --depth=1 https://github.com/autodiag2/python-obdb && \
+ git submodule update --init --recursive --depth 1
+```
+sync repos with [OBDb](https://github.com/OBDb)
+```bash
+./pull_obdb_submodules.sh
+```
+Generate again the wrapper:
+```bash
+./obdb-src/generate.py
 ```
