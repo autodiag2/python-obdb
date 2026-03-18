@@ -4,6 +4,10 @@
 ## Use
 ### Install
 ```bash
+pip install git+https://github.com/autodiag2/python-obdb
+```
+or
+```bash
 git clone --depth=1 https://github.com/autodiag2/python-obdb
 cd python-obdb
 pip install -e .
