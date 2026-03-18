@@ -71,3 +71,16 @@ Generate again the wrapper:
 ```bash
 ./obdb-src/generate.py
 ```
+
+## Credits
+
+This project interfaces with data from the OBDb repositories:
+https://github.com/OBDb
+
+OBDb content is licensed under CC BY-SA 4.0:
+https://creativecommons.org/licenses/by-sa/4.0/
+
+This repository does not include or redistribute OBDb data.
+Signal definitions are fetched at runtime from upstream sources.
+
+Any use of OBDb content is subject to its original license.
