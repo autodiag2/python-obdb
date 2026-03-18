@@ -10,7 +10,7 @@ pip install -e .
 ```
 
 ### Use
-Check the [command set](/obdb/commands.py)  
+Check the [command set](https://obdb.community/#/vehicles)  
   
 For instance:
 ```python
@@ -58,14 +58,12 @@ Also there is various units in [OBDb repos](https://github.com/OBDb) not all of 
 in python-obdb, your help may be required here.
 
 ### Develop
-Due to the large number of cars in [OBDb submodules](https://github.com/OBDb) this repo is pretty much large also (around 500MB).
 ```bash
-git clone --depth=1 https://github.com/autodiag2/python-obdb && \
- git submodule update --init --recursive --depth 1
+git clone --depth=1 https://github.com/autodiag2/python-obdb
 ```
-sync repos with [OBDb](https://github.com/OBDb)
+sync repos names with [OBDb](https://github.com/OBDb)
 ```bash
-./pull_obdb_submodules.sh
+./build_target_lists.sh
 ```
 Generate again the wrapper:
 ```bash
