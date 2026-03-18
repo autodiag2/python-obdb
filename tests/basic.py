@@ -17,6 +17,7 @@ if __name__ == "__main__":
     response = connection.query(obdb.commands.SAEJ1979.VSS, force=True)
     print("vehicle speed custom")
     print(response.value)
+    print(response.value.to("mph"))
 
     response = connection.query(obd.commands.RPM)
     print("engine speed stock")
